@@ -1,0 +1,56 @@
+{
+  "Name": "Christian Torres",
+  "Email": "christiantorres@gmail.com",
+  "Phone": null,
+  "Location": "Columbus, Ohio",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "The Ohio State University",
+      "City/Location": "Columbus, OH",
+      "Duration": "2017-2019"
+    },
+    {
+      "Degree": "Bachelor of Science in Statistics",
+      "University": "University of Michigan",
+      "City/Location": "Ann Arbor, MI",
+      "Duration": "2012-2016"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Sr. Data Analyst",
+      "Company": "Bentonuille, AR - Walmart Inc.",
+      "Duration": "06/2020 - Present",
+      "Location": "Bentonville, AR",
+      "Description": null
+    },
+    {
+      "Title": "Data Analyst",
+      "Company": "Gineainnati, OH - Kroger Co.",
+      "Duration": "05/2015 - 05/2020",
+      "Location": "Cincinnati, OH",
+      "Description": null
+    },
+    {
+      "Title": "Business Data Analyst",
+      "Company": "Golmnhes, OH - L Brands",
+      "Duration": "05/2015 - 07/2017",
+      "Location": "Cincinnati, OH",
+      "Description": null
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Python",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data Mining",
+    "Database Architecture",
+    "Business Intelligence",
+    "Agile Methodologies",
+    "Reporting Tools"
+  ],
+  "Awards": null
+}

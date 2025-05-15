@@ -1,0 +1,40 @@
+{
+  "Name": "SPARKY SUNDEVIL8",
+  "Email": "sdevil123@asu.edu",
+  "Phone": "123-456-7890",
+  "Location": "Tempe, AZ",
+  "LinkedIn": "linkedin.com/in/sparkysundevil",
+  "Education": [
+    {
+      "Degree": "B.S.E.",
+      "University": "Arizona State University",
+      "City/Location": "Tempe, AZ",
+      "Duration": "Graduating May 2020"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Research & Dev Development Intern",
+      "Company": "Stryker Solutions",
+      "Location": "Phoenix, AZ",
+      "Duration": "May 2019 \u2013 Aug 2019",
+      "Description": "Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python). Authored three technical reports for relocated packaging equipment, following IQOQPQ guides (JMP, Excel)"
+    },
+    {
+      "Title": "Quality Engineering Intern",
+      "Company": "Med Apps",
+      "Location": "Scottsdale, AZ",
+      "Duration": "May 2018 \u2013 Aug 2018",
+      "Description": "Assessed equivalency of proposed alternate plastic packaging material (Minitab, Excel). Created and delivered presentations to train field sales representatives on new product features (PowerPoint)"
+    }
+  ],
+  "Skills": [
+    "Data Analysis and Statistics: JMP, Minitab",
+    "Design and Modeling Tools: SOLIDWORKS, LabVIEW, MATLAB, Microsoft Office",
+    "Programming: Python, C, C++",
+    "Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD) \u2013 August 2019"
+  ],
+  "Awards": [
+    "Recognized by faculty audience as \u2018Best Presentation\u2019 out of 15 teams"
+  ]
+}

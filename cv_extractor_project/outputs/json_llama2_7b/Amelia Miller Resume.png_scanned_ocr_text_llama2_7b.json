@@ -1,0 +1,56 @@
+{
+  "Name": "Amelia Miller",
+  "Email": "amefia@outiook.com",
+  "Phone": null,
+  "Location": "Los Angeles, CA",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "University of Southern California",
+      "City/Location": "Los Angeles, CA",
+      "Duration": "01/2012 - 01/2014"
+    },
+    {
+      "Degree": "Bachelor of Science in Information Technology",
+      "University": "University of California, Berkeley",
+      "City/Location": "Berkeley, CA",
+      "Duration": "01/2008 - 01/2012"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Big Data Engineer",
+      "Company": "DataTech Inc.",
+      "Duration": "09/2019 - Present",
+      "Location": "Los Angeles, CA",
+      "Description": "Led a team of 8 engineers to successfully migrate 70% of data workloads to Google Cloud Platform, resulting in a 20% reduction in operational costs. Implemented Ci/CD pipelines using GitHub and Jenkins, achieving a 40% reduction in deployment times and ensuring seamless integration of code changes. Developed a real-time data processing application using Kafka and Spark, improving data throughput by 25% and minimizing processing delays. Established monitoring solutions with Grafana, decreasing response times to incidents by 20% through proactive alerting and dashboard insights."
+    },
+    {
+      "Title": "Big Data Developer",
+      "Company": "TechSolutions Carp.",
+      "Duration": "06/2016 - 08/2019",
+      "Location": "Santa Monica, CA",
+      "Description": "Designed and implemented scalable Hadoop workflows for data analytics, reducing data processing time by 50% across multiple departments. Optimized MongoDB queries, improving data retrieval speeds by 40% and enhancing overall user experience with database-driven applications. Conducted training sessions on Unix/Shell scripting for junior engineers, facilitating knowledge transfer and improving team competencies."
+    },
+    {
+      "Title": "Data Engineer",
+      "Company": "Innovate Analytics ig",
+      "Duration": "01/2014 - 05/2016",
+      "Location": "San Francisco, CA",
+      "Description": "Developed data pipelines using Apache Airflow, facilitating seamless data flow and effective reporting for business intelligence operations. Implemented Ansible scripts for environment configuration, enhancing deployment processes and aligning team efforts toward agile methodologies. Advised stakeholders on data strategy, resulting in improved decision-making processes and the implementation of innovative analytics solutions. Reduced data processing costs by 15% through the optimization of existing systems and the implementation of scalable solutions."
+    }
+  ],
+  "Skills": [
+    "UNIX",
+    "Spark",
+    "Shell Scripting",
+    "Python",
+    "Hadoop",
+    "GitHub"
+  ],
+  "Languages": [
+    "English",
+    "Native #ece8 Proficient #\u00abooe8 Spanish"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "Name": "Jake Ryan",
+  "Email": "jake@su.edu",
+  "Phone": "123-456-7890",
+  "LinkedIn": "linkedin.com/in/jake",
+  "Location": "Georgetown, TX",
+  "Education": [
+    {
+      "Degree": "Bachelor of Arts in Computer Science, Minor in Business",
+      "University": "Southwestern University",
+      "City/Location": "Georgetown, TX",
+      "Duration": "Aug. 2018 \u2013 May 2021"
+    },
+    {
+      "Degree": "Associate\u2019s in Liberal Arts",
+      "University": "Blinn College",
+      "City/Location": "Bryan, TX",
+      "Duration": "Aug. 2014 \u2013 May 2018"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Undergraduate Research Assistant",
+      "Company": "Texas A&M University",
+      "Location": "College Station, TX",
+      "Duration": "June 2020 \u2013 Present",
+      "Description": "Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems. Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data."
+    },
+    {
+      "Title": "Information Technology Support Specialist",
+      "Company": "Southwestern University",
+      "Location": "Georgetown, TX",
+      "Duration": "Sep. 2018 \u2013 Present",
+      "Description": "Communicate with managers to set up campus computers used on campus. Assess and troubleshoot computer problems brought by students, faculty and staff. Maintain upkeep of computers, classroom equipment, and 200 printers across campus."
+    },
+    {
+      "Title": "Artificial Intelligence Research Assistant",
+      "Company": "Southwestern University",
+      "Location": "Georgetown, TX",
+      "Duration": "May 2019 \u2013 July 2019",
+      "Description": "Explored methods to generate video game dungeons based off of The Legend of Zelda. Developed a game in Java to test the generated dungeons. Contributed 50K+ lines of code to an established codebase via Git. Conducted a human subject study to determine which video game dungeon generation technique is enjoyable."
+    }
+  ],
+  "Skills": [
+    "Languages: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R",
+    "Frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI",
+    "Developer Tools: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse",
+    "Libraries: pandas, NumPy, Matplotlib"
+  ],
+  "Projects": [
+    {
+      "Name": "Gitlytics",
+      "Technologies": [
+        "Python",
+        "Flask",
+        "React",
+        "PostgreSQL",
+        "Docker"
+      ]
+    },
+    {
+      "Name": "Simple Paintball",
+      "Technologies": [
+        "Spigot API",
+        "Java",
+        "Maven",
+        "TravisCI",
+        "Git"
+      ]
+    }
+  ]
+}

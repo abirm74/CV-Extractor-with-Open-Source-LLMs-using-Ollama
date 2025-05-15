@@ -1,0 +1,61 @@
+{
+  "Name": "ADDISON HARRIS",
+  "Email": "",
+  "Phone": "123-455-1234",
+  "Location": "Houston, Texas",
+  "LinkedIn": "linkedin.com",
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "Stanford University",
+      "City/Location": "Stanford, California",
+      "Duration": "01/2009 \ufffd 01/2011"
+    },
+    {
+      "Degree": "Bachelor of Science in Economics",
+      "University": "University of Texas at Austin",
+      "City/Location": "Austin, Texas",
+      "Duration": "01/2005 \ufffd 01/2009"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Lead Data Scientist",
+      "Company": "Optum",
+      "Duration": "01/2021 \ufffd Present",
+      "Location": "Dallas, Texas",
+      "Description": "Developed innovative generative AI models improving healthcare analytics by 35%, led a team of 5 data scientists, collaborated cross-functionally to identify AI application opportunities, conducted experiments validating AI models, extracted actionable insights from complex data."
+    },
+    {
+      "Title": "Senior Data Scientist",
+      "Company": "Cigna",
+      "Duration": "06/2016 \ufffd 12/2020",
+      "Location": "Austin, Texas",
+      "Description": "Spearheaded the development of predictive models, implemented distributed computing solutions, conducted complex statistical analyses, mentored junior staff in machine learning techniques, designed data visualization tools."
+    },
+    {
+      "Title": "Data Scientist",
+      "Company": "Kaiser Permanente",
+      "Duration": "03/2012 \ufffd 05/2016",
+      "Location": "Los Angeles, California",
+      "Description": "Developed algorithms leading to a 15% improvement in patient outcome predictions in clinical trials, collaborated with engineering teams to enhance AI model scalability, implemented machine learning models."
+    }
+  ],
+  "Skills": [
+    "Generative AI",
+    "Statistical Modeling",
+    "Machine Learning",
+    "Data Visualization",
+    "Distributed Computing",
+    "Healthcare Knowledge",
+    "Predictive Analytics",
+    "Python",
+    "R",
+    "SQL"
+  ],
+  "Awards": [
+    "AI Model Excellence Award",
+    "Top Mentor Award",
+    "Innovation in Healthcare AI"
+  ]
+}

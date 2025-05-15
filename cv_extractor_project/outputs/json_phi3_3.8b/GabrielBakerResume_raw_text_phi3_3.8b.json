@@ -1,0 +1,53 @@
+{
+  "Name": "GABRIEL BAKER",
+  "Email": "gabriel@gmail.com",
+  "Phone": "",
+  "Location": "Jacksonville, Florida",
+  "LinkedIn": "linkedin.com/profile/gabrielbakerdata",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "University of Florida",
+      "City/Location": "Gainesville, FL",
+      "Duration": "01/2010 - 01/2012"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of Central Florida",
+      "City/Location": "Orlando, FL",
+      "Duration": "01/2006 - 01/2010"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Data Architect",
+      "Company": "Oracle Corporation",
+      "Location": "Orlando, FL",
+      "Duration": "06/2019 - 08/2023",
+      "Description": "\u2022 Led a team of 6 to design and implement a scalable data architecture..."
+    },
+    {
+      "Title": "Data Solutions Architect",
+      "Company": "IBM",
+      "Location": "Raleigh, NC",
+      "Duration": "03/2015 - 05/2019",
+      "Description": "...Design and executed a data migration strategy..."
+    },
+    {
+      "Title": "Data Engineer",
+      "Company": "Accenture",
+      "Location": "Tampa, FL",
+      "Duration": "01/2012 - 02/2015",
+      "Description": "\u2022Engineered ETL pipelines..."
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Azure Databricks",
+    "Python",
+    "Data Modeling",
+    "Azure Data Platform",
+    "ETL Pipelines"
+  ],
+  "Awards": []
+}

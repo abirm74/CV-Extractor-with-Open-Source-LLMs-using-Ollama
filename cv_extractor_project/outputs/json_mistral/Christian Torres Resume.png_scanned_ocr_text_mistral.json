@@ -1,0 +1,59 @@
+{
+  "Name": "CHRISTIAN TORRES",
+  "Email": "christiantorres@gmailcom",
+  "Phone": "+1-(234)-555-1234",
+  "Location": "Columbus, Ohio",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "The Ohio State University",
+      "City/Location": "Columbus, OH",
+      "Duration": "O12017 - o1/2019"
+    },
+    {
+      "Degree": "Bachelor of Science in Statistics",
+      "University": "University of Michigan",
+      "City/Location": "Ann Arbor, MI",
+      "Duration": "O1y2012 - 01/2016"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Sr. Data Analyst",
+      "Company": "Walmart Inc.",
+      "Duration": "(06/2020 - Present)",
+      "Location": "Bentonville, AR",
+      "Description": "Developed comprehensive data models using SQL, improving forecast accuracy by 25% through streamlined data processes. Implemented advanced data visualization techniques in Python, resulting in enhanced decision-making capabilities for 80+ stakeholders."
+    },
+    {
+      "Title": "Data Analyst",
+      "Company": "Kroger Co.",
+      "Duration": "(OB/2047 - 05/2020)",
+      "Location": "Gineainnati, OH",
+      "Description": "Designed and maintained data systems and databases by sorting through large sets of data to enhance efficiency."
+    },
+    {
+      "Title": "Business Data Analyst",
+      "Company": "L Brands",
+      "Duration": "(05/2015 - a7/2017)",
+      "Location": "Golmnhes, OH",
+      "Description": "Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation."
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Python",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data Mining",
+    "Database Architecture",
+    "Bl Toals",
+    "Data Wrangling",
+    "Agile Methodologies",
+    "SQL Server",
+    "Java",
+    "Reporting Tools"
+  ],
+  "Awards": null
+}

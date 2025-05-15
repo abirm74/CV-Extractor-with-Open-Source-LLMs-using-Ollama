@@ -1,0 +1,68 @@
+{
+  "Name": "MASON THOMAS",
+  "Email": "",
+  "Phone": "",
+  "Location": [
+    "San Francisco, CA",
+    "@ San Francisea, CA"
+  ],
+  "LinkedIn": "",
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "Stanford University",
+      "City/Location": "Stanford, CA",
+      "Duration": [
+        "012017 - 01/2018"
+      ]
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Data Scientist",
+      "Company": "Anheuser-Busch",
+      "Duration": "03/2022 - 10/2023",
+      "Location": "San Francisco, CA",
+      "Description": [
+        "Successfully developed and maintained 15 highly interactive Tableau dashboards...",
+        "Led a cross-functional team to design a custom predictive model...",
+        "Optimized SQL data extraction processes...",
+        "Innovated new methods of integrating structured and unstructured data...",
+        "Collaborated with marketing teams to provide analytical support...",
+        "Developed technical documentation and led training sessions..."
+      ]
+    },
+    {
+      "Title": "Business Data Analyst",
+      "Company": "Diageo",
+      "Duration": "09/2020 - 02/2022",
+      "Location": "@ San Francisea, CA",
+      "Description": [
+        "Analyzed a dataset of over 1 million entries...",
+        "Implemented data visualization practices with Tableau...",
+        "Streamlined data cleaning processes using R...",
+        "Collaborated closely with IT to troubleshoot database issues...",
+        "Facilitated workshops to enhance analytics proficiency..."
+      ]
+    },
+    {
+      "Title": "Junior Data Analyst",
+      "Company": "Constellation Brands",
+      "Duration": "08/2020 - 02/2022",
+      "Location": "San Francisco, CA",
+      "Description": [
+        "Collected and managed data from various sources...",
+        "Assisted in building SQL queries...",
+        "Produced automated reporting that reduced manual labor..."
+      ]
+    }
+  ],
+  "Skills": [
+    "Tableau",
+    "SQL",
+    "R Programming",
+    "Data Modeling",
+    "Data Management",
+    "Predictive Analytics"
+  ]
+}

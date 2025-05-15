@@ -1,0 +1,82 @@
+{
+  "Name": "GABRIEL BAKER",
+  "Email": "gabriel@gmail.com",
+  "Phone": "12345551234",
+  "Location": "Jacksonville, Florida",
+  "LinkedIn": "linkedin.com",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "University of Florida",
+      "City/Location": "Gainesville, FL",
+      "Duration": "01/2010 - 01/2012"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of Central Florida",
+      "City/Location": "Orlando, FL",
+      "Duration": "01/2006 - 01/2010"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Data Architect",
+      "Company": "Oracle Corporation",
+      "Duration": "06/2019 - 08/2023",
+      "Location": "Orlando, FL",
+      "Description": [
+        "Led a team of 6 to design and implement a scalable data architecture.",
+        "Improved processing speed by 40% and reduced delay in reporting.",
+        "Collaborated with cross-departmental teams to integrate new data sources.",
+        "Developed new data modeling techniques that decreased data retrieval time.",
+        "Effectively managed Azure Databricks-based data environments.",
+        "Played a pivotal role in strategic data projects.",
+        "Designed a compliance tracking system using Python and SQL."
+      ]
+    },
+    {
+      "Title": "Data Solutions Architect",
+      "Company": "IBM",
+      "Duration": "03/2015 - 05/2019",
+      "Location": "Raleigh, NC",
+      "Description": [
+        "Design and executed a data migration strategy.",
+        "Partnered with data analysts to automate reports.",
+        "Enhanced data security measures across cloud platforms.",
+        "Implemented machine learning algorithms for predictive analytics.",
+        "Consulted with senior management to draft and implement data strategies."
+      ]
+    },
+    {
+      "Title": "Data Engineer",
+      "Company": "Accenture",
+      "Duration": "01/2012 - 02/2015",
+      "Location": "Tampa, FL",
+      "Description": [
+        "Engineered ETL pipelines.",
+        "Optimized SQL databases.",
+        "Contributed to a cross-functional team to develop a new data analytics platform.",
+        "Identified and resolved data discrepancies."
+      ]
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Azure Databricks",
+    "Python",
+    "Data Modeling",
+    "Azure Data Platform",
+    "ETL Pipelines"
+  ],
+  "Awards": [],
+  "Projects": [
+    {
+      "Name": "Open Source Data Connector",
+      "Link": "github.com/gabrielbakerdata/dataconnector"
+    },
+    {
+      "Name": "Real-time Analytics Dashboard",
+      "Link": "github.com/gabrielbakerdata/analyticsdashboard"
+    }
+  ]
+}

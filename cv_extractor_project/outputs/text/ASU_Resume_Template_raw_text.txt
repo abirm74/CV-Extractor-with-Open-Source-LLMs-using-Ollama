@@ -1,0 +1,54 @@
+
+==== Page 1 ====
+SPARKY SUNDEVIL8
+123-456-7890 • sdevil123@asu.edu • linkedin.com/in/sparkysundevil • github.com/sparkysundevil
+SUMMARY
+Senior mechanical engineering student with internship experience in medical device manufacturing and product devel-
+opment. Project experience includes applications of software and hardware. Seeking full-time position May 2020 in
+medical device manufacturing, pharmaceutical production, and other FDA-regulated industries.
+EDUCATION
+B.S.E., Mechanical Engineering
+Graduating May 2020
+Arizona State University, Tempe, AZ
+3.82 GPA
+Barrett, The Honors College
+Relevant coursework: Hardware Design Languages and Programmable Logic, Advanced Excel in Business
+TECHNICAL SKILLS
+Data Analysis and Statistics: JMP, Minitab
+Design and Modeling Tools: SOLIDWORKS, LabVIEW, MATLAB, Microsoft Office
+Programming: Python, C, C++
+Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD) – August 2019
+PROFESSIONAL EXPERIENCE
+Stryker Solutions, Phoenix, AZ: Research & Dev Development Intern
+May 2019 – Aug 2019
+• Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python)
+• Authored three technical reports for relocated packaging equipment, following IQOQPQ guides (JMP, Excel)
+Med Apps, Scottsdale, AZ: Quality Engineering Intern
+May 2018 – Aug 2018
+• Assessed equivalency of proposed alternate plastic packaging material (Minitab, Excel)
+• Created and delivered presentations to train field sales representatives on new product features (PowerPoint)
+ACADEMIC PROJECTS
+Hand Cycle for Polio Victims
+Fall 2019 – Spring 2020
+Collaborated in a team of three to design model of custom hand cycle for polio victims (SOLIDWORKS).
+• Developed team schedule, including quality measurement for each major milestone (Microsoft Project)
+• Ensured team compliance to Design Control Procedures according to Code of Federal Regulations (CFR)
+• Recognized by faculty audience as “Best Presentation” out of 15 teams
+Sensor for Quadriplegic Patients
+Spring 2019
+Led team of three to design and develop a mouse-like device to allow quadriplegic patients to use websites.
+• Assessed range-of-motion data to determine feasible solutions (Python)
+• Created device to detect muscle flexion in neck to control the mouse click (Arduino, FPGA)
+OTHER WORK EXPERIENCE
+Arizona State University, Tempe, AZ: Tutor (10 hours/week)
+Aug 2018 – May 2019
+• Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
+Kohl’s, Gilbert, AZ: Sales Associate, Jewelry Department (16-24 hours/week)
+Aug 2017 – Dec 2017
+• Achieved #2 highest selling associate within one month of hire date
+ACTIVITIES
+ASU Society of Women Engineers (SWE)
+Aug 2017 – Present
+Multiple leadership roles, including vice-president and industry relations chair (300 members, $75k annual budget)
+• Tutored 10-15 undergraduate engineering students per week in MATLAB programming and math coursework
+• Organized 2018 annual conference participation, including 8 student poster submissions

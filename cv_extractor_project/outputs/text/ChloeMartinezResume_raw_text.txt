@@ -1,0 +1,111 @@
+
+==== Page 1 ====
+CHLOE MARTINEZ
+Data Engineer | Big Data | Healthcare Analytics
+�1��234��555�1234
+chloe@gmail.com
+linkedin.com
+Houston, Texas
+E
+
+q
+
+SUMMARY
+PROJECTS
+Healthcare Data Normalization Tool
+With 5 years of dedicated experience in data engineering and mastery over 
+Cloudera Bigdata Technologies, my contributions have significantly boosted 
+data analysis and warehouse operations, particularly in the healthcare 
+sector, leading to substantial improvements in data quality and processing 
+efficiency.
+Developed an open-source tool to standardize 
+varying healthcare data formats, significantly 
+improving data analysis efficiency. See the code at 
+github.com/ChloeMartinez/HealthDataTool
+EXPERIENCE
+Clinical Data Reporting Framework
+Created a flexible reporting framework designed 
+for healthcare institutions to derive actionable 
+insights from clinical data. See more at 
+github.com/ChloeMartinez/ClinicalDataFramework
+Data Warehouse Specialist
+Cigna
+02/2022 � Present 
+Houston, Texas
+•
+Led a team in the migration of 10� terabytes of PHI and PII data from 
+Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing 
+data security and compliance.
+Developed and optimized over 500� hive/impala queries, which improved 
+reporting performance by 30%.
+Automated data workflows with Unix scripting, which increased 
+department efficiency by 25%.
+Initiated a Waterfall to Agile transition for the data warehouse team, which 
+cut down project delivery times by 20%.
+SKILLS
+•
+Erwin Data Modeler
+Hadoop
+•
+Cloudera
+Hive
+Impala
+•
+Unix Commands
+Big Data Engineer
+UnitedHealth Group
+COURSES
+01/2021 � 01/2022 
+Houston, Texas
+•
+Orchestrated the migration of 5� terabytes of healthcare data to 
+Cloudera’s Hadoop platform, resulting in a 40% reduction in data 
+processing time.
+Conducted in-depth analyses and enhancements of data warehouse 
+environments that contributed to a 15% increase in data quality.
+Collaborated with cross-functional teams to design complex data models 
+using Erwin, improving the scalability of data solutions.
+Enhanced data retrieval processes by crafting sophisticated Unix shell 
+scripts, which boosted data accessibility for end-users.
+Implemented comprehensive backup and disaster recovery strategies, 
+ensuring 99.9% data availability.
+Certified Cloudera Data Analyst
+Intensive course covering data analysis techniques 
+using Cloudera Hadoop components; provided by 
+Cloudera.
+•
+•
+Professional Oracle SQL Optimization
+Focused on advanced Oracle database 
+performance tuning and optimization; provided by 
+Oracle University.
+•
+•
+Data Analyst
+Memorial Hermann Health System
+01/2020 � 12/2020 
+Houston, Texas
+•
+Analyzed and interpreted complex healthcare data sets, revealing insights 
+that led to a 10% improvement in patient care services.
+Designed and executed data validation procedures, improving data 
+accuracy by 95%.
+Collaborated on 3 major release cycles, utilizing Agile methodology to 
+ensure timely and efficient data delivery.
+Contributed to a project that reduced data redundancies by 20%, 
+increasing overall system performance.
+•
+•
+•
+EDUCATION
+Master of Science in Data Analytics
+Rice University
+01/2017 � 01/2019 
+Houston, Texas
+Bachelor of Science in Computer Science
+University of Houston
+01/2013 � 01/2017 
+Houston, Texas
+www.enhancv.com
+
+Powered by

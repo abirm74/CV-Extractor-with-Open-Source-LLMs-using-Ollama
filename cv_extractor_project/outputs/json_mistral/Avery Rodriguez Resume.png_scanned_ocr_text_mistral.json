@@ -1,0 +1,62 @@
+{
+  "Name": "Avery Rodriguez",
+  "Email": "",
+  "Phone": "",
+  "Location": "Jacksonville, Florida",
+  "LinkedIn": "",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "Columbia University",
+      "City/Location": "New York, NY",
+      "Duration": "01/2015 - 01/2017"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of Florida",
+      "City/Location": "Gainesville, FL",
+      "Duration": "01/2011 - 04/2015"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Big Data Engineer",
+      "Company": "Google",
+      "Duration": "01/2022 - Present",
+      "Location": "Mountain View, CA",
+      "Description": "Led the development of a scalable big data processing platform, handling over 100TB of data daily, enhancing data analysis capabilities. Implemented a cloud-based analytics solution that reduced data processing costs by 20%, by optimizing resource allocation and usage."
+    },
+    {
+      "Title": "Data Engineer",
+      "Company": "Amazon",
+      "Duration": "Bi OGD0i9 - 12/2021",
+      "Location": "Seattle. WA",
+      "Description": "Designed and implemented a real-time data processing system, increasing data availability and supporting timely decision-making."
+    }
+  ],
+  "Skills": [
+    "Big Data Engineering",
+    "Data Analysis",
+    "Cloud Solutions",
+    "Large-scale data processing",
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "AWS",
+    "ETL",
+    "Data Modeling",
+    "Machine Learning",
+    "Python",
+    "SQL"
+  ],
+  "Certifications": [
+    {
+      "Name": "Certified Big Data Professional",
+      "Issuer": "Data Science Council of America"
+    },
+    {
+      "Name": "Apache Spark for Big Data Processing",
+      "Issuer": "Udenvy"
+    }
+  ]
+}

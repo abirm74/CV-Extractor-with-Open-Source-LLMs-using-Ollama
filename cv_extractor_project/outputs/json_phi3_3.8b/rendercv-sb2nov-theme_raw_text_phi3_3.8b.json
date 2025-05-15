@@ -1,0 +1,36 @@
+{
+  "name": "John Doe",
+  "email": "jhondoe@yourdomain.com",
+  "phone": "0541 999 99 99",
+  "location": "Cupertino, CA",
+  "linkedin": null,
+  "education": [
+    {
+      "degree": "BS in Computer Science",
+      "university": "University of Pennsylvania",
+      "city_or_location": "Sept 2000 \u2013 May 2005"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer at Apple",
+      "company": "Apple",
+      "duration": "June 2005 \u2013 Aug 2007",
+      "location": "Cupertino, CA",
+      "description": "Reducing time to render user buddy lists by implementing a prediction algorithm. Integrated iChat with Spotlight Search tool and created metadata extraction for system-wide search database."
+    },
+    {
+      "title": "Software Engineer Intern at Microsoft",
+      "company": "Microsoft",
+      "duration": "June 2003 \u2013 Aug 2003",
+      "location": "Redmond, WA",
+      "description": "Designed a UI for the VS open file switcher and extended it to tool windows. Created service that provides gradient across tools by optimizing performance via caching."
+    }
+  ],
+  "skills": [
+    "C++",
+    "MFC",
+    ".NET, Microsoft SQL Server"
+  ],
+  "awards": null
+}

@@ -1,0 +1,57 @@
+{
+  "Name": "Andrea Ray",
+  "Email": "andrea@gmail.com",
+  "Phone": "",
+  "Location": "Brooklyn, NY",
+  "LinkedIn": "linkedin.com/in/andrea",
+  "Education": [
+    {
+      "Degree": "Msc of physics",
+      "University": "",
+      "City/Location": "Brooklyn, NY",
+      "Duration": "Sept. 2021 \u2013 Jun 2025"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Data Scientist - Marketing Team",
+      "Company": "Dell",
+      "Location": "Ann Arbor, MI",
+      "Duration": "June 2024 \u2013 Present",
+      "Description": "\u2022 data into actionable insights, providing C-suite stakeholders with insightful recommendations to streamline business operations and improve customer experience.\n\u2022 Generated statistical reports and visualizations, providing key insights for more than 20 marketing campaigns and initiatives, including A/B testing, customer retention, brand awareness, and global expansion.\n\u2022 Worked with senior leadership to develop and implement digital marketing strategy, identifying and implementing new tactics to improve campaign performance by 50.%, resulting in 250% increase in revenue from search marketing campaigns."
+    },
+    {
+      "Title": "Senior Data Scientist",
+      "Company": "Metro",
+      "Location": "Brooklyn, NY",
+      "Duration": "Sept. 2021 \u2013 Present",
+      "Description": "\u2022 Designed and implemented a machine learning system that predicts hardware malfunction with more than 80% accuracy.\n\u2022 Created global and personalized real time reports system for executives stakeholders and processes in SAS, Tableau, and proprietary systems.\n\u2022 Worked closely with a team of data engineers and BI analysts to improve the efficiency customer recommendation analytics engine by 33%."
+    }
+  ],
+  "Skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office",
+    "Python",
+    "SQL",
+    "HDFS",
+    "Machine learning"
+  ],
+  "Awards": [
+    {
+      "Name": "Speedo Scholastic All-American",
+      "Duration": "Aug. 2023 \u2013 Present"
+    },
+    {
+      "Name": "National Junior Honor Society",
+      "Duration": "June 2023 \u2013 Present"
+    }
+  ],
+  "Interests": [
+    "Photography",
+    "Creative Writing",
+    "Archery",
+    "New York Knicks"
+  ]
+}

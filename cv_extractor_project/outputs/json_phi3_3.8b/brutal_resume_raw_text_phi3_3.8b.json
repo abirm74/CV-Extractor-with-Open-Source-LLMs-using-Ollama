@@ -1,0 +1,79 @@
+{
+  "Name": "Carla Sanchez",
+  "Email": "anon@example.com",
+  "Phone": "(+82-10-1XXX-1000)",
+  "Location": "Seoul, Korea",
+  "LinkedIn": "linkedin.com/in/YourLinkedinId",
+  "Education": [
+    {
+      "Degree": "Bachelor of Electric and Computer Engineering",
+      "University": "Seoul National University",
+      "City/Location": "Seoul, Korea",
+      "Duration": "2014.03-2021.02"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Product Lead",
+      "Company": "Brandazine",
+      "Duration": "2020.07-2021.09",
+      "Location": "Seoul, Korea",
+      "Description": "Developed enterprise web application"
+    },
+    {
+      "Title": "Winter Internship",
+      "Company": "Samsung Electronics C-LAB",
+      "Duration": "2019.12-2020.02",
+      "Location": "Seoul, Korea",
+      "Description": "Developed cloud service providers including AWS and GCP"
+    },
+    {
+      "Title": "Internship",
+      "Company": "kakaopay",
+      "Duration": "2019.03-2019.08",
+      "Location": "Sung-nam, Korea",
+      "Description": "Developed web client development"
+    },
+    {
+      "Title": "SW engineer at ROK Cyber Command",
+      "Company": "ROK Cyber Command",
+      "Duration": "2017.05-2019.02",
+      "Location": "Military Service as SW engineer"
+    }
+  ],
+  "Skills": [
+    {
+      "SkillName": "Enterprise Web Application Development",
+      "TechnologiesInvolved": [
+        "python",
+        "nodejs",
+        "java spring"
+      ]
+    },
+    {
+      "SkillName": "Data Engineering",
+      "TechnologiesInvolved": [
+        "SQL",
+        "BI",
+        "Data ETL"
+      ]
+    },
+    {
+      "SkillName": "Web Client Development",
+      "TechnologiesInvolved": [
+        "javascript",
+        "react.js",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "SkillName": "Infrasructure",
+      "TechnologiesInvolved": [
+        "Container based environments",
+        "Cloud service providers including AWS and GCP"
+      ]
+    }
+  ],
+  "Awards": []
+}

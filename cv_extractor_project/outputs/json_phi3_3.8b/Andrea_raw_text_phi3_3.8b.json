@@ -1,0 +1,49 @@
+{
+  "Name": "Andrea Ray",
+  "Email": "andrea@gmail.com",
+  "Phone": "(123) 456-7890",
+  "Location": "Brooklyn, NY",
+  "LinkedIn": "linkedin.com/in/andrea",
+  "Education": [
+    {
+      "Degree": "MSc of Physics",
+      "University": "",
+      "City/Location": "Brooklyn, NY",
+      "Duration": "Sept. 2021 \u2013 Jun 2025"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Data Scientist - Marketing Team",
+      "Company": "Dell",
+      "Duration": "June 2024 \u2013 Present",
+      "Location": "Ann Arbor, MI"
+    },
+    {
+      "Title": "Senior Data Scientist Metro Brooklyn",
+      "Company": "",
+      "Duration": "Sept. 2021 \u2013 Present",
+      "Location": "Brooklyn, NY"
+    }
+  ],
+  "Skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office",
+    "Python",
+    "SQL",
+    "HDFS",
+    "Machine learning"
+  ],
+  "Awards": [
+    {
+      "Name": "Speedo Scholastic All-American",
+      "Duration": "Aug. 2023 \u2013 Present"
+    },
+    {
+      "Name": "National Junior Honor Society",
+      "Duration": "June 2023 \u2013 Present"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Name": "VIOLET RODRIGUEZ",
+  "Email": "violet@gmailcom",
+  "Phone": "+1-(234)-555-1234",
+  "Location": "Washington, D.C.",
+  "Education": [
+    {
+      "Degree": "Master's Degree in Data Science",
+      "University": "George Washington University",
+      "City/Location": "Washington, D.C.",
+      "Duration": "01/2018 - 01/2019"
+    },
+    {
+      "Degree": "Bachelor's Degree in Mathematics",
+      "University": "University of Virginia",
+      "City/Location": "Charlottesville, VA",
+      "Duration": "01/2014 - 01/2018"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Associate Data Scientist",
+      "Company": "AT&T",
+      "Location": "Washington, D.C.",
+      "Duration": "01/2022 - Present",
+      "Description": "Collaborated with cross-functional teams to develop predictive analytics models that increased project efficiency by 15%, resulting in enhanced decision-making processes."
+    },
+    {
+      "Title": "Junior Data Scientist",
+      "Company": "Verizon",
+      "Location": "Reston, VA",
+      "Duration": "06/2020 - 12/2021",
+      "Description": "Developed data visualization dashboards in Python, improving the data dissemination process by 20% across departments."
+    },
+    {
+      "Title": "Data Analyst",
+      "Company": "Booz Allen Hamilton",
+      "Location": "McLean, VA",
+      "Duration": "07/2019 - 05/2020",
+      "Description": "Produced monthly data reports providing actionable insights, which assisted in a 7% improvement in process efficiency."
+    }
+  ],
+  "Skills": [
+    "Python",
+    "SQL",
+    "Predictive Analytics",
+    "Machine Learning",
+    "Exploratory Data Analysis",
+    "Statistical Analysis"
+  ]
+}

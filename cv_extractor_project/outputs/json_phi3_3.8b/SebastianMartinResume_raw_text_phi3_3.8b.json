@@ -1,0 +1,58 @@
+{
+  "name": "Sebastian Martin",
+  "email": null,
+  "phone": null,
+  "location": "New York City, New York",
+  "linkedin": "www.enhancv.com",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Columbia University",
+      "city/location": "New York, NY",
+      "duration": "01/2008 - 01/2010"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "New York University",
+      "city/location": "New York, NY",
+      "duration": "01/2004 - 01/2008"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer Lead | Cloud Solutions | Product Innovation",
+      "company": "Google",
+      "duration": "04/2019 - Present",
+      "location": "New York, NY",
+      "description": "Architected and implemented cloud-based microservices, resulting in a 20% increase in application scalability and performance. Led cross-functional team in proactive system monitoring and alerting..."
+    },
+    {
+      "title": "Software Development Team Lead",
+      "company": "Microsoft",
+      "duration": "08/2014 - 03/2019\u00a0",
+      "location": "Redmond, WA",
+      "description": "...Led a team of 8 developers, contributing to a 5% decrease in bug rates..."
+    },
+    {
+      "title": "Software Engineer",
+      "company": "IBM",
+      "duration": "01/2011 - 07/2014\u00a0",
+      "location": "New York, NY",
+      "description": "...Developed a robust reporting tool that was adopted company-wide..."
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Cloud Computing",
+    "AWS",
+    "Microservices",
+    "Docker"
+  ],
+  "awards": [
+    {
+      "name": "Engineering Excellence Award",
+      "description": "Honored with the company's Engineering Excellence Award for exceptional contributions to software development life cycle processes."
+    }
+  ]
+}

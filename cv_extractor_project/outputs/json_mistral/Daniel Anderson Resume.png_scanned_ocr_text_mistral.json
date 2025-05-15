@@ -1,0 +1,70 @@
+{
+  "Name": "DANIEL ANDERSON",
+  "Email": "[daniel@gmail.com]",
+  "Phone": "+1-(234)-555-1234",
+  "Location": "Philadelphia, PA",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Bachelor's degree in Industrial Engineering",
+      "University": "Lehigh University",
+      "City/Location": "Bethlehem, PA",
+      "Duration": "01/2009 - 01/2013"
+    },
+    {
+      "Degree": "Master's degree in Supply Chain Management",
+      "University": "Massachusetts Institute of Technology",
+      "City/Location": "Cambridge, MA",
+      "Duration": "01/2013 - 01/2015"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Solutions Engineer",
+      "Company": "J.B. Hunt Transport Services",
+      "Location": "Lowell, AR",
+      "Duration": "01/2020 - 08/2023",
+      "Description": [
+        "+ Engineered a cost-saving strategy that lowered shipping expenses by 15% through detailed data analysis and Lean Six Sigma methodologies.",
+        "* Led a team of 5 in the redesign of a major supply chain process, enhancing efficiency by 20% and increasing client satisfaction.",
+        "+ Delivered high-impact presentations to executive stakeholders leading to the approval of projects with a combined value of over $5 million.",
+        "+ Developed and deployed decision support tools that improved routing efficiency by 25%, impacting company-wide logistics operations.",
+        "\u00bb Implemented transportation rate analysis models that streamlined operations, resulting in operational cost reductions of over 10%."
+      ]
+    },
+    {
+      "Title": "Logistics Project Manager",
+      "Company": "XPO Logistics",
+      "Location": "Greenwich, CT",
+      "Duration": "09/2017 - 12/2019",
+      "Description": [
+        "\u00ab Managed a transformative logistics overhaul project cutting misrouting incidents by 35% through better data integration and process streamlining.",
+        "\u00ab Analyzed supply chain data to identify a 20% cost reduction opportunity through optimized load management and network modeling.",
+        "\u00bb Coordinated cross-functional teams on project implementation, which raised the on-time delivery rate by 22% company-wide.",
+        "\u00bb Spearheaded the transition to new transportation management systems improving data accuracy across supply chains by 18%.",
+        "\u00bb Authored best practice reports recommending logistics strategies based on comprehensive data mining and simulations."
+      ]
+    },
+    {
+      "Title": "Supply Chain Analyst",
+      "Company": "C.H. Robinson",
+      "Location": "Eden Prairie, MN",
+      "Duration": "06/2015 - 08/2017",
+      "Description": [
+        "* Supported network optimization initiatives that resulted in routing accuracy improvements by 15% and significantly reduced transport delays.",
+        "+ Executed data mining projects using Microsoft Bl, Access, and Excel leading to actionable insights on client supply chain operations.",
+        "\u00bb Implemented customer supply chain cost models leading to better understanding and negotiation of total cost of ownership costs.",
+        "\u00bb Assisted in the integration of new decision support technology enhancing the client's ability to predict logistic bottlenecks."
+      ]
+    }
+  ],
+  "Skills": [
+    "Lean Six Sigma",
+    "Project management",
+    "Transportation management systems",
+    "Network modeling",
+    "Data mining",
+    "Microsoft Bl"
+  ],
+  "Awards": null
+}

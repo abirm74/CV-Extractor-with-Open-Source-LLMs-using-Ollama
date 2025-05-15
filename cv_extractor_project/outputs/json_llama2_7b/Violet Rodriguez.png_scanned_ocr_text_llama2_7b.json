@@ -1,0 +1,51 @@
+{
+  "Name": "VIOLET RODRIGUEZ",
+  "Email": "violet@gmailcom",
+  "Phone": "+1-234-555-1234",
+  "Location": "Washington, D.C.",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Master's Degree",
+      "University": "George Washington University",
+      "City/Location": "Washington, D.C."
+    },
+    {
+      "Degree": "Bachelor's Degree",
+      "University": "University of Virginia",
+      "City/Location": "Charlottesville, VA"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Associate Data Scientist",
+      "Company": "AT&T Washington, D.C.",
+      "Duration": "01/2022 - Present",
+      "Location": "Washington, D.C.",
+      "Description": null
+    },
+    {
+      "Title": "Junior Data Scientist",
+      "Company": "Verizon Reston, VA",
+      "Duration": "06/2020 - 12/2021",
+      "Location": "Reston, VA",
+      "Description": null
+    },
+    {
+      "Title": "Data Analyst",
+      "Company": "Booz Allen Hamilton McLean, VA",
+      "Duration": "07/2019 - 05/2020",
+      "Location": "McLean, VA",
+      "Description": null
+    }
+  ],
+  "Skills": [
+    "Python",
+    "SQL",
+    "Predictive Analytics",
+    "Machine Learning",
+    "Exploratory Data Analysis",
+    "Statistical Analysis"
+  ],
+  "Awards": null
+}

@@ -1,0 +1,53 @@
+{
+  "Name": "Zoe Thompson",
+  "Email": "zoe@gmail.com",
+  "Phone": null,
+  "Location": "Los Angeles, California",
+  "LinkedIn": "linkedin.com/in/ZoeThompson",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "University of Southern California",
+      "City/Location": "Los Angeles, CA",
+      "Duration": "01/2010 - 01/2012"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of California, Los Angeles",
+      "City/Location": "Los Angeles, CA",
+      "Duration": "01/2006 - 01/2010"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Lead Data Warehouse Architect",
+      "Company": "TechSolutions Inc",
+      "Duration": "06/2019 - Present",
+      "Location": "Los Angeles, CA",
+      "Description": ""
+    },
+    {
+      "Title": "Senior Data Engineer",
+      "Company": "Innovatech Data Solutions",
+      "Duration": "03/2016 - 05/2019",
+      "Location": "Los Angeles, CA",
+      "Description": ""
+    },
+    {
+      "Title": "Data Warehouse Specialist",
+      "Company": "QuantTech Analytics",
+      "Duration": "08/2012 - 02/2016",
+      "Location": "San Francisco, CA",
+      "Description": ""
+    }
+  ],
+  "Skills": [
+    "Data Warehousing",
+    "Data Modeling",
+    "ERWin",
+    "SQL",
+    "Snowflake",
+    "Redshift"
+  ],
+  "Awards": null
+}

@@ -1,0 +1,62 @@
+{
+  "Name": "Andrew Ryan",
+  "Email": "andrew@gmail.com",
+  "Phone": "123-456-7890",
+  "Location": "Brooklyn, NY",
+  "LinkedIn": "linkedin.com/in/andrew",
+  "Education": [
+    {
+      "Degree": "High School Diploma",
+      "University": "Brooklyn Technical High School",
+      "City/Location": "Brooklyn, NY",
+      "Duration": "Sept. 2021 \u2013 Jun 2025"
+    },
+    {
+      "Degree": "Math Team",
+      "University": "Brooklyn Technical High School",
+      "City/Location": "Brooklyn, NY",
+      "Duration": "Sept. 2022 \u2013 Present"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Co-Founder",
+      "Company": "FlexiDip",
+      "Location": "Ann Arbor, MI",
+      "Duration": "June 2024 \u2013 Present"
+    },
+    {
+      "Title": "Private Math Tutor",
+      "Company": "Self",
+      "Location": "Brooklyn, NY",
+      "Duration": "Sept. 2021 \u2013 Present"
+    }
+  ],
+  "Skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office"
+  ],
+  "Awards": [
+    {
+      "Name": "Speedo Scholastic All-American",
+      "Duration": "Aug. 2023 \u2013 Present"
+    },
+    {
+      "Name": "National Junior Honor Society",
+      "Duration": "June 2023 \u2013 Present"
+    }
+  ],
+  "Classes": [
+    {
+      "Course": "AP Literature"
+    }
+  ],
+  "Interests": [
+    "Photography",
+    "Creative Writing",
+    "Archery",
+    "New York Knicks"
+  ]
+}

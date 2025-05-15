@@ -1,0 +1,53 @@
+{
+  "Name": "Daniel Anderson",
+  "Email": "daniel@gmail.com",
+  "Phone": null,
+  "Location": "Philadelphia, PA",
+  "LinkedIn": null,
+  "Education": [
+    {
+      "Degree": "Master's degree",
+      "University": "Massachusetts Institute of Technology",
+      "City/Location": "Cambridge, MA",
+      "Duration": "01/2013 - 01/2015"
+    },
+    {
+      "Degree": "Bachelor's degree",
+      "University": "Lehigh University",
+      "City/Location": "Bethlehem, PA",
+      "Duration": "01/2009 - 01/2013"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Senior Solutions Engineer",
+      "Company": "J.B. Hunt Transport Services",
+      "Location": "Lowell, AR",
+      "Duration": "01/2020 - 08/2023",
+      "Description": null
+    },
+    {
+      "Title": "Logistics Project Manager",
+      "Company": "XPO Logistics",
+      "Location": "Greenwich, CT",
+      "Duration": "09/2017 - 12/2019",
+      "Description": null
+    },
+    {
+      "Title": "Supply Chain Analyst",
+      "Company": "C.H. Robinson",
+      "Location": "Eden Prairie, MN",
+      "Duration": "06/2015 - 08/2017",
+      "Description": null
+    }
+  ],
+  "Skills": [
+    "Lean Six Sigma",
+    "Project management",
+    "Transportation management systems",
+    "Network modeling",
+    "Data mining",
+    "Microsoft Bl"
+  ],
+  "Awards": null
+}

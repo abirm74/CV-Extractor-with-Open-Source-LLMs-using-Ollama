@@ -1,0 +1,64 @@
+{
+  "Name": "Adisson Harris",
+  "Email": "ADDISON HARRIS | LinkedIn: linkedin.com",
+  "Phone": "(123) 456-7890",
+  "Location": {
+    "City/Area": "Houston, Texas"
+  },
+  "LinkedIn": "linkedin.com/Adisson Harris",
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "Stanford University",
+      "City/Location": "Stanford, California",
+      "Duration": "2009-2011"
+    },
+    {
+      "Degree": "Bachelor of Science in Economics",
+      "University": "The University of Texas at Austin",
+      "City/Location": "Austin, Texas",
+      "Duration": "2005-2009"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Lead Data Scientist",
+      "Company": "Optum",
+      "Start Date": "01/2021",
+      "End Date": "Present",
+      "Location": "Dallas, Texas",
+      "Description": "Developed innovative generative AI models improving healthcare analytics by 35% and initiated several projects which led to a cost reduction in predicting errors."
+    },
+    {
+      "Title": "Senior Data Scientist",
+      "Company": "Cigna ",
+      "Start Date": "06/2016",
+      "End Date": "12/2020",
+      "Location": "Austin, Texas",
+      "Description": "Spearheaded the development of predictive models and mentored junior staff in machine learning techniques."
+    },
+    {
+      "Title": "Data Scientist",
+      "Company": "Kaiser Permanente ",
+      "Start Date": "03/2012",
+      "End Date": "05/2016",
+      "Location": "Los Angeles, California",
+      "Description": "Developed algorithms that improved patient outcome predictions in clinical trials."
+    }
+  ],
+  "Skills": [
+    "Generative AI Statistical Modeling",
+    "Machine Learning",
+    "Data Visualization",
+    "Distributed Computing",
+    "Healthcare Knowledge",
+    "Predictive Analytics",
+    "Python",
+    "R",
+    "SQL"
+  ],
+  "Awards": [
+    "AI Model Excellence Award",
+    "Top Mentor Award"
+  ]
+}

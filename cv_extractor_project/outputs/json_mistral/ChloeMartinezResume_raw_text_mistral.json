@@ -1,0 +1,53 @@
+{
+  "Name": "CHLOE MARTINEZ",
+  "Email": "chloe@gmail.com",
+  "Phone": "123-555-1234",
+  "Location": "Houston, Texas",
+  "LinkedIn": "linkedin.com",
+  "Education": [
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of Houston",
+      "City/Location": "Houston, Texas",
+      "Duration": "01/2013 \ufffd 01/2017"
+    },
+    {
+      "Degree": "Master of Science in Data Analytics",
+      "University": "Rice University",
+      "City/Location": "Houston, Texas",
+      "Duration": "01/2017 \ufffd 01/2019"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Big Data Engineer",
+      "Company": "UnitedHealth Group",
+      "Duration": "",
+      "Location": "",
+      "Description": ""
+    },
+    {
+      "Title": "Data Warehouse Specialist",
+      "Company": "Cigna",
+      "Duration": "02/2022 \ufffd Present",
+      "Location": "Houston, Texas",
+      "Description": "Led a team in the migration of 10 terabytes of PHI and PII data from Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing data security and compliance. Developed and optimized over 500 hive/impala queries, which improved reporting performance by 30%. Automated data workflows with Unix scripting, which increased department efficiency by 25%. Initiated a Waterfall to Agile transition for the data warehouse team, which cut down project delivery times by 20%."
+    },
+    {
+      "Title": "",
+      "Company": "Memorial Hermann Health System",
+      "Duration": "01/2020 \ufffd 12/2020",
+      "Location": "Houston, Texas",
+      "Description": "Analyzed and interpreted complex healthcare data sets, revealing insights that led to a 10% improvement in patient care services. Designed and executed data validation procedures, improving data accuracy by 95%. Collaborated on 3 major release cycles, utilizing Agile methodology to ensure timely and efficient data delivery. Contributed to a project that reduced data redundancies by 20%, increasing overall system performance."
+    }
+  ],
+  "Skills": [
+    "Erwin Data Modeler",
+    "Hadoop",
+    "Cloudera",
+    "Hive",
+    "Impala",
+    "Unix Commands"
+  ],
+  "Awards": []
+}

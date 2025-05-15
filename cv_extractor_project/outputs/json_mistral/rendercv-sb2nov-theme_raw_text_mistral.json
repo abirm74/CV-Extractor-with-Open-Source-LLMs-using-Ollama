@@ -1,0 +1,67 @@
+{
+  "Name": "John Doe",
+  "Email": "jhondoe@yourdomain.com",
+  "Phone": "0541 999 99 99",
+  "Location": "uk bermingham",
+  "LinkedIn": "JhonDoe",
+  "Education": [
+    {
+      "Degree": "BS in Computer Science",
+      "University": "University of Pennsylvania",
+      "City/Location": "Sept 2000 \u2013 May 2005"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Software Engineer",
+      "Company": "Apple",
+      "Duration": "June 2005 \u2013 Aug 2007",
+      "Location": "Cupertino, CA",
+      "Description": [
+        "Reduced time to render user buddy lists by 75% by implementing a prediction algorithm",
+        "Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database",
+        "Redesigned chat file format and implemented backward compatibility for search"
+      ]
+    },
+    {
+      "Title": "Software Engineer Intern",
+      "Company": "Microsoft",
+      "Duration": "June 2003 \u2013 Aug 2003",
+      "Location": "Redmond, WA",
+      "Description": [
+        "Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows",
+        "Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching",
+        "Built an app to compute the similarity of all methods in a codebase, reducing the time from O(n2) to O(n log n)",
+        "Created a test case generation tool that creates random XML docs from XML Schema",
+        "Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts"
+      ]
+    }
+  ],
+  "Skills": [
+    "C++",
+    "C",
+    "Java",
+    "Objective-C",
+    "C#",
+    "SQL",
+    "JavaScript",
+    ".NET",
+    "Microsoft SQL Server",
+    "XCode",
+    "Interface Builder"
+  ],
+  "Projects": [
+    {
+      "Name": "Multi-User Drawing Tool",
+      "URL": "github.com/name/repo"
+    },
+    {
+      "Name": "Synchronized Desktop Calendar",
+      "URL": "github.com/name/repo"
+    },
+    {
+      "Name": "Custom Operating System",
+      "Year": "2002"
+    }
+  ]
+}

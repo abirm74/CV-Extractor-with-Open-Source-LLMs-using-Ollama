@@ -1,0 +1,56 @@
+{
+  "Name": "Andrew Ryan",
+  "Email": "andrew@gmail.com",
+  "Phone": "123-456-7890",
+  "Location": [
+    "Brooklyn, NY",
+    "Ann Arbor, MI"
+  ],
+  "LinkedIn": "linkedin.com/in/andrew",
+  "Education": [
+    {
+      "Degree": "",
+      "University": "Brooklyn Technical High School",
+      "City/Location": "Brooklyn, NY",
+      "Duration": [
+        "Sept. 2021 \u2013 Jun 2025"
+      ]
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Co-Founder",
+      "Company": "FlexiDip",
+      "Duration": [
+        "June 2024 \u2013 Present"
+      ],
+      "Location": "Ann Arbor, MI",
+      "Description": "Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience. Developed minimum viable product(MVP) capable of early-stage revenue generation."
+    },
+    {
+      "Title": "Private Math Tutor",
+      "Company": "",
+      "Duration": [
+        "Sept 2021 \u2013 Present"
+      ],
+      "Location": "Brooklyn, NY",
+      "Description": "Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students. Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades."
+    }
+  ],
+  "Skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office"
+  ],
+  "Awards": [
+    {
+      "Name": "Speedo Scholastic All-American",
+      "Year": "Aug. 2023 \u2013 Present"
+    },
+    {
+      "Name": "National Junior Honor Society",
+      "Year": "June 2023 \u2013 Present"
+    }
+  ]
+}
