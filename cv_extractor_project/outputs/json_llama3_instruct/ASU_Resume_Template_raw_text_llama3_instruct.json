@@ -1,0 +1,51 @@
+{
+  "name": "SPARKY SUNDEVIL8",
+  "phone": "123-456-7890",
+  "mail": "sdevil123@asu.edu",
+  "location": "Tempe, AZ",
+  "linkedin": "linkedin.com/in/sparkysundevil",
+  "education": [
+    {
+      "degree": "B.S.E., Mechanical Engineering",
+      "university": "Arizona State University",
+      "location": "Tempe, AZ",
+      "duration": "Graduating May 2020"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Research & Dev Development Intern",
+      "company": "Stryker Solutions, Phoenix, AZ",
+      "duration": "May 2019 \u2013 Aug 2019",
+      "location": "Phoenix, AZ",
+      "full_description": "\u2022 Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python)\n\u2022 Authored three technical reports for relocated packaging equipment, following IQOQPQ guides (JMP, Excel)"
+    },
+    {
+      "title": "Quality Engineering Intern",
+      "company": "Med Apps, Scottsdale, AZ",
+      "duration": "May 2018 \u2013 Aug 2018",
+      "location": "Scottsdale, AZ",
+      "full_description": "\u2022 Assessed equivalency of proposed alternate plastic packaging material (Minitab, Excel)\n\u2022 Created and delivered presentations to train field sales representatives on new product features (PowerPoint)"
+    },
+    {
+      "title": "Research Intern",
+      "company": "Hand Cycle for Polio Victims",
+      "duration": "Fall 2019 \u2013 Spring 2020",
+      "location": "",
+      "full_description": "\u2022 Collaborated in a team of three to design model of custom hand cycle for polio victims (SOLIDWORKS).\n\u2022 Developed team schedule, including quality measurement for each major milestone (Microsoft Project)\n\u2022 Ensured team compliance to Design Control Procedures according to Code of Federal Regulations (CFR)\n\u2022 Recognized by faculty audience as \u201cBest Presentation\u201d out of 15 teams"
+    },
+    {
+      "title": "Research Intern",
+      "company": "Sensor for Quadriplegic Patients",
+      "duration": "Spring 2019",
+      "location": "",
+      "full_description": "\u2022 Assessed range-of-motion data to determine feasible solutions (Python)\n\u2022 Created device to detect muscle flexion in neck to control the mouse click (Arduino, FPGA)"
+    }
+  ],
+  "skills": [
+    "Data Analysis and Statistics: JMP, Minitab",
+    "Design and Modeling Tools: SOLIDWORKS, LabVIEW, MATLAB, Microsoft Office",
+    "Programming: Python, C, C++",
+    "Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD) \u2013 August 2019"
+  ]
+}

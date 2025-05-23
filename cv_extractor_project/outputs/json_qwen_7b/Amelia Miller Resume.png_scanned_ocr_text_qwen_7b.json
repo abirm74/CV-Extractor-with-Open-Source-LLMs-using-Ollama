@@ -1,0 +1,47 @@
+{
+  "name": "Amelia Miller",
+  "phone": "9-(294)-555-1234",
+  "mail": "<\u7535\u5b50\u90ae\u4ef6\u5730\u5740\uff0c\u8fd9\u91cc\u66ff\u6362\u6210 Amelia.Miller@example.com>",
+  "location": "Los Angeles, CA",
+  "linkedin": "<LinkedIn URL\uff0c\u8fd9\u91cc\u5047\u8bbe\u4e3ahttps://www.linkedin.com/in/amelia-miller/>",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "University of Southern California",
+      "start_date": "01/2012",
+      "end_date": "01/2014"
+    },
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "university": "University of California, Berkeley",
+      "start_date": "01/2008",
+      "end_date": "01/2012"
+    }
+  ],
+  "skills": [
+    {
+      "skill": "UNIX",
+      "level": "Native Proficient"
+    },
+    {
+      "skill": "Spark",
+      "level": "Proficient"
+    },
+    {
+      "skill": "Shell Scripting",
+      "level": "Native Proficient"
+    },
+    {
+      "skill": "Python",
+      "level": "Proficient"
+    },
+    {
+      "skill": "Hadoop",
+      "level": "Proficient"
+    },
+    {
+      "skill": "GitHub",
+      "level": "Proficient"
+    }
+  ]
+}

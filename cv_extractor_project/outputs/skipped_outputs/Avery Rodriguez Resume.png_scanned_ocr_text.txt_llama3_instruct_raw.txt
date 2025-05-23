@@ -1,0 +1,149 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+Avery Rodriguez
+
+Big Data Engineer | Data Analysis | Cloud Solutions
+
+e @ Jacksonville, Florida
+SUMMARY SKILLS
+With over 5 years of experience in big data engineering, | have developed Had Spark Kafka AWS
+
+a keen expertise in data analysis, cloud computing solutions, and large-
+scale data processing. My career highlights include leading a project that
+resulted in a 40% efficiency increase in data processing and
+implementing cloud solutions that significantly reduced costs.
+
+EXPERIENCE
+
+Big Data Engineer
+
+Google
+
+01/2022 - Present = 9 Mountain View, CA
+
+» Led the development of a scalable big data processing platform,
+handling over 100TB of data daily, enhancing data analysis
+‘capabilities.
+
+» Implemented a clowd-based analytics solution that reduced data
+processing costs by 20%, by optimizing resource allocation and usage.
+
+* Developed and maintained ETL pipelines. for data ingestion,
+processing, and distribution, improving data quality and accessibility.
+
+* Collaborated with cross-functional teams to integrate machine
+learning models into the data pipeline, increasing predictive analytics
+@ccuracy by 25%.
+
++ Automated data quality checks, reducing data processing errors by
+20% and ensuring high-quality data for analysis.
+
+* Conducted comprehensive data analysis, uncovering key insights. that
+led to a 15% increase in marketing campaign effectiveness.
+
+Data Engineer
+
+Amazon
+
+Bi OGD0i9- 122021 O Seattle. WA
+
+» Designed and implemented a real-time data processing system,
+increasing data availability and supporting timely decision-making.
+
+» Optimized data storage solutions, resulting in a 25% reduction in
+storage costs without compromising data integrity or accessibility.
+
+= Collaborated with the analytics team to develop custom data models,
+enhancing data visualization and reporting capabilities.
+
+» Managed the migration of legacy data systems to cloud platforms,
+ensuring seamless data integration and minimal downtime.
+
++ Enabled automated data cleansing and enrichment processes,
+improving data accuracy and usability for analytics purposes.
+
+Azure GCP Python SQL
+
+NoSQL ETL Data Modeling
+
+Machine Learning
+
+CERTIFICATION
+
+Certified Big Data Professional
+
+This certification, offered by the Data Science
+‘Council of America, focuses on mastering big
+
+data engineering skills and technologies.
+
+Apache Spark for Big Data Processing
+
+A comprehensive course by Udenvy that covers:
+Spark architecture, data processing, and
+machine learning with Spark.
+
+EDUCATION
+
+Master of Science in Data Science
+Columbia University
+@ 01/2015 01/2017 NewYork, NY
+
+Bachelor of Science in Computer
+Science
+
+University of Florida
+
+@ 01/2011 04/2015 @ Gainesville, FL
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

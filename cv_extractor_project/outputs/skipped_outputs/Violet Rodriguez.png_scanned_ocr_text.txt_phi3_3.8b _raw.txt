@@ -1,0 +1,116 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+VIOLET RODRIGUEZ
+
+Associate Data Scientist | Machine Learning | Analytics
++1-(234)-555-1234 + violet@gmailcom * Washington, D.C.
+
+Enthusiastic Associate Data Scientist with expertise in predictive modeling and SQL, and 2 years of experience. Generated a
+15% increase in analytic efficiency. Skilled in uncovering insights to drive impactful business outcomes.
+
+Skills
+Python, SQL, Predictive Analytics, Machine Leaming, Exploratory Data Analysis, Statistical Analysis
+
+Experience
+AT&T Washington, D.C.
+Associate Data Scientist 01/2022 - Present
+« Collaborated with cross-functional teams to develop predictive analytics models that increased project efficiency by 15%,
+resulting in enhanced decision-making processes.
++ (Led the integration of new machine learning techniques with existing business processes, improving customer
+segmentation and targeting by 10%.
+« Performed exploratory data analyses on complex datasets, uncovering insights that led to. a 5% reduction in operational
+costs.
++ Facilitated data-driven strategy sessions with stakeholders, effectively communicating technical insights to assist in
+critical business decisions.
++ (Contributed to the development of a recommendation system that improved customer satisfaction by 12% through
+personalized user experiences.
++ Applied Agile methodology in team collaboration, ensuring successful alignment with business priorities and value
+streams.
+
+Verizon Reston, VA
+
+Junior Data Scientist 06/2020 - 12/2021
+
+« Developed data visualization dashboards in Python, improving the data dissemination process by 20% across
+departments.
+
++ Partnered with data engineering teams to facilitate clean and robust data pipelines, enhancing the data quality for analysis
+and reporting.
+
++ Automated routine data extraction and processing tasks using SOL, reducing data preparation time by 30%.
+
++ Implemented predictive models that contributed to a revenue increase of 8% in target markets within six months.
+
+« Participated in stakeholder meetings to gather business requirements, ensuring model deployment aligns with
+
+organizational objectives.
+
+Booz Allen Hamilton McLean, VA
+Data Analyst 07/2019 - 05/2020
+
+« Produced monthly data reports providing actionable insights, which assisted ina 7% improvement in process efficiency.
+
+« Worked on identifying emerging trends using mixed methods, leading to strategic adjustments iin service offerings.
+
++ Created ad-hoc analysis for multiple departments, reducing response time to data requests by 15%.
+
++ Contributed to team projects by supporting data-cleaning efforts which improved data accuracy by 10%.
+
+Education
+George Washington University Washington, D.C.
+Master's Degree in Data Science 01/2018 - O1/2019
+University of Virginia Charlottesville, VA
+
+Bachelor's Degree in Mathematics O1/2014 - 01/2018
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

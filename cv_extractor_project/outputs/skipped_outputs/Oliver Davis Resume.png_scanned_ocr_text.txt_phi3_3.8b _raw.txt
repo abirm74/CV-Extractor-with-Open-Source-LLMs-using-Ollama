@@ -1,0 +1,117 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+OLIVER DAVIS
+
+Data Analyst | Strategic Reporting | Tool Development
++1-(234)-855-1234 olivierdavis@gmailcom Phoenix, Arizona
+
+SUMMARY
+
+Dedicated data analyst with 3 years experience in health services data analysis. Proficient in strategic reporting and
+tool development, having driven a 30% efficiency increase. Eager to contribute analytical expertise and passion towards
+homelessness initiatives.
+
+SKILLS
+
+Data Collection, Microsoft Access, Statistical Analysis, Strategic Reporting, Database Management, Tool Development
+
+EXPERIENCE
+Data Analyst Phoenix, Arnona
+Maricopa Integrated Health System 09/2021 - Present
+
+* Led cross-functional teams to implement analytical tools that increased data processing efficiency by 25%,
+enhancing program outcomes representation.
+
++ Developed and maintained comprehensive performance dashboards used by internal stakeholders to facilitate
+quality improvement projects.
+
+« Streamlined data collection processes by integrating diverse data sources, resulting in more accurate reporting and
+strategic decisions.
+
+* Authored ad-hoc reports highlighting key trends in service utilization and helped guide impactful process changes by
+showcasing program value.
+
++ Collaborsted with teams to effectively measure program KPis, leading to a demonstrable achievement of strategic
+objectives.
+
+« Facilitated workshops providing training on database management, improving accuracy in data tracking and
+stakeholder engagement.
+
+Benefits Analyst Intern Phoent, Artzona
+Catholic Charities Community Services 06/2018 = 12/2020
++ Assisted in the analysis of client data to identify trends and support policy formation, resulting in improved client
+service outcomes.
+« Helped construct Microsoft Access databases to streamline data workflows and ensure consistency in benefit
+entitlement services.
+« Engaged with staketolders to support the development of new reporting procedures, enhancing the clarity of
+program achievements.
+* Contributed to team discussions to develop creative solutions for addressing homelessness, supporting strategic
+objectives and client advocacy.
+* Coordinated with various teams to validate data accuracy, leading to a 15°% reduction in errors within reports.
+
+EDUCATION
+
+Bachelor of Science in Data Analytics ‘Tempe, Arizona
+Arizona State University 12015 - o1/2019
+LANGUAGES
+
+English (Native) Spanish (Advanced)
+
+TRAINING / COURSES
+
+Data Analysis and Visualization for Health Care
+
+Completed course on Coursera, 2023, enhancing skills im
+data visualization and health-focused analytics.
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

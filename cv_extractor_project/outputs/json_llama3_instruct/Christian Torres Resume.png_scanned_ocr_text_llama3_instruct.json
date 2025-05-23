@@ -1,0 +1,58 @@
+{
+  "name": "CHRISTIAN TORRES",
+  "phone": "+1-(234)-555-1234",
+  "mail": "christiantorres@gmail.com",
+  "location": "Columbus, Ohio",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "The Ohio State University",
+      "location": "Coluenbus, OH",
+      "duration": "'O1/2017 - o1/2019"
+    },
+    {
+      "degree": "Bachelor of Science in Statistics",
+      "university": "University of Michigan",
+      "location": "Ann sate, ML",
+      "duration": "'o1y2012 - 01/2096'"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Sr. Data Analyst",
+      "company": "Walmart Inc.",
+      "duration": "06/2020 - Present",
+      "location": "Bentonville, AR",
+      "full_description": "+ Developed comprehensive data models using SQL, improving forecast accuracy by 25% through streamlined data processes.\n* Implemented advanced data visualization techniques in Python, resulting in enhanced decision-making capabilities for 80+ stakeholders.\n+ Engineered a real-time dashboard that increased efficiency in identifying stock trends by 40%, reducing response time.\n+ Led cross-functional analytics projects improving collaboration among teams, boosting project delivery speed by 20%.\n+ Innovated a predictive analytics tool which anticipated market shifts, increasing competitive advantage by 15%.\n+ Trained team members on new analytics techniques, improving their skills and enhancing the team's analytical output by 30%."
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Kroger Co.",
+      "duration": "OB/2047 - 05/2020",
+      "location": "Gineainnati, OH",
+      "full_description": "+ Designed and maintained data systems and databases by sorting through large sets of data to enhance efficiency.\n* Conducted in-depth statistical analysis leading to actionable insights, which improved sales strategies by 18%.\n+ Collaborated on a team that automated data collection processes, reducing manual input error rates by 25%.\n+ Validated data accuracy and methodology during peer review sessions, enhancing quality and reliability by 10%.\n+ Created tailored reports for stakeholders which enabled informed decisions, driving an increase in quarterly sales by 12%."
+    },
+    {
+      "title": "Business Data Analyst",
+      "company": "L Brands",
+      "duration": "05/2015 - a7/2017",
+      "location": "Golmnhes, OH",
+      "full_description": "+ Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation.\n+ Regularly provided troubleshooting expertise and technical support for ad-hoc analytical needs.\n+ Led weekly data review meetings to discuss ongoing projects and optimize data resources.\n+ Conducted training sessions on new business intelligence software, resulting in a 40% increase in user adoption."
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Python",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data Mining",
+    "Database Architecture",
+    "Bl Toals",
+    "Data Wrangling",
+    "Agile Methodologies",
+    "SQL Server",
+    "Java",
+    "Reporting Tools"
+  ]
+}

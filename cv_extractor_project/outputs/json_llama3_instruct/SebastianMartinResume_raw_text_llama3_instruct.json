@@ -1,0 +1,61 @@
+{
+  "name": "Sebastian Martin",
+  "phone": "[UNK]1234[UNK]",
+  "mail": "",
+  "location": "New York City, New York",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Columbia University",
+      "location": "New York, NY",
+      "duration": "01/2008 \ufffd 01/2010"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "New York University",
+      "location": "New York, NY",
+      "duration": "01/2004 \ufffd 01/2008"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Google",
+      "duration": "04/2019 \ufffd Present",
+      "location": "New York, NY",
+      "full_description": [
+        "Architected and implemented cloud-based microservices, resulting in a 20% increase in application scalability and performance.",
+        "Designed and deployed containerized applications using Docker and Kubernetes, enhancing system reliability by 25%.",
+        "Drove a team of 5 to adopt Agile methodologies, increasing product delivery speed by 30% while maintaining high-quality standards.",
+        "Led cross-functional team in proactive system monitoring and alerting, reducing downtime by 40% and improving customer satisfaction.",
+        "Developed technological roadmap for upcoming features and system enhancements, aligning with business goals and contributing to a 15% year-over-year revenue boost.",
+        "Automated various deployment and integration processes, reducing manual effort by 60% and increasing deployment frequency by 50%."
+      ]
+    },
+    {
+      "title": "Software Development Team Lead",
+      "company": "Microsoft",
+      "duration": "08/2014 \ufffd 03/2019",
+      "location": "Redmond, WA",
+      "full_description": [
+        "Mentored and led a team of 8 developers, contributing to a 5% decrease in bug rates through comprehensive code reviews and testing.",
+        "Implemented a new authentication service across applications, bolstering security compliance and reducing vulnerabilities by 30%.",
+        "Executed a successful migration to AWS cloud services, improving system uptime by 99.9%.",
+        "Spearheaded the development of a new internal tool that improved team productivity by 20%.",
+        "Managed end-to-end support and maintenance of mission-critical applications, ensuring 24/7 operational readiness."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "IBM",
+      "duration": "01/2011 \ufffd 01/2014",
+      "location": "",
+      "full_description": [
+        "Executed comprehensive debugging of application stacks, reducing system errors by 15%.",
+        "Contributed to the development of new features for an enterprise-level finance software, enhancing the overall product suite."
+      ]
+    }
+  ],
+  "skills": []
+}

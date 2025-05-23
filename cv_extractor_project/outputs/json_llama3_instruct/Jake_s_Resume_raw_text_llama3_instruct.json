@@ -1,0 +1,72 @@
+{
+  "name": "Jake Ryan",
+  "phone": "123-456-7890",
+  "mail": "jake@su.edu",
+  "location": "",
+  "linkedin": "linkedin.com/in/jake",
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Computer Science, Minor in Business",
+      "university": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "Aug. 2018 \u2013 May 2021"
+    },
+    {
+      "degree": "Associate\u2019s in Liberal Arts",
+      "university": "Blinn College",
+      "location": "Bryan, TX",
+      "duration": "Aug. 2014 \u2013 May 2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "Texas A&M University",
+      "location": "College Station, TX",
+      "duration": "",
+      "full_description": "\u2022 Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems\n\u2022 Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data\n\u2022 Explored ways to visualize GitHub collaboration in a classroom setting"
+    },
+    {
+      "title": "Information Technology Support Specialist",
+      "company": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "Sep. 2018 \u2013 Present",
+      "full_description": "\u2022 Communicate with managers to set up campus computers used on campus\n\u2022 Assess and troubleshoot computer problems brought by students, faculty and staff\n\u2022 Maintain upkeep of computers, classroom equipment, and 200 printers across campus"
+    },
+    {
+      "title": "Artificial Intelligence Research Assistant",
+      "company": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "May 2019 \u2013 July 2019",
+      "full_description": "\u2022 Explored methods to generate video game dungeons based off of The Legend of Zelda\n\u2022 Developed a game in Java to test the generated dungeons\n\u2022 Contributed 50K+ lines of code to an established codebase via Git\n\u2022 Conducted a human subject study to determine which video game dungeon generation technique is enjoyable\n\u2022 Wrote an 8-page paper and gave multiple presentations on-campus\n\u2022 Presented virtually to the World Conference on Computational Intelligence"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "C/C++",
+    "SQL (Postgres)",
+    "JavaScript",
+    "HTML/CSS",
+    "R",
+    "React",
+    "Node.js",
+    "Flask",
+    "JUnit",
+    "WordPress",
+    "Material-UI",
+    "FastAPI",
+    "Git",
+    "Docker",
+    "TravisCI",
+    "Google Cloud Platform",
+    "VS Code",
+    "Visual Studio",
+    "PyCharm",
+    "IntelliJ",
+    "Eclipse",
+    "pandas",
+    "NumPy",
+    "Matplotlib"
+  ]
+}

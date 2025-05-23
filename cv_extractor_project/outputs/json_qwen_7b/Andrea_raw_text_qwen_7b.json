@@ -1,0 +1,40 @@
+{
+  "name": "Andrea Ray",
+  "phone": "+123-456-7890",
+  "mail": "andrea@gmail.com",
+  "location": "Ann Arbor, MI",
+  "linkedin": "linkedin. com/ in/ andrea",
+  "education": [
+    {
+      "degree": "Msc of physics",
+      "university": "Brooklyn, NY",
+      "duration": "Sept. 2021 \u2013 Jun 2025",
+      "location": "Same as university"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Data Scientist - Marketing Team",
+      "company": "Dell",
+      "duration": "June 2024 \u2013 Present",
+      "location": "Ann Arbor, MI",
+      "full_description": "\u2022 Analyzed and transformed large data sets into actionable insights to support C-suite stakeholders in streamlining business operations and enhancing customer experience. \u2022 Developed statistical reports and visualizations using tools like SAS, Tableau, and proprietary systems to provide key insights for more than 20 marketing campaigns and initiatives, including A/B testing, customer retention, brand awareness, and global expansion. \u2022 Collaborated with senior leadership to develop and implement digital marketing strategies, identifying new tactics and implementing them to improve campaign performance by 50% and generate a 250% increase in revenue from search marketing campaigns. \u2022 Managed a team of data engineers and BI analysts to optimize the efficiency of customer recommendation analytics engine, resulting in a 33% improvement in processing speed."
+    }
+  ],
+  "skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office",
+    "Python",
+    "SQL",
+    "HDFS",
+    "Machine learning"
+  ],
+  "interests": [
+    "Photography",
+    "Creative Writing",
+    "Archery",
+    "New York Knicks"
+  ]
+}

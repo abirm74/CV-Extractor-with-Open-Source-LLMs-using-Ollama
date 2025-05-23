@@ -1,4 +1,4 @@
-#!C:\LocalDisk\cv_extractor_project\venv\Scripts\pythonw.exe
+#!C:\LocalDisk\CV-Extractor-with-Open-Source-LLMs-using-Ollama\cv_extractor_project\venv\Scripts\pythonw.exe
 # EASY-INSTALL-ENTRY-SCRIPT: 'img2pdf==0.5.0','gui_scripts','img2pdf-gui'
 import re
 import sys

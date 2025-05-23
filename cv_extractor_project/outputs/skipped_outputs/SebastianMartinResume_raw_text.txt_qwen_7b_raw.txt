@@ -1,0 +1,179 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+SEBASTIAN MARTIN
+Software Engineer Lead | Cloud Solutions | Product Innovation
+�1��234��555�1234
+Email
+linkedin.com
+New York City, New York
+E
+
+q
+
+SUMMARY
+With over a decade of software engineering expertise, I bring a robust skill set in cloud computing, microservices, and innovative 
+technology solutions. My career highlights include leading dynamic teams to create resilient and scalable systems that enhance 
+operational performance and business growth.
+SKILLS
+Java, Python, Cloud Computing, AWS, Microservices, Docker
+EXPERIENCE
+Senior Software Engineer
+Google
+04/2019 � Present 
+New York, NY
+•
+Architected and implemented cloud-based microservices, resulting in a 20% increase in application scalability and 
+performance.
+Designed and deployed containerized applications using Docker and Kubernetes, enhancing system reliability by 25%.
+Drove a team of 5 to adopt Agile methodologies, increasing product delivery speed by 30% while maintaining high-quality 
+standards.
+Led cross-functional team in proactive system monitoring and alerting, reducing downtime by 40% and improving customer 
+satisfaction.
+Developed technological roadmap for upcoming features and system enhancements, aligning with business goals and 
+contributing to a 15% year-over-year revenue boost.
+Automated various deployment and integration processes, reducing manual effort by 60% and increasing deployment 
+frequency by 50%.
+•
+•
+•
+•
+•
+Software Development Team Lead
+Microsoft
+08/2014 � 03/2019 
+Redmond, WA
+•
+Mentored and led a team of 8 developers, contributing to a 5% decrease in bug rates through comprehensive code reviews and 
+testing.
+Implemented a new authentication service across applications, bolstering security compliance and reducing vulnerabilities by 
+30%.
+Executed a successful migration to AWS cloud services, improving system uptime by 99.9%.
+Spearheaded the development of a new internal tool that improved team productivity by 20%.
+Managed end-to-end support and maintenance of mission-critical applications, ensuring 24/7 operational readiness.
+•
+••
+•
+Software Engineer
+IBM
+01/2011 � 07/2014 
+New York, NY
+•
+Developed a robust reporting tool that was adopted company-wide, improving data visualization and decision-making 
+processes.
+Collaborated in a multi-disciplinary team to redesign a core software module, leading to a 10% improvement in performance.
+Executed comprehensive debugging of application stacks, reducing system errors by 15%.
+Contributed to the development of new features for an enterprise-level finance software, enhancing the overall product suite.
+••
+•
+EDUCATION
+Master of Science in Computer Science
+Columbia University
+01/2008 � 01/2010 
+New York, NY
+Bachelor of Science in Computer Science
+New York University
+01/2004 � 01/2008 
+New York, NY
+www.enhancv.com
+
+Powered by
+
+==== Page 2 ====
+PROJECTS
+Open Source Cloud Monitoring Tool
+Developed an innovative solution for cloud resource monitoring, which has been adopted by SMEs to optimize their cloud usage. 
+Link to project on GitHub: github.com/SebMartin/CloudMonitor
+Distributed NoSQL Database Contribution
+Contributed features to a scaled-back distributed NoSQL database project, improving transaction times by 15%. Project 
+repository: github.com/SebMartin/NoSQLContribution
+KEY ACHIEVEMENTS
+u
+
+Contributed Innovative Algorithms
+Award for Engineering Excellence
+Developed novel algorithms that optimized 
+computational efficiency by 17%, directly contributing to 
+the company's competitive edge.
+Honored with the company's Engineering Excellence 
+Award for exceptional contributions to the software 
+development life cycle processes.
+*
+
+Led Successful Product Rollouts
+Spearheaded DevOps Transformation
+Orchestrated the launch of three key products that 
+captured a 25% market share within the first year post-
+release.
+Pioneered the DevOps transformation which increased 
+deployment frequency by 200%, significantly boosting 
+ROI.
+INTERESTS
+Cloud Computing 
+Advancements
+Keen interest in staying abreast of 
+the latest trends and 
+advancements in cloud computing 
+and proposing innovative 
+solutions.
+u
+&
+Open Source Contributor
+Active participant in open source 
+projects, particularly those aimed 
+at improving software engineering 
+practices and tools.
+www.enhancv.com
+
+Powered by
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

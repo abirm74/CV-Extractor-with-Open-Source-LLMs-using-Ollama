@@ -1,64 +1,60 @@
 {
-  "Name": "Adisson Harris",
-  "Email": "ADDISON HARRIS | LinkedIn: linkedin.com",
-  "Phone": "(123) 456-7890",
-  "Location": {
-    "City/Area": "Houston, Texas"
-  },
-  "LinkedIn": "linkedin.com/Adisson Harris",
-  "Education": [
+  "name": "ADDISON HARRIS",
+  "phone": "[UNK]1\ufffd\ufffd234\ufffd[UNK]555\ufffd1234",
+  "mail": "",
+  "location": "Houston, Texas",
+  "linkedin": "",
+  "education": [
     {
-      "Degree": "Master of Science in Computer Science",
-      "University": "Stanford University",
-      "City/Location": "Stanford, California",
-      "Duration": "2009-2011"
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "[UNK]01/2009 \ufffd [UNK]01/2011"
     },
     {
-      "Degree": "Bachelor of Science in Economics",
-      "University": "The University of Texas at Austin",
-      "City/Location": "Austin, Texas",
-      "Duration": "2005-2009"
+      "degree": "Bachelor of Science in Economics",
+      "university": "University of Texas at Austin",
+      "location": "[UNK]01/2005 \ufffd [UNK]01/2009"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Lead Data Scientist",
-      "Company": "Optum",
-      "Start Date": "01/2021",
-      "End Date": "Present",
-      "Location": "Dallas, Texas",
-      "Description": "Developed innovative generative AI models improving healthcare analytics by 35% and initiated several projects which led to a cost reduction in predicting errors."
+      "title": "Lead Data Scientist | Generative AI & Healthcare",
+      "company": "",
+      "duration": "[UNK]01/2021 \ufffd Present",
+      "location": "Houston, Texas",
+      "full_description": "Developed innovative generative AI models improving healthcare analytics by [UNK]35%, resulting in enhanced decision-making. Led a team of 5 data scientists, providing mentorship and fostering a continuous learning culture.\n\nCollaborated cross-functionally to identify AI application opportunities, leading to a [UNK]28% increase in project efficiency.\nConducted experiments validating AI models, achieving an 85% accuracy rate on predictive assessments.\nInitiated AI-based projects, driving a [UNK]20% reduction in healthcare cost prediction errors."
     },
     {
-      "Title": "Senior Data Scientist",
-      "Company": "Cigna ",
-      "Start Date": "06/2016",
-      "End Date": "12/2020",
-      "Location": "Austin, Texas",
-      "Description": "Spearheaded the development of predictive models and mentored junior staff in machine learning techniques."
+      "title": "",
+      "company": "Optum",
+      "duration": "[UNK]06/2016 \ufffd 12/2020",
+      "location": "",
+      "full_description": "-"
     },
     {
-      "Title": "Data Scientist",
-      "Company": "Kaiser Permanente ",
-      "Start Date": "03/2012",
-      "End Date": "05/2016",
-      "Location": "Los Angeles, California",
-      "Description": "Developed algorithms that improved patient outcome predictions in clinical trials."
+      "title": "",
+      "company": "Cigna",
+      "duration": "[UNK]03/2012 \ufffd [UNK]05/2016",
+      "location": "",
+      "full_description": "-"
+    },
+    {
+      "title": "",
+      "company": "Kaiser Permanente Los Angeles, California",
+      "duration": "[UNK]03/2012 \ufffd [UNK]05/2016",
+      "location": "-"
+    },
+    {
+      "title": "",
+      "company": "",
+      "duration": "[UNK]03/2012 \ufffd [UNK]05/2016",
+      "location": "",
+      "full_description": "Developed algorithms leading to a [UNK]15% improvement in patient outcome predictions in clinical trials. Collaborated with engineering teams to enhance AI model scalability, reducing deployment times by [UNK]30%. Implemented machine learning models, detecting anomalies in healthcare data, increasing detection rate by 25%. Contributed to cross-functional initiatives, enhancing data-driven healthcare processes and reducing errors by [UNK]10%."
     }
   ],
-  "Skills": [
-    "Generative AI Statistical Modeling",
-    "Machine Learning",
-    "Data Visualization",
-    "Distributed Computing",
-    "Healthcare Knowledge",
-    "Predictive Analytics",
-    "Python",
-    "R",
-    "SQL"
+  "languages": [
+    "English",
+    "Spanish"
   ],
-  "Awards": [
-    "AI Model Excellence Award",
-    "Top Mentor Award"
-  ]
+  "key_achievements": "AI Model Excellence Award\nTop Mentor Award"
 }

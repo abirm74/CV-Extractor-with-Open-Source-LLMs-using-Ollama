@@ -1,0 +1,46 @@
+{
+  "name": "MASON THOMAS",
+  "phone": "",
+  "mail": "",
+  "location": "San Fran",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, CA",
+      "duration": "012017 - 01/2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Anheuser-Busch",
+      "duration": "i 03/2022 - 10/2023",
+      "location": "San Francisco, CA",
+      "full_description": "\u2022 Successfully developed and maintained 15 highly interactive Tableau dashboards, improving data transparency and leading to a 20% increase in decision-making efficiency.\n\u2022 Led a cross-functional team to design a custom predictive model that resulted in a 12% revenue growth through targeted marketing strategies. \u2018Optimized SQL data extraction processes, reducing operational costs by 15% and enhancing data retrieval speed by 30% for quicker insights.\n\u2022 Innovated new methods of integrating structured and unstructured data, improving data accessibility across departments and resulting in more informed business strategies.\n\u2022 Collaborated with marketing teams to provide analytical support that increased campaign effectiveness, impacting over 100 campaigns company-wide.\n\u2022 Developed technical documentation and led training sessions to enhance team proficiency with industry tools and analytics, boosting team efficiency by 25%."
+    },
+    {
+      "title": "Business Data Analyst",
+      "company": "Diageo",
+      "duration": "09/2020 - 02/2022 @ San Francisea, CA",
+      "location": "San Francisco, CA",
+      "full_description": "\u2022 Analyzed a dataset of over 1 million entries, identifying trends that Improved gales forecasts accuracy by 8% through advanced modeling techniques.\n\u2022 Implemented data visualization practices with Tableau, elevating stakeholder Presentations and increasing engagement by 35% during meetings.\n\u2022 Streamlined data cleaning processes using R, significantly reducing the workflow by 40% and increasing the accuracy of analysis.\n\u2022 Collaborated closely with IT to troubleshoot database issues, ensuring data integrity and seamless updates that enhanced business operations.\n\u2022 Facilitated workshops to enhance analytics proficiency, which resulted in Oresta team cohesion and adoption of data-driven decision frameworks."
+    },
+    {
+      "title": "Junior Data Analyst",
+      "company": "'Constellation Brands",
+      "duration": "BOF /2018 - 08/2020",
+      "location": "San Francisco, CA",
+      "full_description": "+ BOF /2018 - 08/2020\n\u2022 Assisted in building SQL queries that supported 4 project leading to an 8% increase in quarterly sales performance.\n\u2022 Produced automated reporting that reduced manual labor by 30%, enhancing overall productivity for the analytics department.\n\u2022 Conducted detailed market analysis that provided strategic insights, contributing to a successful product launch and a 15% market penetration."
+    }
+  ],
+  "skills": [
+    "Tableau",
+    "SQL",
+    "R Programming",
+    "Data Modeling",
+    "Data Management",
+    "Predictive Analytics"
+  ]
+}

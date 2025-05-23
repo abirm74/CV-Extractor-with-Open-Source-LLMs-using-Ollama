@@ -1,0 +1,67 @@
+{
+  "name": "Emma Ahearn",
+  "phone": "+123-456-7890",
+  "email": "hello@reallygreatsite.com",
+  "address": "123 Anywhere St., Any City, ST 12345",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Chemistry",
+      "university": "East State University",
+      "location": "Valley City",
+      "duration": "2026-2030",
+      "courses": [
+        "Organic Chemistry",
+        "Inorganic Chemistry",
+        "Physical Chemistry",
+        "Analytical Chemistry",
+        "Chemical Engineering Principles",
+        "Thermodynamics",
+        "Material Science"
+      ]
+    },
+    {
+      "title": "Undergraduate Research Assistant",
+      "university": "East State University",
+      "duration": "2029-2030",
+      "company": "Chemistry Department",
+      "location": "Valley City",
+      "tasks": [
+        "Collaborated on synthesis of novel organic compounds",
+        "Conducted experiments using chromatography, spectroscopy, and others",
+        "Analyzed and interpreted data for research paper submission"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Fabrication of a Miniature Chemical Reactor",
+      "role": "Chemical Engineering Course Project",
+      "university": "East State University",
+      "duration": "Second Semester, 2028",
+      "location": "Valley City",
+      "responsibilities": [
+        "Engineered and designed a small-scale chemical reactor using principles from chemical engineering",
+        "Conducted experimental tests to optimize performance and ensure safety",
+        "Analyzed data collected during experiments, interpreted results, and prepared reports for project presentation"
+      ]
+    },
+    {
+      "title": "The Green Thumb Chemist",
+      "role": "Chemistry Club Project",
+      "university": "East State University",
+      "duration": "First Semester, 2029",
+      "location": "Valley City",
+      "description": "Developed a project aimed at implementing environmentally-friendly lab practices."
+    }
+  ],
+  "skills": [
+    "Organic Chemistry",
+    "Inorganic Chemistry",
+    "Physical Chemistry",
+    "Analytical Chemistry",
+    "Chemical Engineering Principles",
+    "Lab Safety Practices",
+    "Environmental Science",
+    "Project Management"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Emma Ahearn",
+  "phone": "+123-456-7890",
+  "mail": "hello@reallygreatsite.com",
+  "location": "Any City, ST 12345",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Chemistry",
+      "university": "East State University",
+      "location": "Valley City",
+      "duration": "2026-2030"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "Chemistry Department of East State University",
+      "duration": "2029-2030",
+      "location": "",
+      "full_description": "Collaborated with a research team to study the synthesis of novel organic compounds\nConducted experiments using chromatography, spectroscopy, and other analytical techniques \nAnalyzed and interpreted data, contributing to a research paper submitted for publication"
+    },
+    {
+      "title": "Fabrication of a Miniature Chemical Reactor",
+      "company": "Chemical Engineering Course, Second Semester of 2028",
+      "duration": "",
+      "location": "",
+      "full_description": "Engineered a small-scale chemical reactor using principles of chemical engineering\nConducted performance tests and optimization checks to ensure efficiency and safety\nPresented findings to faculty and peers and received excellent marks for innovation"
+    },
+    {
+      "title": "The Green Thumb Chemist",
+      "company": "Chemistry Club, First Semester of 2029",
+      "duration": "",
+      "location": "",
+      "full_description": "Developed a project aimed at implementing environmentally-friendly lab practices\nResearched and implemented sustainable alternatives to hazardous chemicals\nEducated peers on the importance of green chemistry through workshops and forums"
+    }
+  ],
+  "skills": [
+    "Organic Chemistry",
+    "Inorganic Chemistry",
+    "Physical Chemistry",
+    "Analytical Chemistry",
+    "Chemical Engineering Principles",
+    "Thermodynamics",
+    "Material Science"
+  ]
+}

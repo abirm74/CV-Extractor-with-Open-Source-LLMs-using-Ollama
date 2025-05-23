@@ -1,0 +1,65 @@
+{
+  "name": "Carla Sanchez",
+  "phone": "82-10-1XXX-1000",
+  "mail": "anon@example. com",
+  "linkedin": "github. com/YourGithubId",
+  "education": [
+    {
+      "degree": "Bachelor of Electric and Computer Engineering",
+      "university": "Seoul National University",
+      "location": "Seoul, Korea",
+      "duration": "2014.03-2021.02"
+    },
+    {
+      "language": "Korean",
+      "level": "\u6bcd\u8bed",
+      "other_skills": [
+        "Fluent English and Japanese",
+        "Entry-level Chinese"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "Nodejs",
+    "Java Spring",
+    "SQL",
+    "BI",
+    "Data ETL",
+    "JavaScript",
+    "React.js",
+    "HTML",
+    "CSS",
+    "Container based environments",
+    "Cloud service providers (AWS, GCP)"
+  ],
+  "experience": [
+    {
+      "title": "Brandazine Product Lead",
+      "company": "Brandazine",
+      "location": "Seoul, Korea",
+      "duration": "2020.07-2021.09",
+      "description": "\u2022 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. \u2022 Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. \u2022 Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis. Quisque ullamcorper placerat ipsum. \u2022 Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu. Aenean faucibus pede eu ante. \u2022 Sed commodo posuere pede. Mauris ut est. Ut quis purus. \u2022 Praesent feugiat sapien aliquet odio. \u2022 Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam."
+    },
+    {
+      "title": "Samsung Electronics C-LAB Winter Internship",
+      "company": "Samsung Electronics C- LAB",
+      "location": "Seoul, Korea",
+      "duration": "2019.12-2020.02",
+      "description": "\u2022 Fusce mauris. Vestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel nisl. \u2022 Donec odio elit, dictum in, hendrerit sit amet, egestas sed, leo. Praesent feugiat sapien aliquet odio. \u2022 Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam."
+    },
+    {
+      "title": "ROK Cyber Command Military Service as SW engineer",
+      "company": "ROK Cyber Command",
+      "location": "Military service",
+      "duration": "2017.05-2019.02",
+      "description": "\u2022 Praesent feugiat sapien aliquet odio. \u2022 Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam."
+    }
+  ],
+  "project": [
+    {
+      "title": "Developed Face recognition model on Introduction to Deep learning lecture",
+      "description": "Built a facial recognition system using deep learning techniques. Taught students about concepts such as convolutional neural networks (CNNs), feature extraction, and training models for face recognition tasks."
+    }
+  ]
+}

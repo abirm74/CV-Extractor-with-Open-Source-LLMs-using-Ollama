@@ -1,43 +1,33 @@
 {
-  "Name": "John Doe",
-  "Email": "jhondoe@yourdomain.com",
-  "Phone": "0541 999 99 99",
-  "Location": "uk bermingham",
-  "LinkedIn": "JhonDoe",
-  "Education": [
+  "name": "John Doe",
+  "phone": "0541 999 99 99",
+  "mail": "jhondoe@yourdomain.com",
+  "location": "uk bermingham",
+  "linkedin": "",
+  "education": [
     {
-      "Degree": "BS in Computer Science",
-      "University": "University of Pennsylvania",
-      "City/Location": "Sept 2000 \u2013 May 2005"
+      "degree": "BS in Computer Science",
+      "university": "University of Pennsylvania",
+      "location": "Sept 2000 \u2013 May 2005"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Software Engineer",
-      "Company": "Apple",
-      "Duration": "June 2005 \u2013 Aug 2007",
-      "Location": "Cupertino, CA",
-      "Description": [
-        "Reduced time to render user buddy lists by 75% by implementing a prediction algorithm",
-        "Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database",
-        "Redesigned chat file format and implemented backward compatibility for search"
-      ]
+      "title": "Software Engineer",
+      "company": "Apple",
+      "duration": "June 2005 \u2013 Aug 2007",
+      "location": "Cupertino, CA",
+      "full_description": "\u25e6 Reduced time to render user buddy lists by 75% by implementing a prediction algorithm\n  \u25e6 Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database\n  \u25e6 Redesigned chat file format and implemented backward compatibility for search"
     },
     {
-      "Title": "Software Engineer Intern",
-      "Company": "Microsoft",
-      "Duration": "June 2003 \u2013 Aug 2003",
-      "Location": "Redmond, WA",
-      "Description": [
-        "Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows",
-        "Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching",
-        "Built an app to compute the similarity of all methods in a codebase, reducing the time from O(n2) to O(n log n)",
-        "Created a test case generation tool that creates random XML docs from XML Schema",
-        "Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts"
-      ]
+      "title": "Software Engineer Intern",
+      "company": "Microsoft",
+      "duration": "June 2003 \u2013 Aug 2003",
+      "location": "Redmond, WA",
+      "full_description": "\u25e6 Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows\n  \u25e6 Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching\n  \u25e6 Built an app to compute the similarity of all methods in a codebase, reducing the time from O(n2) to O(n log n)\n  \u25e6 Created a test case generation tool that creates random XML docs from XML Schema\n  \u25e6 Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts"
     }
   ],
-  "Skills": [
+  "skills": [
     "C++",
     "C",
     "Java",
@@ -49,19 +39,5 @@
     "Microsoft SQL Server",
     "XCode",
     "Interface Builder"
-  ],
-  "Projects": [
-    {
-      "Name": "Multi-User Drawing Tool",
-      "URL": "github.com/name/repo"
-    },
-    {
-      "Name": "Synchronized Desktop Calendar",
-      "URL": "github.com/name/repo"
-    },
-    {
-      "Name": "Custom Operating System",
-      "Year": "2002"
-    }
   ]
 }

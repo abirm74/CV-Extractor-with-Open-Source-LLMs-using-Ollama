@@ -1,56 +1,37 @@
 {
-  "Name": "Andrew Ryan",
-  "Email": "andrew@gmail.com",
-  "Phone": "123-456-7890",
-  "Location": [
-    "Brooklyn, NY",
-    "Ann Arbor, MI"
-  ],
-  "LinkedIn": "linkedin.com/in/andrew",
-  "Education": [
+  "name": "Andrew Ryan",
+  "phone": "123-456-7890",
+  "mail": "andrew@gmail.com",
+  "location": "Brooklyn, NY",
+  "linkedin": "linkedin.com/in/andrew",
+  "education": [
     {
-      "Degree": "",
-      "University": "Brooklyn Technical High School",
-      "City/Location": "Brooklyn, NY",
-      "Duration": [
-        "Sept. 2021 \u2013 Jun 2025"
-      ]
+      "degree": "High School Diploma",
+      "university": "Brooklyn Technical High School",
+      "location": "Brooklyn, NY",
+      "duration": "Sept. 2021 \u2013 Jun 2025"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Co-Founder",
-      "Company": "FlexiDip",
-      "Duration": [
-        "June 2024 \u2013 Present"
-      ],
-      "Location": "Ann Arbor, MI",
-      "Description": "Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience. Developed minimum viable product(MVP) capable of early-stage revenue generation."
+      "title": "Co-Founder",
+      "company": "FlexiDip",
+      "duration": "June 2024 \u2013 Present",
+      "location": "Ann Arbor, MI",
+      "full_description": "\u2022 Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience.\n\u2022 Developed minimum viable product(MVP) capable of early-stage revenue generation.\n\u2022 Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.\n\u2022 Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan."
     },
     {
-      "Title": "Private Math Tutor",
-      "Company": "",
-      "Duration": [
-        "Sept 2021 \u2013 Present"
-      ],
-      "Location": "Brooklyn, NY",
-      "Description": "Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students. Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades."
+      "title": "Private Math Tutor",
+      "company": "",
+      "duration": "Sept 2021 \u2013 Present",
+      "location": "Brooklyn, NY",
+      "full_description": "\u2022 Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students\n\u2022 Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades."
     }
   ],
-  "Skills": [
+  "skills": [
     "Probability Theory",
     "Web Design",
     "Microsoft Excel",
     "Microsoft Office"
-  ],
-  "Awards": [
-    {
-      "Name": "Speedo Scholastic All-American",
-      "Year": "Aug. 2023 \u2013 Present"
-    },
-    {
-      "Name": "National Junior Honor Society",
-      "Year": "June 2023 \u2013 Present"
-    }
   ]
 }

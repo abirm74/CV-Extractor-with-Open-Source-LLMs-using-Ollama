@@ -1,51 +1,44 @@
 {
-  "Name": "VIOLET RODRIGUEZ",
-  "Email": "violet@gmailcom",
-  "Phone": "+1-(234)-555-1234",
-  "Location": "Washington, D.C.",
-  "Education": [
+  "name": "VIOLET RODRIGUEZ",
+  "phone": "+1-(234)-555-1234",
+  "mail": "violet@gmailcom",
+  "location": "Washington, D.C.",
+  "linkedin": "",
+  "education": [
     {
-      "Degree": "Master's Degree in Data Science",
-      "University": "George Washington University",
-      "City/Location": "Washington, D.C.",
-      "Duration": "01/2018 - 01/2019"
+      "degree": "Master's Degree in Data Science",
+      "university": "George Washington University",
+      "location": "Washington, D.C.",
+      "duration": "01/2018 - 01/2019"
     },
     {
-      "Degree": "Bachelor's Degree in Mathematics",
-      "University": "University of Virginia",
-      "City/Location": "Charlottesville, VA",
-      "Duration": "01/2014 - 01/2018"
+      "degree": "Bachelor's Degree in Mathematics",
+      "university": "University of Virginia",
+      "location": "Charlottesville, VA",
+      "duration": "01/2014 - 01/2018"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Associate Data Scientist",
-      "Company": "AT&T",
-      "Location": "Washington, D.C.",
-      "Duration": "01/2022 - Present",
-      "Description": "Collaborated with cross-functional teams to develop predictive analytics models that increased project efficiency by 15%, resulting in enhanced decision-making processes."
+      "title": "Associate Data Scientist",
+      "company": "AT&T",
+      "duration": "01/2022 - Present",
+      "location": "Washington, D.C.",
+      "full_description": "\"Collaborated with cross-functional teams to develop predictive analytics models that increased project efficiency by 15%, resulting in enhanced decision-making processes.\n+ (Led the integration of new machine learning techniques with existing business processes, improving customer segmentation and targeting by 10%.) \n\u00ab Performed exploratory data analyses on complex datasets, uncovering insights that led to a 5% reduction in operational costs.\n+ Facilitated data-driven strategy sessions with stakeholders, effectively communicating technical insights to assist in critical business decisions.\n+ (Contributed to the development of a recommendation system that improved customer satisfaction by 12% through personalized user experiences.) \n+ Applied Agile methodology in team collaboration, ensuring successful alignment with business priorities and value streams.\""
     },
     {
-      "Title": "Junior Data Scientist",
-      "Company": "Verizon",
-      "Location": "Reston, VA",
-      "Duration": "06/2020 - 12/2021",
-      "Description": "Developed data visualization dashboards in Python, improving the data dissemination process by 20% across departments."
+      "title": "Junior Data Scientist",
+      "company": "Verizon",
+      "duration": "06/2020 - 12/2021",
+      "location": "Reston, VA",
+      "full_description": "\"Developed data visualization dashboards in Python, improving the data dissemination process by 20% across departments.\n+\nPartnered with data engineering teams to facilitate clean and robust data pipelines, enhancing the data quality for analysis and reporting.\n+\nAutomated routine data extraction and processing tasks using SOL, reducing data preparation time by 30%.\n+\nImplemented predictive models that contributed to a revenue increase of 8% in target markets within six months.\n+\nParticipated in stakeholder meetings to gather business requirements, ensuring model deployment aligns with organizational objectives.\""
     },
     {
-      "Title": "Data Analyst",
-      "Company": "Booz Allen Hamilton",
-      "Location": "McLean, VA",
-      "Duration": "07/2019 - 05/2020",
-      "Description": "Produced monthly data reports providing actionable insights, which assisted in a 7% improvement in process efficiency."
+      "title": "Data Analyst",
+      "company": "Booz Allen Hamilton",
+      "duration": "07/2019 - 05/2020",
+      "location": "McLean, VA",
+      "full_description": "\"Produced monthly data reports providing actionable insights, which assisted in a 7% improvement in process efficiency.\n\n\u00ab Worked on identifying emerging trends using mixed methods, leading to strategic adjustments in service offerings.\n+\nCreated ad-hoc analysis for multiple departments, reducing response time to data requests by 15%.\n+\nContributed to team projects by supporting data-cleaning efforts which improved data accuracy by 10%.\""
     }
-  ],
-  "Skills": [
-    "Python",
-    "SQL",
-    "Predictive Analytics",
-    "Machine Learning",
-    "Exploratory Data Analysis",
-    "Statistical Analysis"
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "name": "Daniel Anderson",
+  "phone": "+1-(234)-555-1234",
+  "mail": "daniel@gmail.com",
+  "location": "Philadelphia, PA",
+  "linkedin": " Linkedin Profile (insert the actual LinkedIn URL if available)",
+  "education": [
+    {
+      "degree": "Master's degree in Supply Chain Management",
+      "university": "Massachusetts Institute of Technology",
+      "location": "Cambridge, MA",
+      "duration": null
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Solutions Engineer",
+      "company": "J.B. Hunt Transport Services",
+      "duration": "01/2020 - 08/2023",
+      "locations": [
+        "Lowell, AR"
+      ]
+    },
+    {
+      "title": "Logistics Project Manager",
+      "company": "XPO Logistics",
+      "duration": "09/2017 - 12/2019",
+      "locations": [
+        "Greenwich, CT"
+      ]
+    }
+  ],
+  "skills": [
+    "Lean Six Sigma",
+    "Project management",
+    "Transportation management systems",
+    "Network modeling",
+    "Data mining",
+    "Microsoft Excel",
+    "Decision support tools",
+    "Logistic bottleneck prediction",
+    "Total cost of ownership analysis"
+  ]
+}

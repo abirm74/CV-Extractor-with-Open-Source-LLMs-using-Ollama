@@ -1,59 +1,31 @@
 {
-  "Name": "CHRISTIAN TORRES",
-  "Email": "christiantorres@gmailcom",
-  "Phone": "+1-(234)-555-1234",
-  "Location": "Columbus, Ohio",
-  "LinkedIn": null,
-  "Education": [
+  "name": "CHRISTIAN TORRES",
+  "phone": "+1-(234)-555-1234",
+  "mail": "christiantorres@gmailcom",
+  "location": "Columbus, Ohio",
+  "linkedin": "",
+  "education": [
     {
-      "Degree": "Master of Science in Data Science",
-      "University": "The Ohio State University",
-      "City/Location": "Columbus, OH",
-      "Duration": "O12017 - o1/2019"
+      "degree": "Master of Science in Data Science",
+      "university": "The Ohio State University",
+      "location": "Columbus, OH",
+      "duration": "O12017 - o1/2019"
     },
     {
-      "Degree": "Bachelor of Science in Statistics",
-      "University": "University of Michigan",
-      "City/Location": "Ann Arbor, MI",
-      "Duration": "O1y2012 - 01/2016"
+      "degree": "Bachelor of Science in Statistics",
+      "university": "University of Michigan",
+      "location": "Ann arbor, MI",
+      "duration": "o1y2012 - 01/2016"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Sr. Data Analyst",
-      "Company": "Walmart Inc.",
-      "Duration": "(06/2020 - Present)",
-      "Location": "Bentonville, AR",
-      "Description": "Developed comprehensive data models using SQL, improving forecast accuracy by 25% through streamlined data processes. Implemented advanced data visualization techniques in Python, resulting in enhanced decision-making capabilities for 80+ stakeholders."
-    },
-    {
-      "Title": "Data Analyst",
-      "Company": "Kroger Co.",
-      "Duration": "(OB/2047 - 05/2020)",
-      "Location": "Gineainnati, OH",
-      "Description": "Designed and maintained data systems and databases by sorting through large sets of data to enhance efficiency."
-    },
-    {
-      "Title": "Business Data Analyst",
-      "Company": "L Brands",
-      "Duration": "(05/2015 - a7/2017)",
-      "Location": "Golmnhes, OH",
-      "Description": "Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation."
+      "title": "Sr. Data Analyst",
+      "company": "Walmart Inc.",
+      "duration": "06/2020 - Present",
+      "location": "Bentonville, AR",
+      "full_description": "+ Developed comprehensive data models using SQL, improving forecast accuracy by 25% through streamlined data\nprocesses.\n* Implemented advanced data visualization techniques in Python, resulting in enhanced decision-making capabilities for 80+ stakeholders.\n+ Engineered a real-time dashboard that increased efficiency in identifying stock trends by 40%, reducing response time and improving productivity.\n\u00ab Led cross-functional analytics projects improving collaboration among teams, boosting project delivery speed by 20%.\n+ Innovated a predictive analytics tool which anticipated market shifts, increasing competitive advantage by 15%.\n+ Trained team members on new analytics techniques, improving their skills and enhancing the team's analytical output by 30%.\nData Analyst\nKroger Co.\nOB/2047 - 05/2020\n+ Designed and maintained data systems and databases by sorting through large sets of data to enhance efficiency.\n\u00ab Conducted in-depth statistical analysis leading to actionable insights, which improved sales strategies by 18%.\n\u00ab Collaborated on a team that automated data collection processes, reducing manual input error rates by 25%.\n\u00ab Validated data accuracy and methodology during peer review sessions, enhancing quality and reliability by 10%.\n\u00ab Created tailored reports for stakeholders which enabled informed decisions, driving an increase in quarterly sales by 12%.\nBusiness Data Analyst\nL Brands\n05/2015 - a7/2017\n+ Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation.\n+ Regularly provided troubleshooting expertise and technical support for ad-hoc analytical needs.\n+ Led weekly data review meetings to discuss ongoing projects and optimize data resources.\n\u00ab Conducted training sessions on new business intelligence software, resulting in a 40% increase in user adoption."
     }
   ],
-  "Skills": [
-    "SQL",
-    "Python",
-    "Data Visualization",
-    "Statistical Analysis",
-    "Data Mining",
-    "Database Architecture",
-    "Bl Toals",
-    "Data Wrangling",
-    "Agile Methodologies",
-    "SQL Server",
-    "Java",
-    "Reporting Tools"
-  ],
-  "Awards": null
+  "languages": "English (Native)"
 }

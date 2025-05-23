@@ -1,0 +1,110 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+--------------------
+OUTPUT JSON FORMAT:
+--------------------
+
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
++82-10-1XXX-1000
+anon@example.com
+github.com/YourGithubId
+linkedin.com/in/YourLinkedinId
+SKILLS
+Carla Sanchez
+Engineering
+• Enterprise Web Application Development - python, nodejs, java spring
+• Data Engineering - SQL, BI, Data ETL
+• Web Client Development - javascript, react.js, HTML, CSS
+• Infrasructure - Container based environments, Cloud service providers including AWS and GCP
+General
+• Language Skills - Korean as mother tongue, fluent English and Japanese, entry-level Chinese
+EXPERIENCE
+Brandazine
+Seoul, Korea
+Product Lead
+2020.07-2021.09
+• Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing
+vitae, felis. Curabitur dictum gravida mauris.
+• Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo.
+• Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus
+viverra fermentum felis.
+• Quisque ullamcorper placerat ipsum.
+Samsung Electronics C-LAB
+Seoul, Korea
+Winter Internship
+2019.12-2020.02
+• Fusce mauris. Vestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies
+tellus, ac venenatis arcu wisi vel nisl.
+kakaopay
+Sung-nam, Korea
+Internship
+2019.03-2019.08
+• Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu. Aenean faucibus
+pede eu ante.
+• Sed commodo posuere pede. Mauris ut est. Ut quis purus.
+ROK Cyber Command
+Military Service as SW engineer
+2017.05-2019.02
+• Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio elit,
+dictum in, hendrerit sit amet, egestas sed, leo. Praesent feugiat sapien aliquet odio.
+• Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam.
+Quisque libero justo, consectetuer a, feugiat vitae, porttitor eu, libero. Suspendisse sed mauris vitae elit
+sollicitudin malesuada.
+EDUCATION
+Seoul National University
+Bachelor of Electric and Computer Engineering
+2014.03-2021.02
+• Minored in Industrial Design
+PROJECTS
+• Developed Face recognition model on ”Introduction to Deep learning” lecture
+Autumn, 2019
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

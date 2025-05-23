@@ -1,0 +1,70 @@
+{
+  "name": "Chloe Martinez",
+  "phone": "REDACTED for privacy",
+  "mail": "chloe@gmail.com",
+  "location": "Houston, Texas",
+  "education": [
+    {
+      "degree": "Master of Science in Data Analytics",
+      "university": "Rice University",
+      "start_date": "01/2017",
+      "end_date": "01/2019"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Houston",
+      "start_date": "01/2013",
+      "end_date": "01/2017"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Clinical Data Reporting Framework Developer",
+      "company": "ChloeMartinez",
+      "role": "Data Engineering",
+      "start_date": "01/2021",
+      "end_date": "Present",
+      "description": "Developed a flexible reporting framework for healthcare institutions to analyze clinical data effectively, improving actionable insights and patient care services by 10%."
+    },
+    {
+      "title": "Data Warehouse Specialist at Cigna",
+      "company": "Cigna",
+      "role": "Big Data",
+      "start_date": "02/2022",
+      "end_date": "Present",
+      "description": "Led a team in migrating 10 petabyte terabytes of PHI and PII data from Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing data security and compliance. Developed and optimized over 500 hive/impala queries, which improved reporting performance by 30%. Automated data workflows with Unix scripting, which increased department efficiency by 25%."
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Erwin Data Modeler",
+      "level": " Proficient"
+    },
+    {
+      "skill": "Cloudera Hadoop technologies",
+      "level": " Expert"
+    },
+    {
+      "skill": "Unix shell scripting",
+      "level": " Advanced"
+    },
+    {
+      "skill": "Oracle SQL optimization",
+      "level": " Certified"
+    },
+    {
+      "skill": "Data analytics and reporting",
+      "level": " Proficient"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Certified Cloudera Data Analyst",
+      "\u9881\u53d1\u8005": "Cloudera"
+    },
+    {
+      "title": "Oracle University SQL Optimization Certification",
+      "\u9881\u53d1\u8005": "Oracle University"
+    }
+  ]
+}

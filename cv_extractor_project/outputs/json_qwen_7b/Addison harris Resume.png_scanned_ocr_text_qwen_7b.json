@@ -1,0 +1,52 @@
+{
+  "name": "Addison Harris",
+  "phone": "1(234)\u00b0555-1234",
+  "mail": "addison@gmail.com",
+  "location": "Houston, Texas",
+  "skills": [
+    "Generative Al",
+    "Statistical Modeling",
+    "-Machine Learning",
+    "Data Visualization",
+    "Distributed Computing",
+    "Healthcare Knowledge",
+    "Predictive Analytics",
+    "Python",
+    "R",
+    "SQL"
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Scientist",
+      "company": "Optum Dallas, Texas",
+      "duration": "01/2021 - Present",
+      "locations": [
+        "Dallas, Texas"
+      ],
+      "description": "Developed innovative generative Al models improving healthcare analytics by 35%."
+    },
+    {
+      "title": "Senior Data Scientist",
+      "company": "Cigna Austin, Texas",
+      "duration": "06/2016 - 12/2020",
+      "locations": [
+        "Austin, Texas"
+      ],
+      "description": "Led the development of predictive models for diabetes risk predictions, achieving a 25% improvement in model accuracy."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, California",
+      "duration": "01/2009 - 01/2011"
+    },
+    {
+      "degree": "Bachelor of Science in Economies",
+      "university": "University of Texas at Austin",
+      "location": "Austin, Texas",
+      "duration": "01/2005 - 01/2009"
+    }
+  ]
+}

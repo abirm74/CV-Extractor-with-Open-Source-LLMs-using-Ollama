@@ -1,0 +1,47 @@
+brutal_resume_raw_text.txt | mistral
+AndrewResume_raw_text.txt | mistral
+ChloeMartinezResume_raw_text.txt | mistral
+SebastianMartinResume_raw_text.txt | mistral
+AndrewResume_raw_text.txt | mistral
+ASU_Resume_Template_raw_text.txt | mistral
+ChloeMartinezResume_raw_text.txt | mistral
+ChloeMartinezResume_raw_text.txt | mistral
+SebastianMartinResume_raw_text.txt | mistral
+ZoeThompsonResume_raw_text.txt | mistral
+brutal_resume_raw_text.txt | mistral
+ZoeThompsonResume_raw_text.txt | llama3:instruct
+Addison harris Resume.png_scanned_ocr_text.txt | llama3:instruct
+Avery Rodriguez Resume.png_scanned_ocr_text.txt | llama3:instruct
+Daniel Anderson Resume.png_scanned_ocr_text.txt | llama3:instruct
+AndrewResume_raw_text.txt | qwen:7b
+GabrielBakerResume_raw_text.txt | qwen:7b
+Jake_s_Resume_raw_text.txt | qwen:7b
+rendercv-sb2nov-theme_raw_text.txt | qwen:7b
+SebastianMartinResume_raw_text.txt | qwen:7b
+ZoeThompsonResume_raw_text.txt | qwen:7b
+AddisonHarrisResume_raw_text.txt | phi3:3.8b 
+Andrea_raw_text.txt | phi3:3.8b 
+AndrewResume_raw_text.txt | phi3:3.8b 
+ASU_Resume_Template_raw_text.txt | phi3:3.8b 
+brutal_resume_raw_text.txt | phi3:3.8b 
+ChloeMartinezResume_raw_text.txt | phi3:3.8b 
+GabrielBakerResume_raw_text.txt | phi3:3.8b 
+Jake_s_Resume_raw_text.txt | phi3:3.8b 
+rendercv-sb2nov-theme_raw_text.txt | phi3:3.8b 
+ScienceandEngineering_raw_text.txt | phi3:3.8b 
+SebastianMartinResume_raw_text.txt | phi3:3.8b 
+ZoeThompsonResume_raw_text.txt | phi3:3.8b 
+Addison harris Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Amelia Miller Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Avery Rodriguez Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Christian Torres Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Daniel Anderson Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Mason Thomas Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Oliver Davis Resume.png_scanned_ocr_text.txt | phi3:3.8b 
+Violet Rodriguez.png_scanned_ocr_text.txt | phi3:3.8b 
+Andrea_raw_text.txt | phi3:3.8b
+AddisonHarrisResume_raw_text.txt | phi3:3.8b
+Andrea_raw_text.txt | phi3:3.8b
+AndrewResume_raw_text.txt | phi3:3.8b
+ASU_Resume_Template_raw_text.txt | phi3:3.8b
+AddisonHarrisResume_raw_text.txt | phi3:3.8b

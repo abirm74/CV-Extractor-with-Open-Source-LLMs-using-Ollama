@@ -1,82 +1,54 @@
 {
-  "Name": "GABRIEL BAKER",
-  "Email": "gabriel@gmail.com",
-  "Phone": "12345551234",
-  "Location": "Jacksonville, Florida",
-  "LinkedIn": "linkedin.com",
-  "Education": [
+  "name": "GABRIEL BAKER",
+  "phone": "1234-555-1234",
+  "mail": "gabriel@gmail.com",
+  "location": "Jacksonville, Florida",
+  "linkedin": "linkedin.com",
+  "education": [
     {
-      "Degree": "Master of Science in Data Science",
-      "University": "University of Florida",
-      "City/Location": "Gainesville, FL",
-      "Duration": "01/2010 - 01/2012"
+      "degree": "Master of Science in Data Science",
+      "university": "University of Florida",
+      "location": "Gainesville, FL",
+      "duration": "01/2010 - 01/2012"
     },
     {
-      "Degree": "Bachelor of Science in Computer Science",
-      "University": "University of Central Florida",
-      "City/Location": "Orlando, FL",
-      "Duration": "01/2006 - 01/2010"
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Central Florida",
+      "location": "Orlando, FL",
+      "duration": "01/2006 - 01/2010"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Senior Data Architect",
-      "Company": "Oracle Corporation",
-      "Duration": "06/2019 - 08/2023",
-      "Location": "Orlando, FL",
-      "Description": [
-        "Led a team of 6 to design and implement a scalable data architecture.",
-        "Improved processing speed by 40% and reduced delay in reporting.",
-        "Collaborated with cross-departmental teams to integrate new data sources.",
-        "Developed new data modeling techniques that decreased data retrieval time.",
-        "Effectively managed Azure Databricks-based data environments.",
-        "Played a pivotal role in strategic data projects.",
-        "Designed a compliance tracking system using Python and SQL."
-      ]
+      "title": "Senior Data Architect",
+      "company": "Oracle Corporation",
+      "duration": "06/2019 - 08/2023",
+      "location": "Orlando, FL",
+      "full_description": "\u2022 Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and reducing delay in reporting. \u2022 Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness improvement.\n\u2022 Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.\n\u2022 Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime over 18 months.\n\u2022 Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved data handling.\n\u2022 Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory standards.\n\u2022 \u2022 \n\u2022 \u2022\n\u2022 \u2022\n\u2022 \u2022"
     },
     {
-      "Title": "Data Solutions Architect",
-      "Company": "IBM",
-      "Duration": "03/2015 - 05/2019",
-      "Location": "Raleigh, NC",
-      "Description": [
-        "Design and executed a data migration strategy.",
-        "Partnered with data analysts to automate reports.",
-        "Enhanced data security measures across cloud platforms.",
-        "Implemented machine learning algorithms for predictive analytics.",
-        "Consulted with senior management to draft and implement data strategies."
-      ]
+      "title": "Data Solutions Architect",
+      "company": "IBM",
+      "duration": "03/2015 - 05/2019",
+      "location": "Raleigh, NC",
+      "full_description": "\u2022 Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%. \u2022 Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.\n\u2022 Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.\n\u2022 Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.\n\u2022 Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% revenue increase in key areas."
     },
     {
-      "Title": "Data Engineer",
-      "Company": "Accenture",
-      "Duration": "01/2012 - 02/2015",
-      "Location": "Tampa, FL",
-      "Description": [
-        "Engineered ETL pipelines.",
-        "Optimized SQL databases.",
-        "Contributed to a cross-functional team to develop a new data analytics platform.",
-        "Identified and resolved data discrepancies."
-      ]
+      "title": "Data Engineer",
+      "company": "Accenture",
+      "duration": "01/2012 - 02/2015",
+      "location": "Tampa, FL",
+      "full_description": "\u2022 \u2022\n\u2022 Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%. \u2022 Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.\n\u2022 Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.\n\u2022 Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating."
     }
   ],
-  "Skills": [
-    "SQL",
-    "Azure Databricks",
-    "Python",
-    "Data Modeling",
-    "Azure Data Platform",
-    "ETL Pipelines"
-  ],
-  "Awards": [],
-  "Projects": [
+  "projects": [
     {
-      "Name": "Open Source Data Connector",
-      "Link": "github.com/gabrielbakerdata/dataconnector"
+      "title": "Open Source Data Connector",
+      "url": "github.com/gabrielbakerdata/dataconnector"
     },
     {
-      "Name": "Real-time Analytics Dashboard",
-      "Link": "github.com/gabrielbakerdata/analyticsdashboard"
+      "title": "Real-time Analytics Dashboard",
+      "url": "github.com/gabrielbakerdata/analyticsdashboard"
     }
   ]
 }

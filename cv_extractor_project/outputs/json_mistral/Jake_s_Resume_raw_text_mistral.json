@@ -1,72 +1,72 @@
 {
-  "Name": "Jake Ryan",
-  "Email": "jake@su.edu",
-  "Phone": "123-456-7890",
-  "LinkedIn": "linkedin.com/in/jake",
-  "Location": "Georgetown, TX",
-  "Education": [
+  "name": "Jake Ryan",
+  "phone": "123-456-7890",
+  "mail": "jake@su.edu",
+  "linkedin": "linkedin.com/in/jake",
+  "location": "Georgetown, TX",
+  "education": [
     {
-      "Degree": "Bachelor of Arts in Computer Science, Minor in Business",
-      "University": "Southwestern University",
-      "City/Location": "Georgetown, TX",
-      "Duration": "Aug. 2018 \u2013 May 2021"
+      "degree": "Bachelor of Arts in Computer Science, Minor in Business",
+      "university": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "Aug. 2018 \u2013 May 2021"
     },
     {
-      "Degree": "Associate\u2019s in Liberal Arts",
-      "University": "Blinn College",
-      "City/Location": "Bryan, TX",
-      "Duration": "Aug. 2014 \u2013 May 2018"
+      "degree": "Associate\u2019s in Liberal Arts",
+      "university": "Blinn College",
+      "location": "Bryan, TX",
+      "duration": "Aug. 2014 \u2013 May 2018"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Undergraduate Research Assistant",
-      "Company": "Texas A&M University",
-      "Location": "College Station, TX",
-      "Duration": "June 2020 \u2013 Present",
-      "Description": "Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems. Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data."
+      "title": "Undergraduate Research Assistant",
+      "company": "Texas A&M University",
+      "duration": "June 2020 \u2013 Present",
+      "location": "College Station, TX",
+      "full_description": "\u2022 Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems\n\u2022 Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data\n\u2022 Explored ways to visualize GitHub collaboration in a classroom setting"
     },
     {
-      "Title": "Information Technology Support Specialist",
-      "Company": "Southwestern University",
-      "Location": "Georgetown, TX",
-      "Duration": "Sep. 2018 \u2013 Present",
-      "Description": "Communicate with managers to set up campus computers used on campus. Assess and troubleshoot computer problems brought by students, faculty and staff. Maintain upkeep of computers, classroom equipment, and 200 printers across campus."
+      "title": "Information Technology Support Specialist",
+      "company": "Southwestern University",
+      "duration": "Sep. 2018 \u2013 Present",
+      "location": "Georgetown, TX",
+      "full_description": "\u2022 Communicate with managers to set up campus computers used on campus\n\u2022 Assess and troubleshoot computer problems brought by students, faculty and staff\n\u2022 Maintain upkeep of computers, classroom equipment, and 200 printers across campus"
     },
     {
-      "Title": "Artificial Intelligence Research Assistant",
-      "Company": "Southwestern University",
-      "Location": "Georgetown, TX",
-      "Duration": "May 2019 \u2013 July 2019",
-      "Description": "Explored methods to generate video game dungeons based off of The Legend of Zelda. Developed a game in Java to test the generated dungeons. Contributed 50K+ lines of code to an established codebase via Git. Conducted a human subject study to determine which video game dungeon generation technique is enjoyable."
+      "title": "Artificial Intelligence Research Assistant",
+      "company": "Southwestern University",
+      "duration": "May 2019 \u2013 July 2019",
+      "location": "Georgetown, TX",
+      "full_description": "\u2022 Explored methods to generate video game dungeons based off of The Legend of Zelda\n\u2022 Developed a game in Java to test the generated dungeons\n\u2022 Contributed 50K+ lines of code to an established codebase via Git\n\u2022 Conducted a human subject study to determine which video game dungeon generation technique is enjoyable\n\u2022 Wrote an 8-page paper and gave multiple presentations on-campus\n\u2022 Presented virtually to the World Conference on Computational Intelligence"
     }
   ],
-  "Skills": [
-    "Languages: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R",
-    "Frameworks: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI",
-    "Developer Tools: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse",
-    "Libraries: pandas, NumPy, Matplotlib"
-  ],
-  "Projects": [
-    {
-      "Name": "Gitlytics",
-      "Technologies": [
-        "Python",
-        "Flask",
-        "React",
-        "PostgreSQL",
-        "Docker"
-      ]
-    },
-    {
-      "Name": "Simple Paintball",
-      "Technologies": [
-        "Spigot API",
-        "Java",
-        "Maven",
-        "TravisCI",
-        "Git"
-      ]
-    }
+  "skills": [
+    "Java",
+    "Python",
+    "C/C++",
+    "SQL (Postgres)",
+    "JavaScript",
+    "HTML/CSS",
+    "R",
+    "React",
+    "Node.js",
+    "Flask",
+    "JUnit",
+    "WordPress",
+    "Material-UI",
+    "FastAPI",
+    "Git",
+    "Docker",
+    "TravisCI",
+    "Google Cloud Platform",
+    "VS Code",
+    "Visual Studio",
+    "PyCharm",
+    "IntelliJ",
+    "Eclipse",
+    "pandas",
+    "NumPy",
+    "Matplotlib"
   ]
 }

@@ -1,0 +1,447 @@
+==== PROMPT ====
+
+           **EXAMPLE RESUME**:
+    """
+        ==== Page 1 ====
+              GABRIEL BAKER
+              Data Architect | Azure Expert
+               1  234  555 1234
+              gabriel@gmail.com
+              linkedin.com
+              Jacksonville, Florida
+              Extra Field
+              Summary
+              With over 8 years of experience as a Data Architect, I specialize in Azure Data Platform and data modeling, achieving a 
+              30% increase in data efficiency at a top firm. Committed to pioneering state-of-the-art solutions and enhancing data 
+              strategies.
+              Skills
+              SQL, Azure Databricks, Python, Data Modeling, Azure Data Platform, ETL Pipelines
+              Experience
+              Oracle Corporation
+              Orlando, FL
+              Senior Data Architect
+              06/2019   08/2023
+              •
+              Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and 
+              reducing delay in reporting.
+              Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness 
+              improvement.
+              Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.
+              Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime 
+              over 18 months.
+              Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved 
+              data handling.
+              Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory 
+              standards.
+              •
+              •
+              •
+              •
+              •
+              IBM
+              Raleigh, NC
+              Data Solutions Architect
+              03/2015   05/2019
+              ••••
+              •
+              Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.
+              Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.
+              Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.
+              Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.
+              Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% 
+              revenue increase in key areas.
+              Accenture
+              Tampa, FL
+              Data Engineer
+              01/2012   02/2015
+              ••••
+              Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.
+              Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.
+              Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.
+              Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating.
+              Education
+              University of Florida
+              Gainesville, FL
+              Master of Science in Data Science
+              01/2010   01/2012
+              University of Central Florida
+              Orlando, FL
+              Bachelor of Science in Computer Science
+              01/2006   01/2010
+              www.enhancv.com
+              
+              Powered by
+    
+              ==== Page 2 ====
+              Projects
+              Open Source Data Connector
+              Developed a Python-based data connector for Azure services to enhance integration capabilities. 
+              github.com/gabrielbakerdata/dataconnector
+              Real-time Analytics Dashboard
+              Built a dashboard using PowerBI and Azure to provide real-time operational analytics. 
+              github.com/gabrielbakerdata/analyticsdashboard
+              www.enhancv.com
+              
+              Powered by
+        """
+    
+        **EXAMPLE OUTPUT**:
+        {
+    
+        "Name": "GABRIEL BAKER",
+        "Email": "gabriel@gmail.com",
+        "Phone": " 1  234  555 1234",
+        "Location": "Jacksonville, Florida",
+        "LinkedIn": "linkedin.com",
+        "Education": [
+          {
+            "Degree": "Master of Science in Data Science",
+            "University": "University of Florida",
+            "City/Location": "Gainesville, FL",
+            "Duration": "01/2010   01/2012"
+          },
+          {
+            "Degree": "Bachelor of Science in Computer Science",
+            "University": "University of Central Florida",
+            "City/Location": "Orlando, FL",
+            "Duration": "01/2006   01/2010"
+          }
+        ],
+        "Experience": [
+          {
+            "Title": "Senior Data Architect",
+            "Company": "Oracle Corporation",
+            "Duration": "06/2019   08/2023",
+            "Location": "Orlando, FL",
+            "Description": [
+              "Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and reducing delay in reporting.",
+              "Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness improvement.",
+              "Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.",
+              "Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime over 18 months.",
+              "Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved data handling.",
+              "Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory standards."
+            ]
+          },
+          {
+            "Title": "Data Solutions Architect",
+            "Company": "IBM",
+            "Duration": "03/2015   05/2019",
+            "Location": "Raleigh, NC",
+            "Description": [
+              "Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.",
+              "Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.",
+              "Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.",
+              "Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.",
+              "Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% revenue increase in key areas."
+            ]
+          },
+          {
+            "Title": "Data Engineer",
+            "Company": "Accenture",
+            "Duration": "01/2012   02/2015",
+            "Location": "Tampa, FL",
+            "Description": [
+              "Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.",
+              "Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.",
+              "Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.",
+              "Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating."
+            ]
+          }
+        ],
+        "Skills": [
+          "SQL",
+          "Azure Databricks",
+          "Python",
+          "Data Modeling",
+          "Azure Data Platform",
+          "ETL Pipelines"
+        ],
+        }
+    
+        Your Task is to Extract structred data from the 8 fields mentioned bellow follow from resumes. Comply with every rule—no assumptions, no inference, no paraphrasing, no missing fields.
+Your response is a valid Json output.
+Return a flat JSON object with exactly these 8 top-level fields:
+    1. Name  
+    2. Phone  
+    3. Email (optional — return [] if missing)  
+    4. Location  
+    5. LinkedIn (optional — return [] if missing)  
+    6. Education (list of):
+        - Degree  
+        - University  
+        - City/Location  
+        - Duration (Start/End or range)
+    7. Experience (list for each job):
+        - Title  
+        - Company  
+        - Duration  
+        - Location  
+        - Full Description (verbatim from resume — preserve bullet points and formatting; do not paraphrase)
+    8. Skills (list of individual strings; include all technical terms, even short ones like "SQL", "R", or "C++")
+
+CRITICAL RULES:
+
+1. **STRICT FIELD LIMITATION**
+   - Do NOT extract or return any other fields.
+   - Ignore: Summary, Certifications, Awards, Projects, Interests, Hobbies, GPA, Classes, Honors, etc.
+
+2. **ALIAS MAPPING**
+   Accept alternate section headings:
+   - "Technical Skills", "Skills Summary", "Tools" → "skills"
+   - "Professional Experience", "Work History" → "experience"
+   - "Academic Background", "Education History" → "education"
+
+3. **UNREADABLE CHARACTER RULE**
+   - Replace every occurrence of � with “[UNK]”
+   - Do NOT guess what the character was
+
+   Example:
+   Input: �1��234��555�
+   Output: [UNK]1[UNK]234[UNK]555[UNK]
+
+4. **MISSING FIELD HANDLING**
+   - If any field is missing, output:
+     - `""` for strings
+     - `[]` for lists
+
+5. **SOURCE STRUCTURE**
+   - Do not rearrange content
+   - Do not infer structure or context
+   - Never interpret a line unless it exactly matches the schema
+
+6. **JSON OUTPUT FORMAT**
+   - Output a single valid JSON object ONLY
+   - No markdown, no explanations, no field names outside the schema
+   - Must be 100% JSON-parseable
+   - Top-level keys must match schema exactly: name, location, linkedin, phone, mail, experience, education, skills
+   - Do not add any other fields under any circumstance. Violating this will be considered an invalid output.
+ **Resume**:
+            """
+            ==== Page 1 ====
+CHLOE MARTINEZ
+Data Engineer | Big Data | Healthcare Analytics
+�1��234��555�1234
+chloe@gmail.com
+linkedin.com
+Houston, Texas
+E
+
+q
+
+SUMMARY
+PROJECTS
+Healthcare Data Normalization Tool
+With 5 years of dedicated experience in data engineering and mastery over 
+Cloudera Bigdata Technologies, my contributions have significantly boosted 
+data analysis and warehouse operations, particularly in the healthcare 
+sector, leading to substantial improvements in data quality and processing 
+efficiency.
+Developed an open-source tool to standardize 
+varying healthcare data formats, significantly 
+improving data analysis efficiency. See the code at 
+github.com/ChloeMartinez/HealthDataTool
+EXPERIENCE
+Clinical Data Reporting Framework
+Created a flexible reporting framework designed 
+for healthcare institutions to derive actionable 
+insights from clinical data. See more at 
+github.com/ChloeMartinez/ClinicalDataFramework
+Data Warehouse Specialist
+Cigna
+02/2022 � Present 
+Houston, Texas
+•
+Led a team in the migration of 10� terabytes of PHI and PII data from 
+Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing 
+data security and compliance.
+Developed and optimized over 500� hive/impala queries, which improved 
+reporting performance by 30%.
+Automated data workflows with Unix scripting, which increased 
+department efficiency by 25%.
+Initiated a Waterfall to Agile transition for the data warehouse team, which 
+cut down project delivery times by 20%.
+SKILLS
+•
+Erwin Data Modeler
+Hadoop
+•
+Cloudera
+Hive
+Impala
+•
+Unix Commands
+Big Data Engineer
+UnitedHealth Group
+COURSES
+01/2021 � 01/2022 
+Houston, Texas
+•
+Orchestrated the migration of 5� terabytes of healthcare data to 
+Cloudera’s Hadoop platform, resulting in a 40% reduction in data 
+processing time.
+Conducted in-depth analyses and enhancements of data warehouse 
+environments that contributed to a 15% increase in data quality.
+Collaborated with cross-functional teams to design complex data models 
+using Erwin, improving the scalability of data solutions.
+Enhanced data retrieval processes by crafting sophisticated Unix shell 
+scripts, which boosted data accessibility for end-users.
+Implemented comprehensive backup and disaster recovery strategies, 
+ensuring 99.9% data availability.
+Certified Cloudera Data Analyst
+Intensive course covering data analysis techniques 
+using Cloudera Hadoop components; provided by 
+Cloudera.
+•
+•
+Professional Oracle SQL Optimization
+Focused on advanced Oracle database 
+performance tuning and optimization; provided by 
+Oracle University.
+•
+•
+Data Analyst
+Memorial Hermann Health System
+01/2020 � 12/2020 
+Houston, Texas
+•
+Analyzed and interpreted complex healthcare data sets, revealing insights 
+that led to a 10% improvement in patient care services.
+Designed and executed data validation procedures, improving data 
+accuracy by 95%.
+Collaborated on 3 major release cycles, utilizing Agile methodology to 
+ensure timely and efficient data delivery.
+Contributed to a project that reduced data redundancies by 20%, 
+increasing overall system performance.
+•
+•
+•
+EDUCATION
+Master of Science in Data Analytics
+Rice University
+01/2017 � 01/2019 
+Houston, Texas
+Bachelor of Science in Computer Science
+University of Houston
+01/2013 � 01/2017 
+Houston, Texas
+www.enhancv.com
+
+Powered by
+            """    
+        **Resume**:
+        """
+        ==== Page 1 ====
+CHLOE MARTINEZ
+Data Engineer | Big Data | Healthcare Analytics
+�1��234��555�1234
+chloe@gmail.com
+linkedin.com
+Houston, Texas
+E
+
+q
+
+SUMMARY
+PROJECTS
+Healthcare Data Normalization Tool
+With 5 years of dedicated experience in data engineering and mastery over 
+Cloudera Bigdata Technologies, my contributions have significantly boosted 
+data analysis and warehouse operations, particularly in the healthcare 
+sector, leading to substantial improvements in data quality and processing 
+efficiency.
+Developed an open-source tool to standardize 
+varying healthcare data formats, significantly 
+improving data analysis efficiency. See the code at 
+github.com/ChloeMartinez/HealthDataTool
+EXPERIENCE
+Clinical Data Reporting Framework
+Created a flexible reporting framework designed 
+for healthcare institutions to derive actionable 
+insights from clinical data. See more at 
+github.com/ChloeMartinez/ClinicalDataFramework
+Data Warehouse Specialist
+Cigna
+02/2022 � Present 
+Houston, Texas
+•
+Led a team in the migration of 10� terabytes of PHI and PII data from 
+Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing 
+data security and compliance.
+Developed and optimized over 500� hive/impala queries, which improved 
+reporting performance by 30%.
+Automated data workflows with Unix scripting, which increased 
+department efficiency by 25%.
+Initiated a Waterfall to Agile transition for the data warehouse team, which 
+cut down project delivery times by 20%.
+SKILLS
+•
+Erwin Data Modeler
+Hadoop
+•
+Cloudera
+Hive
+Impala
+•
+Unix Commands
+Big Data Engineer
+UnitedHealth Group
+COURSES
+01/2021 � 01/2022 
+Houston, Texas
+•
+Orchestrated the migration of 5� terabytes of healthcare data to 
+Cloudera’s Hadoop platform, resulting in a 40% reduction in data 
+processing time.
+Conducted in-depth analyses and enhancements of data warehouse 
+environments that contributed to a 15% increase in data quality.
+Collaborated with cross-functional teams to design complex data models 
+using Erwin, improving the scalability of data solutions.
+Enhanced data retrieval processes by crafting sophisticated Unix shell 
+scripts, which boosted data accessibility for end-users.
+Implemented comprehensive backup and disaster recovery strategies, 
+ensuring 99.9% data availability.
+Certified Cloudera Data Analyst
+Intensive course covering data analysis techniques 
+using Cloudera Hadoop components; provided by 
+Cloudera.
+•
+•
+Professional Oracle SQL Optimization
+Focused on advanced Oracle database 
+performance tuning and optimization; provided by 
+Oracle University.
+•
+•
+Data Analyst
+Memorial Hermann Health System
+01/2020 � 12/2020 
+Houston, Texas
+•
+Analyzed and interpreted complex healthcare data sets, revealing insights 
+that led to a 10% improvement in patient care services.
+Designed and executed data validation procedures, improving data 
+accuracy by 95%.
+Collaborated on 3 major release cycles, utilizing Agile methodology to 
+ensure timely and efficient data delivery.
+Contributed to a project that reduced data redundancies by 20%, 
+increasing overall system performance.
+•
+•
+•
+EDUCATION
+Master of Science in Data Analytics
+Rice University
+01/2017 � 01/2019 
+Houston, Texas
+Bachelor of Science in Computer Science
+University of Houston
+01/2013 � 01/2017 
+Houston, Texas
+www.enhancv.com
+
+Powered by
+        """
+        
+
+==== MODEL OUTPUT ====
+[No output received]

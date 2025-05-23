@@ -1,0 +1,134 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+GABRIEL BAKER
+Data Architect | Azure Expert
+�1��234��555�1234
+gabriel@gmail.com
+linkedin.com
+Jacksonville, Florida
+Extra Field
+Summary
+With over 8 years of experience as a Data Architect, I specialize in Azure Data Platform and data modeling, achieving a 
+30% increase in data efficiency at a top firm. Committed to pioneering state-of-the-art solutions and enhancing data 
+strategies.
+Skills
+SQL, Azure Databricks, Python, Data Modeling, Azure Data Platform, ETL Pipelines
+Experience
+Oracle Corporation
+Orlando, FL
+Senior Data Architect
+06/2019 � 08/2023
+•
+Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and 
+reducing delay in reporting.
+Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness 
+improvement.
+Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.
+Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime 
+over 18 months.
+Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved 
+data handling.
+Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory 
+standards.
+•
+•
+•
+•
+•
+IBM
+Raleigh, NC
+Data Solutions Architect
+03/2015 � 05/2019
+••••
+•
+Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.
+Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.
+Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.
+Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.
+Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% 
+revenue increase in key areas.
+Accenture
+Tampa, FL
+Data Engineer
+01/2012 � 02/2015
+••••
+Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.
+Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.
+Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.
+Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating.
+Education
+University of Florida
+Gainesville, FL
+Master of Science in Data Science
+01/2010 � 01/2012
+University of Central Florida
+Orlando, FL
+Bachelor of Science in Computer Science
+01/2006 � 01/2010
+www.enhancv.com
+
+Powered by
+
+==== Page 2 ====
+Projects
+Open Source Data Connector
+Developed a Python-based data connector for Azure services to enhance integration capabilities. 
+github.com/gabrielbakerdata/dataconnector
+Real-time Analytics Dashboard
+Built a dashboard using PowerBI and Azure to provide real-time operational analytics. 
+github.com/gabrielbakerdata/analyticsdashboard
+www.enhancv.com
+
+Powered by
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

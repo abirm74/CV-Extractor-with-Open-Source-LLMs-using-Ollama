@@ -1,63 +1,41 @@
 {
-  "Name": "MASON THOMAS",
-  "Email": "",
-  "Phone": "",
-  "Location": [
-    "San Francisco, CA",
-    "@ San Francisea, CA"
-  ],
-  "LinkedIn": "",
-  "Education": [
+  "name": "MASON THOMAS",
+  "phone": "",
+  "mail": "",
+  "location": "San Francisco, CA",
+  "linkedin": "",
+  "education": [
     {
-      "Degree": "Master of Science in Computer Science",
-      "University": "Stanford University",
-      "City/Location": "Stanford, CA",
-      "Duration": [
-        "012017 - 01/2018"
-      ]
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, CA",
+      "duration": "01/2017 - 01/2018"
     }
   ],
-  "Experience": [
+  "experience": [
     {
-      "Title": "Data Scientist",
-      "Company": "Anheuser-Busch",
-      "Duration": "03/2022 - 10/2023",
-      "Location": "San Francisco, CA",
-      "Description": [
-        "Successfully developed and maintained 15 highly interactive Tableau dashboards...",
-        "Led a cross-functional team to design a custom predictive model...",
-        "Optimized SQL data extraction processes...",
-        "Innovated new methods of integrating structured and unstructured data...",
-        "Collaborated with marketing teams to provide analytical support...",
-        "Developed technical documentation and led training sessions..."
-      ]
+      "title": "Data Scientist",
+      "company": "Anheuser-Busch",
+      "duration": "03/2022 - 10/2023",
+      "location": "San Francisco, CA",
+      "full_description": "* Successfully developed and maintained 15 highly interactive Tableau dashboards, improving data transparency and leading to a 20% increase in decision-making efficiency.\n\nLed a cross-functional team to design a custom predictive model that resulted in a 12% revenue growth through targeted marketing strategies.\n'Optimized SQL data extraction processes, reducing operational costs by 15% and enhancing data retrieval speed by 30% for quicker insights.\n\nInnovated new methods of integrating structured and unstructured data, improving data accessibility across departments and resulting in more informed business strategies.\n'Collaborated with marketing teams to provide analytical support that increased campaign effectiveness, impacting over 100 campaigns company-wide.\nDeveloped technical documentation and led training sessions to enhance team proficiency with industry tools and analytics, boosting team efficiency by 25%."
     },
     {
-      "Title": "Business Data Analyst",
-      "Company": "Diageo",
-      "Duration": "09/2020 - 02/2022",
-      "Location": "@ San Francisea, CA",
-      "Description": [
-        "Analyzed a dataset of over 1 million entries...",
-        "Implemented data visualization practices with Tableau...",
-        "Streamlined data cleaning processes using R...",
-        "Collaborated closely with IT to troubleshoot database issues...",
-        "Facilitated workshops to enhance analytics proficiency..."
-      ]
+      "title": "Business Data Analyst",
+      "company": "Diageo",
+      "duration": "09/2020 - 02/2022",
+      "location": "@ San Francisco, CA",
+      "full_description": "* Analyzed a dataset of over 1 million entries, identifying trends that Improved gales forecasts accuracy by 8% through advanced modeling techniques.\n\n'Implemented data visualization practices with Tableau, elevating stakeholder Presentations and increasing engagement by 35% during meetings.\nStreamlined data cleaning processes using R, significantly reducing the workflow by 40% and increasing the accuracy of analysis.\n\n'Collaborated closely with IT to troubleshoot database issues, ensuring data integrity and seamless updates that enhanced business operations.\nFacilitated workshops to enhance analytics proficiency, which resulted in Orester team cohesion and adoption of data-driven decision frameworks."
     },
     {
-      "Title": "Junior Data Analyst",
-      "Company": "Constellation Brands",
-      "Duration": "08/2020 - 02/2022",
-      "Location": "San Francisco, CA",
-      "Description": [
-        "Collected and managed data from various sources...",
-        "Assisted in building SQL queries...",
-        "Produced automated reporting that reduced manual labor..."
-      ]
+      "title": "Junior Data Analyst",
+      "company": "Constellation Brands",
+      "duration": "BOF /2018 - 08/2020",
+      "location": "San Francisco, CA",
+      "full_description": "* Assisted in building SQL queries that supported 4 projects leading to an 8-10% increase in quarterly sales performance.\n+ Produced automated reporting that reduced manual labor by 30%, enhancing overall productivity for the analytics department.\n'Conducted detailed market analysis that provided strategic insights, contributing to a successful product launch and a 15% market penetration."
     }
   ],
-  "Skills": [
+  "SKILLS": [
     "Tableau",
     "SQL",
     "R Programming",

@@ -1,0 +1,52 @@
+{
+  "name": "Chloe Martinez",
+  "phone": "1[UNK]2345[UNK]1234",
+  "mail": "chloe@gmail.com",
+  "location": "Houston, Texas",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Data Analytics",
+      "university": "Rice University",
+      "location": "Houston, Texas",
+      "duration": "01/2017 \ufffd 01/2019"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Houston",
+      "location": "Houston, Texas",
+      "duration": "01/2013 \ufffd 01/2017"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Warehouse Specialist",
+      "company": "Cigna",
+      "duration": "02/2022 \ufffd Present",
+      "location": "Houston, Texas",
+      "full_description": "\u2022\r\nLed a team in the migration of 10\ufffd terabytes of PHI and PII data from Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing data security and compliance.\r\nDeveloped and optimized over 500\ufffd hive/impala queries, which improved reporting performance by 30%.\r\nAutomated data workflows with Unix scripting, which increased department efficiency by 25%.\r\nInitiated a Waterfall to Agile transition for the data warehouse team, which cut down project delivery times by 20%."
+    },
+    {
+      "title": "Big Data Engineer",
+      "company": "UnitedHealth Group",
+      "duration": "01/2021 \ufffd 01/2022",
+      "location": "Houston, Texas",
+      "full_description": "\u2022\r\nOrchestrated the migration of 5\ufffd terabytes of healthcare data to Cloudera\u2019s Hadoop platform, resulting in a 40% reduction in data processing time.\r\nConducted in-depth analyses and enhancements of data warehouse environments that contributed to a 15% increase in data quality.\r\nCollaborated with cross-functional teams to design complex data models using Erwin, improving the scalability of data solutions.\r\nEnhanced data retrieval processes by crafting sophisticated Unix shell scripts, which boosted data accessibility for end-users.\r\nImplemented comprehensive backup and disaster recovery strategies, ensuring 99.9% data availability.\r\n"
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Memorial Hermann Health System",
+      "duration": "01/2020 \ufffd 12/2020",
+      "location": "Houston, Texas",
+      "full_description": "\u2022\r\nAnalyzed and interpreted complex healthcare data sets, revealing insights that led to a 10% improvement in patient care services.\r\nDesigned and executed data validation procedures, improving data accuracy by 95%.\r\nCollaborated on 3 major release cycles, utilizing Agile methodology to ensure timely and efficient data delivery.\r\nContributed to a project that reduced data redundancies by 20%, increasing overall system performance."
+    }
+  ],
+  "skills": [
+    "Erwin Data Modeler",
+    "Hadoop",
+    "Cloudera",
+    "Hive",
+    "Impala",
+    "Unix Commands"
+  ]
+}

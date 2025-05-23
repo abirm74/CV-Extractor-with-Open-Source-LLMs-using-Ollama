@@ -1,0 +1,95 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+   
+Y ou MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+Andrea Ray
+123-456-7890 | andrea@gmail.com | linkedin.com/in/andrea
+Education
+Msc of physics
+Brooklyn, NY
+GPA 3.76
+Sept. 2021 – Jun 2025
+Experience
+Senior Data Scientist - Marketing Team
+June 2024 – Present
+Dell
+Ann Arbor, MI
+• data into actionable insights, providing C-suite stakeholders with insightful recommendations to streamline business
+operations and improve customer experience.
+• Generated statistical reports and visualizations, providing key insights for more than 20 marketing campaigns and
+initiatives, including A/B testing, customer retention, brand awareness, and global expansion.
+• Worked with senior leadership to develop and implement digital marketing strategy, identifying and implementing
+new tactics to improve campaign performance by 50.%, resulting in 250% increase in revenue from search marketing
+campaigns.
+Senior Data Scientist
+Sept. 2021 – Present
+Metro
+Brooklyn, NY
+• Designed and implemented a machine learning system that predicts hardware malfunction with more than 80%
+accuracy.
+• Created global and personalized real time reports system for executives stakeholders and processes in SAS, Tableau,
+and proprietary systems.
+• Worked closely with a team of data engineers and BI analysts to improve the efficiency customer recommendation
+analytics engine by 33%.
+Awards
+Speedo Scholastic All-American
+Aug. 2023 – Present
+• National award given to student-athletes who achieve a national time standard while maintaining a 3.5+ GPA.
+National Junior Honor Society
+June 2023 – Present
+• Award presented to students with outstanding achievements in academics, leadership, and community service.
+Classes
+Courses: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature
+Skills & Interests
+Skills: Probability Theory, Web Design, Microsoft Excel, Microsoft Office,Python,SQL,HDFS,Machine learning
+Interests: Photography, Creative Writing, Archery, New York Knicks
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

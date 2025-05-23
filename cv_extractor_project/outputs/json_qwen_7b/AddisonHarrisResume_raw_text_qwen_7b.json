@@ -1,0 +1,27 @@
+{
+  "name": "Addison Harris",
+  "phone": "1234567890",
+  "mail": "email@example.com",
+  "location": "Houston, Texas",
+  "linkedin": "linkedin.com/username",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, California",
+      "duration": "01/2009 - 01/2011"
+    }
+  ],
+  "skills": [
+    "Generative AI",
+    "Statistical Modeling",
+    "Machine Learning",
+    "Data Visualization",
+    "Distributed Computing",
+    "Healthcare Knowledge",
+    "Predictive Analytics",
+    "Python",
+    "R",
+    "[UNK]"
+  ]
+}

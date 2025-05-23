@@ -1,0 +1,66 @@
+{
+  "name": "Oliver Davis",
+  "phone": "+1-(234)-855-1234",
+  "mail": "olivierdavis@gmail.com",
+  "location": "Phoenix, Arizona",
+  "linkedin": "https://www.linkedin.com/in/oliver-davis-data-analyst/",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Data Analytics",
+      "university": "Tempe, Arizona",
+      "duration": "2018-2019"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Analyst",
+      "company": "Maricopa Integrated Health System",
+      "duration": "2021-Present",
+      "location": "Phoenix, Arizona",
+      "details": [
+        {
+          "descriptionPart": "Led cross-functional teams to implement analytical tools that increased data processing efficiency by 30%",
+          "bulletPointFormat": "\u2022 ",
+          "skillTag": "Strategic Reporting | Tool Development"
+        },
+        {
+          "descriptionPart": "Developed and maintained comprehensive performance dashboards used by internal stakeholders to facilitate quality improvement projects.",
+          "bulletPointFormat": "\u2022 ",
+          "skillTag": "Database Management | Performance Dashboards"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Data Collection",
+      "level": "Advanced",
+      "source": "Experience"
+    },
+    {
+      "skill": "Microsoft Access",
+      "level": "Expert",
+      "source": "Education and Experience"
+    },
+    {
+      "skill": "Statistical Analysis",
+      "level": "Intermediate",
+      "source": "Experience"
+    },
+    {
+      "skill": "Strategic Reporting",
+      "level": "Advanced",
+      "source": "Experience"
+    },
+    {
+      "skill": "Tool Development",
+      "level": "Expert",
+      "source": "Experience"
+    },
+    {
+      "skill": "Database Management",
+      "level": "Intermediate",
+      "source": "Experience and Education"
+    }
+  ]
+}

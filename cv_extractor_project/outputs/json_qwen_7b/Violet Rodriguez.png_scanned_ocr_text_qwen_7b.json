@@ -1,0 +1,41 @@
+{
+  "name": "Violet Rodriguez",
+  "phone": "+1-(234)-555-1234",
+  "mail": "violet@gmail.com",
+  "location": "Washington, D.C.",
+  "linkedin": "linkedin.com/violetrodriguez",
+  "education": [
+    {
+      "degree": "Master's Degree in Data Science",
+      "university": "George Washington University",
+      "duration": "01/2018 - O1/2019",
+      "location": "Washington, D.C."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Associate Data Scientist at AT&T Washington, D.C.",
+      "company": "AT&T",
+      "duration": "01/2022 - Present",
+      "locations": [
+        "Washington, D.C."
+      ]
+    },
+    {
+      "title": "Junior Data Scientist at Verizon Reston, VA",
+      "company": "Verizon",
+      "duration": "06/2020 - 12/2021",
+      "locations": [
+        "Reston, VA"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Predictive Analytics",
+    "Machine Learning",
+    "Exploratory Data Analysis",
+    "Statistical Analysis"
+  ]
+}

@@ -1,0 +1,152 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+ZOE THOMPSON
+Data Warehouse Engineer | Data Analytics | Cloud Solutions
+�1��234��555�1234
+zoe@gmail.com
+linkedin.com
+Los Angeles, California
+E
+
+q
+
+SUMMARY
+With 10� years of experience as a data warehouse engineer, I bring extensive expertise in data modeling, cloud data solutions, 
+and analytics tools such as SQL, Snowflake, and PowerBI. My contributions have substantively improved operational efficiencies 
+and informed strategic business decisions, evidenced by a marked increase in productivity and profitability.
+SKILLS
+Data Warehousing, Data Modeling, ERWin, SQL, Snowflake, Redshift
+EXPERIENCE
+Lead Data Warehouse Architect
+TechSolutions Inc
+06/2019 � Present 
+Los Angeles, CA
+•
+Led the migration of on-premises legacy data systems to cloud-based warehouses, achieving a 40% reduction in operational 
+costs while improving data retrieval times by 70%.
+Spearheaded the integration of Snowflake cloud data warehouse which enhanced data analytics and reporting capabilities for 
+cross-functional teams, supporting an increase in data-driven decision-making.
+Implemented a new E�R modeling system for efficient database structuring that streamlined data flow and reduced 
+redundancy, resulting in a 25% increase in productivity for the data analytics team.
+Designed and maintained over 20 data marts, enabling tailored data views which facilitated user-specific analysis, greatly 
+enhancing the usability of data resources organization-wide.
+Automated the extraction, transformation, and load processes �ETL� using Python and SQL, leading to a 50% reduction in the 
+time required to prepare data for analysis.
+Developed a comprehensive reporting system using PowerBI and Tableau that provided actionable insights into customer 
+behavior, driving a 15% increase in targeted marketing campaign success.
+•
+•
+•
+•
+•
+Senior Data Engineer
+Innovatech Data Solutions
+03/2016 � 05/2019 
+Los Angeles, CA
+•
+Optimized the performance of data warehouses by implementing indexing strategies and query optimizations that resulted in a 
+30% improvement in data processing speeds.
+Collaborated with cross-functional teams to translate business requirements into technical data solutions, aiding in the launch 
+of three major product lines.
+Managed the lifecycle of big data solutions, including building and maintaining NoSQL databases such as Cosmos and Bigtable, 
+which handled over 40 TB of data.
+Devised data validation protocols and error identification mechanisms to ensure a 99.9% accuracy rate in data reporting.
+Initiated and led the deployment of an automated data quality system that reduced manual error correction by 75%, 
+significantly increasing data reliability for end-users.
+•
+•
+•
+•
+Data Warehouse Specialist
+QuantTech Analytics
+08/2012 � 02/2016 
+San Francisco, CA
+•
+Contributed to the design and development of a multi-terabyte data warehouse that consolidated data across different 
+departments, facilitating a holistic view of the business.
+Enhanced ETL workflows which reduced the data processing window by 4 hours, enabling more timely data availability for 
+analysis.
+Trained 20� staff members on best practices for data manipulation, query optimization, and report generation, improving 
+overall team efficiency.
+Conducted in-depth analyses of market trends and customer data that contributed to a strategic shift in sales focus, increasing 
+revenue by 10%.
+•
+•
+•
+EDUCATION
+Master of Science in Data Science
+University of Southern California
+01/2010 � 01/2012 
+Los Angeles, CA
+www.enhancv.com
+
+Powered by
+
+==== Page 2 ====
+EDUCATION
+Bachelor of Science in Computer Science
+University of California, Los Angeles
+01/2006 � 01/2010 
+Los Angeles, CA
+PROJECTS
+Real-time Data Parsing Engine
+Developed a Python-based engine for processing streaming data into actionable insights, while ensuring minimal latency. GitHub 
+link: github.com/ZoeThompson/RealTimeDataParser
+Custom ETL Framework
+Created an extensible ETL framework to standardize data transformation tasks across various projects, improving code 
+reusability. GitHub link: github.com/ZoeThompson/CustomETLFramework
+www.enhancv.com
+
+Powered by
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

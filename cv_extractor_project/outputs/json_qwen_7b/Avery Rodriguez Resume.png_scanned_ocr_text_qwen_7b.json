@@ -1,0 +1,30 @@
+{
+  "name": "Avery Rodriguez",
+  "phone": "e @ Jacksonville, Florida",
+  "mail": "",
+  "location": "Jacksonville, Florida",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "Columbia University",
+      "location": "@ 01/2015 01/2017 New York, NY"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Big Data Engineer",
+      "company": "Google",
+      "duration": "01/2022 - Present",
+      "location": "9 Mountain View, CA",
+      "description": "\u2022 Led development of a scalable big data processing platform handling over 100TB daily, enhancing data analysis capabilities. \u2022 Implemented cloud-based analytics solution reducing data processing costs by 20% through optimized resource allocation and usage. \u2022 Developed and maintained ETL pipelines for data ingestion, processing, and distribution, improving data quality and accessibility. \u2022 Collaborated with cross-functional teams to integrate machine learning models into the data pipeline, increasing predictive analytics accuracy by 25%. \u2022 Automated data quality checks reducing data processing errors by 20% and ensuring high-quality data for analysis. \u2022 Conducted comprehensive data analysis uncovering key insights that led to a 15% increase in marketing campaign effectiveness."
+    }
+  ],
+  "skills": [
+    "Big Data",
+    "Data Analysis",
+    "Cloud Computing",
+    "ETL Pipelines",
+    "Machine Learning Integration"
+  ]
+}

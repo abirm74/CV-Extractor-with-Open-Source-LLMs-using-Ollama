@@ -1,0 +1,109 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+   
+Y ou MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+Andrew Ryan
+Education
+Brooklyn Technical High School
+Brooklyn, NY
+GPA 3.76, Class rank 63/350, SAT 1510
+Sept. 2021 – Jun 2025
+Extracurricular Activities
+Student Government
+Sept. 2023 – Jun. 2024
+Treasurer
+Brooklyn, NY
+• Developed budget proposals, collaborating with the student government team to plan major school events.
+• Organized and led fundraising events, raising over $5,000 for school activities and projects.
+• Managed the student government budget, ensuring accurate tracking and allocation of funds.
+Math Team
+Sept. 2022 – Present
+Team Captain
+Brooklyn, NY
+• Competed in regional, state, and national-level math competitions(NYCIML, NYCMTS).
+• Facilitated weekly study sessions to discuss high-level Probability Theory, Geometry & Algebra.
+• Led a 26-member math team as captain, overseeing strategy development and competition preparation.
+Varsity Swim Team
+Sep. 2021 – June 2024
+Team Captain
+Brooklyn, NY
+• Led the varsity swim team to its inaugural section championship through leadership and strategic planning.
+• Mentored junior team members, providing guidance on proper techniques, race preparation, and sportsmanship.
+Experience
+FlexiDip
+June 2024 – Present
+Co-Founder
+Ann Arbor, MI
+• Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience.
+• Developed minimum viable product(MVP) capable of early-stage revenue generation.
+• Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.
+• Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.
+Private Math Tutor
+Sept. 2021 – Present
+Team Captain
+Brooklyn, NY
+• Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students
+• Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades.
+Awards
+Speedo Scholastic All-American
+Aug. 2023 – Present
+• National award given to student-athletes who achieve a national time standard while maintaining a 3.5+ GPA.
+National Junior Honor Society
+June 2023 – Present
+• Award presented to students with outstanding achievements in academics, leadership, and community service.
+Classes
+Courses: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature
+Skills & Interests
+Skills: Probability Theory, Web Design, Microsoft Excel, Microsoft Office
+Interests: Photography, Creative Writing, Archery, New York Knicks
+123-456-7890 | andrew@gmail.com | linkedin.com/in/andrew
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

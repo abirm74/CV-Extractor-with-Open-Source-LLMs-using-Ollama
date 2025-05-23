@@ -1,0 +1,109 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+ADDISON HARRIS
+Lead Data Scientist | Generative Al & Healthcare
+*1(234)°555-1234 « addison@gmail.com = linkedin.com » Houston, Texas
+
+Summary
+
+Experienced Data Scientist with over 9 years In Al, specialized in generative models. Proven success in advancing Al initiatives and
+mentoring teams. Mastered Al applications in healthcare, resulting in & 20% improvement in predictive analytics. Eager to drive
+impactful data-driven decisions.
+
+Skills
+Generative Al Statistical Modeling -Machine Learning - Data Visualization - Distributed Computing . Healthcare Knowledge -
+Predictive Analytics - Python -R-SQL
+
+Experience
+Optum Dallas, Texas:
+Lead Data Scientist 01/2021 - Present
+«© Developed innovative generative Al models improving healthcare analytics by 35%, resulting in enhanced decision-making.
++ Led ateam of 5 data scientists, providing mentorship and fostering a continuous learning culture.
+* Collaborated cross-functionally to identify Al application opportunities, leading to 4 28% increase in project efficiency.
+« Conducted experiments validating Al models, achiewing an 85% accuracy rate on predictive assessments.
+
++ Extracted actionable insights from complex data, identifying trends, and improving strategic decisions by 40%.
+* Initiated Al-based projects, driving a 20% reduction in healthcare cost prediction errors.
+
+Cigna Austin, Texas
+Senior Data Scientist 06/2016 - 12/2020
+« Spearheaded the development of predictive models, achieving a 25% Increase in model accuracy for diabetes risk predictions.
+
+© implemented distributed computing solutions, enhancing computational efficiency by 30% for large datasets.
+
+» Conducted complex statistical analyses, leading toa 15% reduction in claims processing times.
+
+© Mentored junior staff in machine learning techniques, boasting team quality and innovation by 20%.
+
+« Designed data visualization tools, simplifying complex datasets and improving user interpretation by 40%.
+
+Kaiser Permanente Los Angeles, California
+Data Scientist 03/2012 - 05/2016
+» Developed algorithms leading to a 15% improvement in patient outcome predictions in clinical trials.
+
+» Collaborated with engineering teams to enhance Al model scalability, reducing deployment times by 30%.
+
++ implemented machine learning models, detecting anomalies in healtheare data, increasing detection rate by 25%.
+
+* Contributed to cross-functional initiatives, enhancing data-driven healthcare processes. and reducing errors by 10%.
+
+Education
+Stanford University Stanford, California
+Master of Science in Computer Science 01/2009 - 01/2011
+University of Texas at Austin Austin, Texas
+Bachelor of Science in Economies. 01/2005 - 01/2009
+Languages
+
+English Native eeeee Spanish Advanced @e@
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]

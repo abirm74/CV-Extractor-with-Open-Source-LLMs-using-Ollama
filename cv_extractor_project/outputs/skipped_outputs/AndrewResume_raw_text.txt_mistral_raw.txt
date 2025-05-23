@@ -1,0 +1,345 @@
+==== PROMPT ====
+
+           **EXAMPLE RESUME**:
+    """
+        ==== Page 1 ====
+              GABRIEL BAKER
+              Data Architect | Azure Expert
+               1  234  555 1234
+              gabriel@gmail.com
+              linkedin.com
+              Jacksonville, Florida
+              Extra Field
+              Summary
+              With over 8 years of experience as a Data Architect, I specialize in Azure Data Platform and data modeling, achieving a 
+              30% increase in data efficiency at a top firm. Committed to pioneering state-of-the-art solutions and enhancing data 
+              strategies.
+              Skills
+              SQL, Azure Databricks, Python, Data Modeling, Azure Data Platform, ETL Pipelines
+              Experience
+              Oracle Corporation
+              Orlando, FL
+              Senior Data Architect
+              06/2019   08/2023
+              •
+              Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and 
+              reducing delay in reporting.
+              Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness 
+              improvement.
+              Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.
+              Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime 
+              over 18 months.
+              Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved 
+              data handling.
+              Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory 
+              standards.
+              •
+              •
+              •
+              •
+              •
+              IBM
+              Raleigh, NC
+              Data Solutions Architect
+              03/2015   05/2019
+              ••••
+              •
+              Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.
+              Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.
+              Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.
+              Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.
+              Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% 
+              revenue increase in key areas.
+              Accenture
+              Tampa, FL
+              Data Engineer
+              01/2012   02/2015
+              ••••
+              Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.
+              Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.
+              Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.
+              Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating.
+              Education
+              University of Florida
+              Gainesville, FL
+              Master of Science in Data Science
+              01/2010   01/2012
+              University of Central Florida
+              Orlando, FL
+              Bachelor of Science in Computer Science
+              01/2006   01/2010
+              www.enhancv.com
+              
+              Powered by
+    
+              ==== Page 2 ====
+              Projects
+              Open Source Data Connector
+              Developed a Python-based data connector for Azure services to enhance integration capabilities. 
+              github.com/gabrielbakerdata/dataconnector
+              Real-time Analytics Dashboard
+              Built a dashboard using PowerBI and Azure to provide real-time operational analytics. 
+              github.com/gabrielbakerdata/analyticsdashboard
+              www.enhancv.com
+              
+              Powered by
+        """
+    
+        **EXAMPLE OUTPUT**:
+        {
+    
+        "Name": "GABRIEL BAKER",
+        "Email": "gabriel@gmail.com",
+        "Phone": " 1  234  555 1234",
+        "Location": "Jacksonville, Florida",
+        "LinkedIn": "linkedin.com",
+        "Education": [
+          {
+            "Degree": "Master of Science in Data Science",
+            "University": "University of Florida",
+            "City/Location": "Gainesville, FL",
+            "Duration": "01/2010   01/2012"
+          },
+          {
+            "Degree": "Bachelor of Science in Computer Science",
+            "University": "University of Central Florida",
+            "City/Location": "Orlando, FL",
+            "Duration": "01/2006   01/2010"
+          }
+        ],
+        "Experience": [
+          {
+            "Title": "Senior Data Architect",
+            "Company": "Oracle Corporation",
+            "Duration": "06/2019   08/2023",
+            "Location": "Orlando, FL",
+            "Description": [
+              "Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and reducing delay in reporting.",
+              "Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness improvement.",
+              "Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.",
+              "Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime over 18 months.",
+              "Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved data handling.",
+              "Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory standards."
+            ]
+          },
+          {
+            "Title": "Data Solutions Architect",
+            "Company": "IBM",
+            "Duration": "03/2015   05/2019",
+            "Location": "Raleigh, NC",
+            "Description": [
+              "Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.",
+              "Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.",
+              "Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.",
+              "Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.",
+              "Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% revenue increase in key areas."
+            ]
+          },
+          {
+            "Title": "Data Engineer",
+            "Company": "Accenture",
+            "Duration": "01/2012   02/2015",
+            "Location": "Tampa, FL",
+            "Description": [
+              "Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.",
+              "Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.",
+              "Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.",
+              "Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating."
+            ]
+          }
+        ],
+        "Skills": [
+          "SQL",
+          "Azure Databricks",
+          "Python",
+          "Data Modeling",
+          "Azure Data Platform",
+          "ETL Pipelines"
+        ],
+        }
+    
+        Your Task is to Extract structred data from the 8 fields mentioned bellow follow from resumes. Comply with every rule—no assumptions, no inference, no paraphrasing, no missing fields.
+Your response is a valid Json output.
+--------------------
+EXTRACTION SCHEMA:
+--------------------
+
+Top-level fields (ALL REQUIRED):
+- "name" (string)
+- "location" (string)
+- "linkedin" (string)
+- "phone" (string)
+- "mail" (string)
+- "experience" (list of objects):
+    - "title" (string)
+    - "company" (string)
+    - "duration" (string)
+    - "location" (string)
+    - "full_description" (verbatim string from the resume section — keep bullet points and formatting)
+- "education" (list of objects):
+    - "degree" (string)
+    - "university" (string)
+    - "location" (string)
+    - "duration" (string)
+- "skills" (list of strings — include all technical skills, even short ones like "SQL", "R", "C++")
+
+--------------------
+CRITICAL RULES:
+--------------------
+
+1. **STRICT FIELD LIMITATION**
+   - Do NOT extract or return any other fields.
+   - Ignore: Summary, Certifications, Awards, Projects, Interests, Hobbies, GPA, Classes, Honors, etc.
+
+2. **ALIAS MAPPING**
+   Accept alternate section headings:
+   - "Technical Skills", "Skills Summary", "Tools" → "skills"
+   - "Professional Experience", "Work History" → "experience"
+   - "Academic Background", "Education History" → "education"
+
+3. **UNREADABLE CHARACTER RULE**
+   - Replace every occurrence of � with “[UNK]”
+   - Do NOT guess what the character was
+
+   Example:
+   Input: �1��234��555�
+   Output: [UNK]1[UNK]234[UNK]555[UNK]
+
+4. **MISSING FIELD HANDLING**
+   - If any field is missing, output:
+     - `""` for strings
+     - `[]` for lists
+
+5. **SOURCE STRUCTURE**
+   - Do not rearrange content
+   - Do not infer structure or context
+   - Never interpret a line unless it exactly matches the schema
+
+6. **JSON OUTPUT FORMAT**
+   - Output a single valid JSON object ONLY
+   - No markdown, no explanations, no field names outside the schema
+   - Must be 100% JSON-parseable
+   - Top-level keys must match schema exactly: name, location, linkedin, phone, mail, experience, education, skills
+   - Do not add any other fields under any circumstance. Violating this will be considered an invalid output.
+ **Resume**:
+            """
+            ==== Page 1 ====
+Andrew Ryan
+Education
+Brooklyn Technical High School
+Brooklyn, NY
+GPA 3.76, Class rank 63/350, SAT 1510
+Sept. 2021 – Jun 2025
+Extracurricular Activities
+Student Government
+Sept. 2023 – Jun. 2024
+Treasurer
+Brooklyn, NY
+• Developed budget proposals, collaborating with the student government team to plan major school events.
+• Organized and led fundraising events, raising over $5,000 for school activities and projects.
+• Managed the student government budget, ensuring accurate tracking and allocation of funds.
+Math Team
+Sept. 2022 – Present
+Team Captain
+Brooklyn, NY
+• Competed in regional, state, and national-level math competitions(NYCIML, NYCMTS).
+• Facilitated weekly study sessions to discuss high-level Probability Theory, Geometry & Algebra.
+• Led a 26-member math team as captain, overseeing strategy development and competition preparation.
+Varsity Swim Team
+Sep. 2021 – June 2024
+Team Captain
+Brooklyn, NY
+• Led the varsity swim team to its inaugural section championship through leadership and strategic planning.
+• Mentored junior team members, providing guidance on proper techniques, race preparation, and sportsmanship.
+Experience
+FlexiDip
+June 2024 – Present
+Co-Founder
+Ann Arbor, MI
+• Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience.
+• Developed minimum viable product(MVP) capable of early-stage revenue generation.
+• Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.
+• Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.
+Private Math Tutor
+Sept. 2021 – Present
+Team Captain
+Brooklyn, NY
+• Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students
+• Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades.
+Awards
+Speedo Scholastic All-American
+Aug. 2023 – Present
+• National award given to student-athletes who achieve a national time standard while maintaining a 3.5+ GPA.
+National Junior Honor Society
+June 2023 – Present
+• Award presented to students with outstanding achievements in academics, leadership, and community service.
+Classes
+Courses: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature
+Skills & Interests
+Skills: Probability Theory, Web Design, Microsoft Excel, Microsoft Office
+Interests: Photography, Creative Writing, Archery, New York Knicks
+123-456-7890 | andrew@gmail.com | linkedin.com/in/andrew
+            """    
+        **Resume**:
+        """
+        ==== Page 1 ====
+Andrew Ryan
+Education
+Brooklyn Technical High School
+Brooklyn, NY
+GPA 3.76, Class rank 63/350, SAT 1510
+Sept. 2021 – Jun 2025
+Extracurricular Activities
+Student Government
+Sept. 2023 – Jun. 2024
+Treasurer
+Brooklyn, NY
+• Developed budget proposals, collaborating with the student government team to plan major school events.
+• Organized and led fundraising events, raising over $5,000 for school activities and projects.
+• Managed the student government budget, ensuring accurate tracking and allocation of funds.
+Math Team
+Sept. 2022 – Present
+Team Captain
+Brooklyn, NY
+• Competed in regional, state, and national-level math competitions(NYCIML, NYCMTS).
+• Facilitated weekly study sessions to discuss high-level Probability Theory, Geometry & Algebra.
+• Led a 26-member math team as captain, overseeing strategy development and competition preparation.
+Varsity Swim Team
+Sep. 2021 – June 2024
+Team Captain
+Brooklyn, NY
+• Led the varsity swim team to its inaugural section championship through leadership and strategic planning.
+• Mentored junior team members, providing guidance on proper techniques, race preparation, and sportsmanship.
+Experience
+FlexiDip
+June 2024 – Present
+Co-Founder
+Ann Arbor, MI
+• Co-founded startup specializing in adjustable dipping containers, optimizing buffalo wing dining experience.
+• Developed minimum viable product(MVP) capable of early-stage revenue generation.
+• Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs.
+• Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.
+Private Math Tutor
+Sept. 2021 – Present
+Team Captain
+Brooklyn, NY
+• Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students
+• Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades.
+Awards
+Speedo Scholastic All-American
+Aug. 2023 – Present
+• National award given to student-athletes who achieve a national time standard while maintaining a 3.5+ GPA.
+National Junior Honor Society
+June 2023 – Present
+• Award presented to students with outstanding achievements in academics, leadership, and community service.
+Classes
+Courses: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.S. History, AP Statistics, AP Literature
+Skills & Interests
+Skills: Probability Theory, Web Design, Microsoft Excel, Microsoft Office
+Interests: Photography, Creative Writing, Archery, New York Knicks
+123-456-7890 | andrew@gmail.com | linkedin.com/in/andrew
+        """
+        
+
+==== MODEL OUTPUT ====
+[No output received]

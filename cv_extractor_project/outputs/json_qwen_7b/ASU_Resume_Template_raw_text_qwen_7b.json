@@ -1,0 +1,55 @@
+{
+  "name": "Sparky Sun Devil8",
+  "phone": "123-456-7890",
+  "mail": "sparkysundevil123@asu.edu",
+  "location": "Tempe, AZ",
+  "linkedin": "linkedin.com/in/sparkysundevil",
+  "github": "github.com/Sparkysundevil",
+  "education": [
+    {
+      "degree": "B.S. E., Mechanical Engineering",
+      "university": "Arizona State University",
+      "location": "Tempe, AZ",
+      "duration": "Graduating May 2020",
+      "barrett": true
+    }
+  ],
+  "technical_skills": [
+    {
+      "skill": "Data Analysis and Statistics: JMP, Minitab"
+    },
+    {
+      "skill": "Hardware Design Languages and Programmable Logic"
+    },
+    {
+      "skill": "Advanced Excel in Business"
+    },
+    {
+      "skill": "Programming: Python, C, C++"
+    },
+    {
+      "skill": "Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD) - August 2019"
+    }
+  ],
+  "professional_experience": [
+    {
+      "title": "Research & Development Development Intern",
+      "company": "Stryker Solutions",
+      "location": "Phoenix, AZ",
+      "duration": "May 2019 - Aug 2019",
+      "responsibilities": [
+        {
+          "description": "Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python)"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "name": "Society of Women Engineers (SWE)",
+      "role": "Vice-President and Industry Relations Chair",
+      "duration": "Aug 2017 - Present",
+      "description": "Organized conferences, mentored students, and led industry outreach initiatives for this 300-member student-run organization."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+==== PROMPT ====
+
+Your task is to extract structured information from the resume below into a strict flat JSON object.
+
+You MUST follow the format and extraction rules exactly as described per field.
+
+Do not include any fields not listed below. If a field is optional and not found, return an empty string "" or empty list [] as specified.
+
+Character replacement rule: If and only if you encounter the exact character `�`, replace only that character with `[UNK]` (including brackets and uppercase letters). Do **not** alter or remove adjacent characters or valid digits. Do **not** change line breaks, bullet points, formatting, or any other text.
+
+Return only valid JSON, without markdown or comments.
+
+OUTPUT JSON FORMAT:
+{
+  "name": "<Extracted full name — do not infer, must be directly stated.>",
+  "phone": "<Extracted phone number — preserve exactly as written in the resume. If a � character appears, replace only that character with [UNK]. Do not modify or format anything else. Do not replace digits.>",
+  "mail": "<Extracted email address — OPTIONAL. If not present, return empty string "">",
+  "location": "<Extracted city and/or region — must match resume verbatim.>",
+  "linkedin": "<Extracted LinkedIn URL — OPTIONAL. If not present, return empty string "">",
+  "education": [
+    {
+      "degree": "<Degree name — directly extracted, do not infer.>",
+      "university": "<University or institution name — verbatim.>",
+      "location": "<City/Location of the university — verbatim.>",
+      "duration": "<Date range or period as stated — preserve original format.Replace all � with [UNK].>"
+    }
+  ],
+  "experience": [
+    {
+      "title": "<Job title — as written.>",
+      "company": "<Company name — do not infer.>",
+      "duration": "<Job duration — as listed, preserve format.>",
+      "location": "<Location — directly extracted.>",
+      "full_description": "<Full job description — MUST preserve full bullet points and line breaks exactly as in resume. Do not paraphrase, compress, or remove formatting. Replace only � with [UNK]. Leave all other characters and formatting untouched.>"
+    }
+  ],
+  "skills": [
+    "<Individual skill 1 — include short skills like 'SQL', 'R', etc.>",
+    "<Individual skill 2>",
+    ...
+  ]
+}
+
+--------------------
+RESUME TEXT:
+--------------------
+
+""" 
+==== Page 1 ====
+MASON THOMAS
+
+sualization, Modeling | San Fran
+
+SUMMARY
+
+Data Scientist with 2 years of experience in data visualization and predictive
+
+modeling, adept at utilizing Tableau and SQL to drive impactful business:
+decisions. Passionate about leveraging data for innovative solutions and eager
+to contribute to a collaborative environment.
+
+EXPERIENCE
+
+Data Scientist
+Anheuser-Busch
+
+i 03/2022 - 10/2023 San Francisco, CA
+
+* Successfully developed and maintained 15 highly interactive Tableau
+dashboards, improving data transparency and leading to a 20% increase in
+decision-making efficiency.
+
+Led a cross-functional team to design a custom predictive model that
+resulted in a 12% revenue growth through targeted marketing strategies.
+‘Optimized SQL data extraction processes, reducing operational costs by 15%
+and enhancing data retrieval speed by 30% for quicker insights.
+
+Innovated new methods of integrating structured and unstructured data,
+improving data accessibility across departments and resulting in more
+informed business strategies.
+‘Collaborated with marketing teams te provide analytical support that
+increased campaign effectiveness, impacting over 100 campaigns company-
+wide.
+Developed technical documentation and led training sessions to enhance
+team proficiency with industry tools and analytics, boosting team efficiency
+by 25%.
+
+Business Data Analyst
+
+Diageo
+
+09/2020 - 02/2022 @ San Francisea, CA
+
+« Analyzed a dataset of over 1 million entries, identifying trends that Improved
+
+gales forecasts accurecy by 8% through edvanced modeling techniques.
+
+« Implemented data visualization practices with Tableau, elevating stakeholder
+Presentations and increasing engagement by 35% during meetings.
+Streamlined data cleaning processes using R, significantly reducing the
+workflow by 40% and increasing the accuracy of analysis.
+
+‘Collaborated closely with IT to troubleshoot database issues, ensuring data
+integrity and seamless updates that enhanced business operations.
+Facilitated workshops to enhance analytics proficiency, which resulted in
+Orester team cohesion and adoption of data-driven decision frameworks.
+
+Junior Data Analyst
+‘Constellation Brands
+
+BOF /2018 - 08/2020} San Francisco, CA
+
++ BOF /2018 - 08/2020
+“Assisted iin building SQL queries that supported 4 project leading to 8 10%
+increase in quarterly sales performance.
++ Produced automated reporting that reduced manual labor by 30%, enhancing
+overall productivity for the analytics department.
+‘Conducted detailed market analysis that provided strategic insights,
+contributing to a successful product launch and a 15% market penetration.
+
+EDUCATION
+
+Master of Science in Computer Science
+‘Stanford University
+
+@ 012017 - 01/2018 =} Stanford, CA
+
+PROJECTS
+
+Open Source Visualization Dashboard
+
+Developed a real-time visualization dashboard in
+collaboration with the open-source community for
+tracking environmental data. Check it on
+github.com/masont/env-dash.
+
+SOL Query Optimization Project
+
+Contributed to an open-source SOL repository
+improving queries for large datasets. View the project
+on github.cam,/masont/=ql-opt.
+
+SKILLS
+
+Tableau, SOL, R Programming, Data Modeling,
+Data Management, Predictive Analytics:
+"""
+
+
+==== MODEL OUTPUT ====
+[No output received]
