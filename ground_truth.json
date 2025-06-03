@@ -1,0 +1,348 @@
+[
+  {"filename": "Avery Rodriguez Resume.png_scanned_ocr_text.txt",
+    "Name": "Avery Rodriguez",
+  "Email": "",
+  "Phone": "",
+  "Location": "Jacksonville, Florida",
+  "LinkedIn": "",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "Columbia University",
+      "City/Location": "New York, NY",
+      "Duration": "01/2015 01/2017"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "University of Florida",
+      "City/Location": "Gainesville, FL",
+      "Duration": "01/2011 04/2015"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Big Data Engineer",
+      "Company": "Google",
+      "Duration": "01/2022 - Present ",
+      "Location": "9 Mountain View, CA",
+      "Description": ["Led the development of a scalable big data processing platform,handling over 100TB of data daily, enhancing data analysis‘capabilities.",
+      "Implemented a clowd-based analytics solution that reduced data processing costs by 20%, by optimizing resource allocation and usage.",
+      "Developed and maintained ETL pipelines. for data ingestion, processing, and distribution, improving data quality and accessibility.",
+      "Collaborated with cross-functional teams to integrate machine learning models into the data pipeline, increasing predictive analytics @ccuracy by 25%.",
+      "Automated data quality checks, reducing data processing errors by 20% and ensuring high-quality data for analysis.",
+      "Conducted comprehensive data analysis, uncovering key insights. that led to a 15% increase in marketing campaign effectiveness."]
+    },
+    {
+      "Title": "Data Engineer",
+      "Company": "Amazon",
+      "Duration": "Bi OGD0i9- 122021 O",
+      "Location": "Seattle. WA",
+      "Description": [
+        "Designed and implemented a real-time data processing system,increasing data availability and supporting timely decision-making.",
+        "Optimized data storage solutions, resulting in a 25% reduction in storage costs without compromising data integrity or accessibility.",
+        "Collaborated with the analytics team to develop custom data models,enhancing data visualization and reporting capabilities.",
+        "Managed the migration of legacy data systems to cloud platforms,ensuring seamless data integration and minimal downtime.",
+        "Enabled automated data cleansing and enrichment processes,improving data accuracy and usability for analytics purposes."
+      ] }
+  ],
+  "Skills": [
+    "Big Data Engineering",
+    "Data Analysis",
+    "Cloud Computing Solutions",
+    "Large-scale data processing",
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "AWS",
+    "ETL",
+    "Data Modeling",
+    "Machine Learning",
+    "Python",
+    "SQL",
+    "Azure GCP" ,
+    "NoSQL",
+    "ETL"
+  ]},
+  {"filename": "brutal_resume_raw_text.txt",
+  "Name": "Carla Sanchez",
+  "Email": "anon@example.com",
+  "Phone": "+82-10-1XXX-1000",
+  "LinkedIn": "linkedin.com/YourLinkedinId",
+  "Education": [
+    {
+      "Degree": "Bachelor of Electric and Computer Engineering",
+      "University": "Seoul National University",
+      "City/Location": "Seoul, Korea",
+      "Duration": "2014.03-2021.02"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Product Lead",
+      "Company": "Brandazine",
+      "Location": "Seoul, Korea",
+      "Duration": "2020.07-2021.09",
+      "Description": [
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscingvitae, felis. Curabitur dictum gravida mauris.",
+        "Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo.",
+        "Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis.",
+        "Quisque ullamcorper placerat ipsum."
+      ]
+    },
+    {
+      "Title": "Winter Internship",
+      "Company": "Samsung Electronics C-LAB",
+      "Location": "Seoul, Korea",
+      "Duration": "2019.12-2020.02",
+      "Description": [
+       "usce mauris. Vestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel nisl."      ]
+    },
+    {
+      "Title": "Internship",
+      "Company": "kakaopay",
+      "Location": "Sung-nam, Korea",
+      "Duration": "2019.03-2019.08",
+      "Description": [
+        "Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu. Aenean faucibus pede eu ante.",
+        "Sed commodo posuere pede. Mauris ut est. Ut quis purus."
+      ]
+    },
+    {
+      "Title": "Military Service as SW engineer",
+      "Company": "ROK Cyber Command",
+      "Duration": "2017.05-2019.02",
+      "Description": [
+        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio elit,dictum in, hendrerit sit amet, egestas sed, leo. Praesent feugiat sapien aliquet odio.",
+        "Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam. Quisque libero justo, consectetuer a, feugiat vitae, porttitor eu, libero. Suspendisse sed mauris vitae elit sollicitudin malesuada."
+      ]
+    }
+  ],
+  "Skills": [
+    "Enterprise Web Application Development",
+    "python" ,
+    "nodejs",
+    "java" ,
+    "spring",
+    "Data Engineering" ,
+    "SQL",
+    "BI",
+    "Data ETL",
+    "Web Client Development" ,
+    "javascript",
+    "react.js",
+    "HTML",
+    "CSS",
+    "Infrasructure - Container based environments",
+    "Cloud service providers including AWS and GCP"
+  ]},
+  {
+    "filename": "Christian Torres Resume.png_scanned_ocr_text.txt",
+    "Name": "CHRISTIAN TORRES",
+  "Email": "christiantorres@gmailcom",
+  "Phone": "+1-(234)-555-1234",
+  "Location": "Columbus, Ohio",
+  "LinkedIn": "",
+  "Education": [
+    {
+      "Degree": "Master of Science in Data Science",
+      "University": "The Ohio State University",
+      "City/Location": "Coluenbus, OH",
+      "Duration": " O12017 - o1/2019"
+    },
+    {
+      "Degree": "Bachelor of Science in Statistics",
+      "University": "University of Michigan",
+      "City/Location": "Ann Arbor, MI",
+      "Duration": "O1y2012 - 01/2016"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Sr. Data Analyst",
+      "Company": "Walmart Inc.",
+      "Duration": "(06/2020 - Present)",
+      "Location": "Bentonville, AR",
+      "Description": [
+        "Developed comprehensive data models using SQL, improving forecast accuracy by 25% through streamlined data processes.",
+        "Implemented advanced data visualization techniques in Python, resulting in enhanced decision-making capabilities for 80+ stakeholders.",
+        "Engineered a real-time dashboard that increased efficiency in identifying stock trends by 40%, reducing response",
+        "Led cross-functional analytics projects improving collaboration among teams, boosting project delivery speed by 20%.",
+        "Innovated a predictive analytics tool which anticipated market shifts, increasing competitive advantage by 15%.",
+        "Trained team members on new analytics techniques, improving their skills and enhancing the team's analytical output by 30%."
+      ]
+    },
+    {
+      "Title": "Data Analyst",
+      "Company": "Kroger Co.",
+      "Duration": "OB/2047 - 05/2020",
+      "Location": "Gineainnati, OH",
+      "Description": [
+        "Designed and maintained data systems and databases by sorting through large sets of data to enhance efficiency.",
+        "Conducted in-depth statistical analysis leading to actionable insights, which improved sales strategies by 18%.",
+        "Collaborated on a team that automated data collection processes, reducing manual input error rates by 25%.",
+        "Validated data accuracy and methodology during peer review sessions, enhancing quality and reliability by 10%.",
+        "Created tailored reports for stakeholders which enabled informed decisions, driving an increase in quarterly sales by 12%."
+      ]
+    },
+    {
+      "Title": "Business Data Analyst",
+      "Company": "L Brands",
+      "Duration": "05/2015 - a7/2017",
+      "Location": "Golmnhes, OH",
+      "Description": [
+        "Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation.",
+        "Regularly provided troubleshooting expertise and technical support for ad-hoc analytical needs.",
+        "Led weekly data review meetings to discuss ongoing projects and optimize data resources.",
+        "Conducted training sessions on new business intelligence software, resulting in a 40% increase in user adoption."
+      ]
+    }
+  ],
+  "Skills": [
+    "SQL",
+    "Python",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data Mining",
+    "Database Architecture",
+    "Bl Toals",
+    "Data Wrangling",
+    "Agile Methodologies",
+    "SQL Server",
+    "Java",
+    "Reporting Tools"
+  ] },
+  {"filename": "Mason Thomas Resume.png_scanned_ocr_text.txt",
+  "Name": "MASON THOMAS",
+  "Email": "",
+  "Phone": "",
+  "Location": "San Francisco, CA",
+  "LinkedIn": "",
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "Stanford University",
+      "City/Location": "Stanford, CA",
+      "Duration": "012017 - 01/2018"
+    }
+  ],
+  "Experience": [
+    {
+      "Title": "Data Scientist",
+      "Company": "Anheuser-Busch",
+      "Duration": "03/2022 - 10/2023",
+      "Location": "San Francisco, CA",
+      "Description": [
+        "Successfully developed and maintained 15 highly interactive Tableau dashboards, improving data transparency and leading to a 20% increase in decision-making efficiency.",
+        "Led a cross-functional team to design a custom predictive model that resulted in a 12% revenue growth through targeted marketing strategies.",
+        "Optimized SQL data extraction processes, reducing operational costs by 15% and enhancing data retrieval speed by 30% for quicker insights.",
+        "Innovated new methods of integrating structured and unstructured data, improving data accessibility across departments and resulting in more informed business strategies.",
+        "Collaborated with marketing teams te provide analytical support that increased campaign effectiveness, impacting over 100 campaigns company-wide.",
+        "Developed technical documentation and led training sessions to enhance team proficiency with industry tools and analytics, boosting team efficiency by 25%."
+      ]
+    },
+    {
+      "Title": "Business Data Analyst",
+      "Company": "Diageo",
+      "Duration": "09/2020 - 02/2022",
+      "Location": "@ San Francisea, CA",
+      "Description": [
+        "Analyzed a dataset of over 1 million entries, identifying trends that Improved gales forecasts accurecy by 8% through edvanced modeling techniques.",
+        "Implemented data visualization practices with Tableau, elevating stakeholder Presentations and increasing engagement by 35% during meetings.",
+        "Streamlined data cleaning processes using R, significantly reducing the workflow by 40% and increasing the accuracy of analysis.",
+        "Collaborated closely with IT to troubleshoot database issues, ensuring data integrity and seamless updates that enhanced business operations.",
+        "Facilitated workshops to enhance analytics proficiency, which resulted in Orester team cohesion and adoption of data-driven decision frameworks."
+      ]
+    },
+    {
+      "Title": "Junior Data Analyst",
+      "Company": "Constellation Brands",
+      "Duration": "BOF /2018 - 08/2020",
+      "Location": "San Francisco, CA",
+      "Description": [
+        "Assisted iin building SQL queries that supported 4 project leading to 8 10% increase in quarterly sales performance.",
+        "Produced automated reporting that reduced manual labor by 30%, enhancing overall productivity for the analytics department.",
+        "Conducted detailed market analysis that provided strategic insights, contributing to a successful product launch and a 15% market penetration."
+      ]
+    }
+  ],
+  "Skills": [
+    "Tableau",
+    "SQL",
+    "R Programming",
+    "Data Modeling",
+    "Data Management",
+    "Predictive Analytics"
+  ]
+},
+  {"filename": "SebastianMartinResume_raw_text.txt",
+    "Name": "SEBASTIAN MARTIN",
+  "Email": "",
+  "Phone": "�1��234��555�1234",
+  "Location": "New York City, New York",
+  "LinkedIn": "linkedin.com",
+  "Education": [
+    {
+      "Degree": "Master of Science in Computer Science",
+      "University": "Columbia University",
+      "City/Location": "New York, NY",
+      "Duration": "01/2008 - 01/2010"
+    },
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "University": "New York University",
+      "City/Location": "New York, NY",
+      "Duration": "01/2004 - 01/2008"
+    }
+  ],
+    "SKILLS": [
+      "Java",
+      "Python",
+      "Cloud Computing",
+      "AWS",
+      "Microservices",
+      "Docker"
+    ],
+  "Experience": [
+    {
+      "Title": "Senior Software Engineer",
+      "Company": "Google",
+      "Duration": "04/2019 � Present",
+      "Location": "New York, NY",
+      "Description": [
+        "Architected and implemented cloud-based microservices, resulting in a 20% increase in application scalability and performance.",
+        "Designed and deployed containerized applications using Docker and Kubernetes, enhancing system reliability by 25%.",
+        "Drove a team of 5 to adopt Agile methodologies, increasing product delivery speed by 30% while maintaining high-quality standards.",
+        "Led cross-functional team in proactive system monitoring and alerting, reducing downtime by 40% and improving customer satisfaction.",
+        "Developed technological roadmap for upcoming features and system enhancements, aligning with business goals and contributing to a 15% year-over-year revenue boost. ",
+        "Automated various deployment and integration processes, reducing manual effort by 60% and increasing deployment frequency by 50%."
+      ]
+    },
+    {
+      "Title": "Software Development Team Lead",
+      "Company": "Microsoft",
+      "Duration": "08/2014 � 03/2019",
+      "Location": "Redmond, WA",
+      "Description": [
+        "Mentored and led a team of 8 developers, contributing to a 5% decrease in bug rates through comprehensive code reviews and testing.",
+        "Implemented a new authentication service across applications, bolstering security compliance and reducing vulnerabilities by 30%.",
+        "Executed a successful migration to AWS cloud services, improving system uptime by 99.9%.",
+        "Spearheaded the development of a new internal tool that improved team productivity by 20%.",
+        "Managed end-to-end support and maintenance of mission-critical applications, ensuring 24/7 operational readiness."
+      ]
+    },
+    {
+      "Title": "Software Engineer",
+      "Company": "IBM",
+      "Duration": "01/2011 � 07/2014",
+      "Location": "New York, NY",
+      "Description": [
+        "Developed a robust reporting tool that was adopted company-wide, improving data visualization and decision-making processes.",
+        "Collaborated in a multi-disciplinary team to redesign a core software module, leading to a 10% improvement in performance.",
+        "Executed comprehensive debugging of application stacks, reducing system errors by 15%.",
+        "Contributed to the development of new features for an enterprise-level finance software, enhancing the overall product suite."
+      ]
+    }
+  ]
+  }
+
+]

@@ -1,0 +1,416 @@
+{
+  "mistral": {
+    "name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "email": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    "phone": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    "location": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "tp": 4,
+      "fp": 1,
+      "fn": 0
+    },
+    "linkedin": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    },
+    "skills": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.33333333333333337,
+      "tp": 1,
+      "fp": 0,
+      "fn": 4
+    },
+    "education.degree": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "education.university": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "education.city/location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8
+    },
+    "education.duration": {
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "tp": 3,
+      "fp": 0,
+      "fn": 5
+    },
+    "experience.title": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1": 0.9655172413793104,
+      "tp": 14,
+      "fp": 0,
+      "fn": 1
+    },
+    "experience.company": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1": 0.9655172413793104,
+      "tp": 14,
+      "fp": 0,
+      "fn": 1
+    },
+    "experience.duration": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 12,
+      "fp": 0,
+      "fn": 3
+    },
+    "experience.location": {
+      "precision": 1.0,
+      "recall": 0.6428571428571429,
+      "f1": 0.782608695652174,
+      "tp": 9,
+      "fp": 0,
+      "fn": 5
+    },
+    "experience.description": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "fn": 0
+    },
+    "education": {
+      "precision": 1.0,
+      "recall": 0.59375,
+      "f1": 0.7450980392156863,
+      "tp": 19,
+      "fp": 0,
+      "fn": 13
+    },
+    "experience": {
+      "precision": 0.7903225806451613,
+      "recall": 0.8305084745762712,
+      "f1": 0.8099173553719008,
+      "tp": 49,
+      "fp": 13,
+      "fn": 10
+    }
+  },
+  "llama3_instruct": {
+    "name": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0
+    },
+    "email": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "phone": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    "location": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "tp": 3,
+      "fp": 0,
+      "fn": 1
+    },
+    "linkedin": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 1,
+      "fp": 0,
+      "fn": 1
+    },
+    "skills": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "tp": 3,
+      "fp": 0,
+      "fn": 2
+    },
+    "education.degree": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0
+    },
+    "education.university": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333,
+      "tp": 7,
+      "fp": 0,
+      "fn": 1
+    },
+    "education.city/location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8
+    },
+    "education.duration": {
+      "precision": 1.0,
+      "recall": 0.375,
+      "f1": 0.5454545454545454,
+      "tp": 3,
+      "fp": 0,
+      "fn": 5
+    },
+    "experience.title": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1": 0.9655172413793104,
+      "tp": 14,
+      "fp": 0,
+      "fn": 1
+    },
+    "experience.company": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1": 0.9655172413793104,
+      "tp": 14,
+      "fp": 0,
+      "fn": 1
+    },
+    "experience.duration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 15,
+      "fp": 0,
+      "fn": 0
+    },
+    "experience.location": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1": 0.962962962962963,
+      "tp": 13,
+      "fp": 0,
+      "fn": 1
+    },
+    "experience.description": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 13,
+      "fn": 0
+    },
+    "education": {
+      "precision": 1.0,
+      "recall": 0.5625,
+      "f1": 0.72,
+      "tp": 18,
+      "fp": 0,
+      "fn": 14
+    },
+    "experience": {
+      "precision": 0.8115942028985508,
+      "recall": 0.9491525423728814,
+      "f1": 0.8749999999999999,
+      "tp": 56,
+      "fp": 13,
+      "fn": 3
+    }
+  },
+  "qwen_7b": {
+    "name": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "tp": 4,
+      "fp": 0,
+      "fn": 1
+    },
+    "email": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 2
+    },
+    "phone": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3
+    },
+    "location": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "tp": 3,
+      "fp": 0,
+      "fn": 1
+    },
+    "linkedin": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "skills": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714285714285715,
+      "tp": 2,
+      "fp": 0,
+      "fn": 3
+    },
+    "education.degree": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 4,
+      "fp": 0,
+      "fn": 4
+    },
+    "education.university": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666,
+      "tp": 4,
+      "fp": 0,
+      "fn": 4
+    },
+    "education.city/location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8
+    },
+    "education.duration": {
+      "precision": 1.0,
+      "recall": 0.125,
+      "f1": 0.2222222222222222,
+      "tp": 1,
+      "fp": 0,
+      "fn": 7
+    },
+    "experience.title": {
+      "precision": 1.0,
+      "recall": 0.06666666666666667,
+      "f1": 0.125,
+      "tp": 1,
+      "fp": 0,
+      "fn": 14
+    },
+    "experience.company": {
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "f1": 0.23529411764705882,
+      "tp": 2,
+      "fp": 0,
+      "fn": 13
+    },
+    "experience.duration": {
+      "precision": 1.0,
+      "recall": 0.13333333333333333,
+      "f1": 0.23529411764705882,
+      "tp": 2,
+      "fp": 0,
+      "fn": 13
+    },
+    "experience.location": {
+      "precision": 1.0,
+      "recall": 0.14285714285714285,
+      "f1": 0.25,
+      "tp": 2,
+      "fp": 0,
+      "fn": 12
+    },
+    "experience.description": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 1,
+      "fn": 0
+    },
+    "education": {
+      "precision": 1.0,
+      "recall": 0.28125,
+      "f1": 0.43902439024390244,
+      "tp": 9,
+      "fp": 0,
+      "fn": 23
+    },
+    "experience": {
+      "precision": 0.875,
+      "recall": 0.11864406779661017,
+      "f1": 0.208955223880597,
+      "tp": 7,
+      "fp": 1,
+      "fn": 52
+    }
+  }
+}
