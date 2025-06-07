@@ -1,0 +1,64 @@
+{
+  "name": "Oliver Davis",
+  "phone": null,
+  "mail": "olivierdavis@gmail.com",
+  "location": {
+    "city": "Phoenix",
+    "state": "Arizona"
+  },
+  "linkedin": null,
+  "education": [
+    {
+      "degree": "Bachelor of Science in Data Analytics",
+      "university": "Tempe, Arizona",
+      "duration": "2015-2019"
+    }
+  ],
+  "skills": [
+    "Data Collection",
+    "Microsoft Access",
+    "Statistical Analysis",
+    "Strategic Reporting",
+    "Database Management",
+    "Tool Development"
+  ],
+  "experience": [
+    {
+      "title": "Data Analyst",
+      "company": "Maricopa Integrated Health System",
+      "duration": "2021- Present",
+      "locations": [
+        {
+          "city": "Phoenix",
+          "state": "Arizona"
+        }
+      ],
+      "responsibilities": [
+        "- Led cross-functional teams to implement analytical tools that increased data processing efficiency by 25%.",
+        "- Developed and maintained comprehensive performance dashboards used by internal stakeholders to facilitate quality improvement projects.",
+        "- Streamlined data collection processes by integrating diverse data sources, resulting in more accurate reporting and strategic decisions.",
+        "- Authored ad-hoc reports highlighting key trends in service utilization and helped guide impactful process changes by showcasing program value.",
+        "- Collaborated with teams to effectively measure program KPIs, leading to a demonstrable achievement of strategic objectives.",
+        "- Facilitated workshops providing training on database management, improving accuracy in data tracking and stakeholder engagement."
+      ]
+    },
+    {
+      "title": "Benefits Analyst Intern",
+      "company": "Catholic Charities Community Services",
+      "duration": "2018-12/2020",
+      "locations": [
+        {
+          "city": "Phoenix",
+          "state": "Arizona"
+        }
+      ],
+      "responsibilities": [
+        "- Assisted in the analysis of client data to identify trends and support policy formation, resulting in improved client service outcomes.",
+        "- Helped construct Microsoft Access databases to streamline data workflows and ensure consistency in benefit entitlement services.",
+        "- Engaged with stakeholders to support the development of new reporting procedures, enhancing the clarity of program achievements.",
+        "- Contributed to team discussions to develop creative solutions for addressing homelessness, supporting strategic objectives and client advocacy.",
+        "- Coordinated with various teams to validate data accuracy, leading to a 15-% reduction in errors within reports."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Andrew Ryan",
+  "education": [
+    {
+      "degree": "Brooklyn Technical High School",
+      "location": "Brooklyn, NY"
+    }
+  ],
+  "skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office"
+  ],
+  "interests": [
+    "Photography",
+    "Creative Writing",
+    "Archery",
+    "New York Knicks"
+  ],
+  "experience": [
+    {
+      "title": "Co-Founder, FlexiDip",
+      "company": "Ann Arbor, MI",
+      "duration": "06/2024 - Present",
+      "positions": [
+        "Co-Founder"
+      ],
+      "responsibilities": [
+        "Developed minimum viable product (MVP) capable of early-stage revenue generation.",
+        "Validated startup idea through market research and interview feedback as a part of Launch-X U-Michigan.",
+        "Received positive feedback from established brands like Buffalo Wild Wings for innovative sauce holder designs."
+      ]
+    },
+    {
+      "title": "Private Math Tutor",
+      "company": "Brooklyn, NY",
+      "duration": "Sept. 2021 - Present",
+      "positions": [
+        "Team Captain"
+      ],
+      "responsibilities": [
+        "Provided personalized tutoring sessions in algebra, calculus, and geometry to elementary & middle-school students.",
+        "Developed lesson plans for diverse learning styles, leading to improvements by upwards of 1.5 letter grades.",
+        "Awarded National Junior Honor Society for outstanding achievements in academics, leadership, and community service."
+      ]
+    }
+  ],
+  "social": {
+    "email": "andrew@gmail.com",
+    "linkedin": "linkedin. com/in/andrew"
+  },
+  "date": "2023-08-01"
+}

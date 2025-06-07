@@ -1,0 +1,60 @@
+{
+  "name": "ZOE THOMPSON",
+  "phone": "12345551234",
+  "mail": "zoe@gmail.com",
+  "location": "Los Angeles, California",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "University of Southern California",
+      "duration": "01/2010  01/2012"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of California, Los Angeles",
+      "duration": "01/2006  01/2010"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Warehouse Architect",
+      "company": "TechSolutions Inc",
+      "duration": "06/2019  Present",
+      "location": "Los Angeles, CA",
+      "full_description": [
+        "Led the migration of on-premises legacy data systems to cloud-based warehouses, achieving a 40% reduction in operational costs while improving data retrieval times by 70%.",
+        "Spearheaded the integration of Snowflake cloud data warehouse which enhanced data analytics and reporting capabilities for cross-functional teams, supporting an increase in data-driven decision-making.",
+        "Implemented a new ER modeling system for efficient database structuring that streamlined data flow and reduced redundancy, resulting in a 25% increase in productivity for the data analytics team.",
+        "Designed and maintained over 20 data marts, enabling tailored data views which facilitated user- specific analysis, greatly enhancing the usability of data resources organization-wide.",
+        "Automated the extraction, transformation, and load processes ETL using Python and SQL, leading to a 50% reduction in the time required to prepare data for analysis.",
+        "Developed a comprehensive reporting system using PowerBI and Tableau that provided actionable insights into customer behavior, driving a 15% increase in targeted sales.",
+        "Initiated and led the deployment of an automated data quality system that reduced manual error correction by 75%, significantly increasing data reliability for end-users."
+      ]
+    },
+    {
+      "title": "Data Warehouse Specialist",
+      "company": "QuantTech Analytics",
+      "duration": "08/2012  02/2016",
+      "location": "San Francisco, CA",
+      "full_description": [
+        "Contributed to the design and development of a multi-terabyte data warehouse that consolidated data across different departments, facilitating a holistic view of the business.",
+        "Enhanced ETL workflows which reduced the data processing window by 4 hours, enabling more timely data availability for analysis.",
+        "Trained 20 staff members on best practices for data manipulation, query optimization, and report generation, improving overall team efficiency.",
+        "Conducted in-depth analyses of market trends and customer data that contributed to a strategic shift in sales focus, increasing revenue by 10%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Real-time Data Parsing Engine",
+      "description": "Developed a Python-based engine for processing streaming data into actionable insights, while ensuring minimal latency.",
+      "link": "github.com/ZoeThompson/RealTimeDataParser"
+    },
+    {
+      "name": "Custom ETL Framework",
+      "description": "Created an extensible ETL framework to standardize data transformation tasks across various projects, improving code reusability.",
+      "link": "github.com/ZoeThompson/CustomETLFramework"
+    }
+  ]
+}

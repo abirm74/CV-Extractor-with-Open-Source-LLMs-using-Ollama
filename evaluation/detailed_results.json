@@ -1,0 +1,1257 @@
+{
+  "Avery Rodriguez Resume.png_scanned_clean_ocr_text": {
+    "llama3_instruct": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Avery Rodriguez",
+        "pred_value": "Avery Rodriguez",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "e @",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Jacksonville, Florida",
+        "pred_value": "Jacksonville, Florida",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.5,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 10,
+        "gt_count": 16,
+        "pred_count": 8,
+        "precision": 0.75,
+        "recall": 0.375
+      },
+      "education": {
+        "score": 0.9919354838709677,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.967741935483871
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9091806250165384,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.9705882352941176,
+          "duration": 0.7136752136752136,
+          "description": 0.8616396761133603
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "mistral": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Avery Rodriguez",
+        "pred_value": "Avery Rodriguez",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Jacksonville, Florida",
+        "pred_value": "Jacksonville, Florida",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.5,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 10,
+        "gt_count": 16,
+        "pred_count": 8,
+        "precision": 0.75,
+        "recall": 0.375
+      },
+      "education": {
+        "score": 1.0,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 1.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.8939103727908437,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.9705882352941176,
+          "duration": 0.6497128794093519,
+          "description": 0.8492507492507493
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "qwen_7b": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Avery Rodriguez",
+        "pred_value": "Avery Rodriguez",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "<e  @>",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "None",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Jacksonville, Florida",
+        "pred_value": "Jacksonville, Florida",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.4,
+        "type": "list",
+        "matches": 4,
+        "mismatches": 12,
+        "gt_count": 16,
+        "pred_count": 4,
+        "precision": 1.0,
+        "recall": 0.25
+      },
+      "education": {
+        "score": 0.5,
+        "type": "nested",
+        "subfields": {
+          "degree": 0.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.5941176470588235,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.9705882352941176,
+          "duration": 0.0,
+          "description": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "brutal_resume_clean_text": {
+    "llama3_instruct": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Carla Sanchez",
+        "pred_value": "Carla Sanchez",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "anon@example.com",
+        "pred_value": "",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "linkedin": {
+        "score": 0.9454545454545454,
+        "type": "simple",
+        "gt_value": "linkedin.com/YourLinkedinId",
+        "pred_value": "linkedin.com/in/YourLinkedinId",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.8571428571428571,
+        "type": "simple",
+        "gt_value": "+82-10-1XXX-1000",
+        "pred_value": "82/2010-1XXX-1000",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "Seoul, Korea",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "skills": {
+        "score": 0,
+        "type": "list",
+        "matches": 0,
+        "mismatches": 16,
+        "gt_count": 16,
+        "pred_count": 5,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "education": {
+        "score": 1.0,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 1.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 1,
+        "pred_count": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.7665441176470589,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 1.0,
+          "duration": 0.0,
+          "description": 0.8327205882352942
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 4,
+        "pred_count": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "mistral": {
+      "name": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "Carla Sanchez",
+        "pred_value": "",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "anon@example.com",
+        "pred_value": "anon@example.com",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 0.9454545454545454,
+        "type": "simple",
+        "gt_value": "linkedin.com/YourLinkedinId",
+        "pred_value": "linkedin.com/In/YourLinkedinId",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.8571428571428571,
+        "type": "simple",
+        "gt_value": "+82-10-1XXX-1000",
+        "pred_value": "82/2010-1XXX-1000",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "Seoul, Korea",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "skills": {
+        "score": 0,
+        "type": "list",
+        "matches": 0,
+        "mismatches": 16,
+        "gt_count": 16,
+        "pred_count": 5,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "education": {
+        "score": 1.0,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 1.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 1,
+        "pred_count": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.85,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 1.0,
+          "duration": 1.0,
+          "description": 0.25
+        },
+        "count_accuracy": 0.5,
+        "gt_count": 4,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 0.5
+      }
+    },
+    "qwen_7b": {
+      "name": {
+        "score": 0.19047619047619047,
+        "type": "simple",
+        "gt_value": "Carla Sanchez",
+        "pred_value": "John Doe",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "email": {
+        "score": 0.7878787878787878,
+        "type": "simple",
+        "gt_value": "anon@example.com",
+        "pred_value": "john.doe@example.com",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "linkedin": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "linkedin.com/YourLinkedinId",
+        "pred_value": "",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "phone": {
+        "score": 0.24,
+        "type": "simple",
+        "gt_value": "+82-10-1XXX-1000",
+        "pred_value": "+1-123-456-7890",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "Seoul, South Korea",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "skills": {
+        "score": 0.10526315789473684,
+        "type": "list",
+        "matches": 1,
+        "mismatches": 15,
+        "gt_count": 16,
+        "pred_count": 3,
+        "precision": 0.3333333333333333,
+        "recall": 0.0625
+      },
+      "education": {
+        "score": 0.75,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.0
+        },
+        "count_accuracy": 0.5,
+        "gt_count": 1,
+        "pred_count": 2,
+        "precision": 0.5,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.5808939923013503,
+        "type": "nested",
+        "subfields": {
+          "title": 0.5703925805543703,
+          "company": 0.9166666666666666,
+          "location": 0.5959821428571428,
+          "duration": 0.8214285714285714,
+          "description": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 4,
+        "pred_count": 4,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "Christian Torres Resume.png_scanned_clean_ocr_text": {
+    "llama3_instruct": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "CHRISTIAN TORRES",
+        "pred_value": "CHRISTIAN TORRES",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "christiantorres@gmailcom",
+        "pred_value": "christiantorres@gmail.com",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.9565217391304348,
+        "type": "simple",
+        "gt_value": "+1-(234)-555-1234",
+        "pred_value": "12345551234",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Columbus, Ohio",
+        "pred_value": "Columbus, Ohio",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.8695652173913043,
+        "type": "list",
+        "matches": 10,
+        "mismatches": 2,
+        "gt_count": 12,
+        "pred_count": 11,
+        "precision": 0.9090909090909091,
+        "recall": 0.8333333333333334
+      },
+      "education": {
+        "score": 0.9846041055718475,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.9384164222873901
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9962481962481963,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 1.0,
+          "duration": 0.98989898989899,
+          "description": 0.9913419913419913
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "mistral": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "CHRISTIAN TORRES",
+        "pred_value": "CHRISTIAN TORRES",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "christiantorres@gmailcom",
+        "pred_value": "",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.9565217391304348,
+        "type": "simple",
+        "gt_value": "+1-(234)-555-1234",
+        "pred_value": "12345551234",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Columbus, Ohio",
+        "pred_value": "Columbus, Ohio",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.0,
+        "type": "list",
+        "matches": 0,
+        "mismatches": 12,
+        "gt_count": 12,
+        "pred_count": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "education": {
+        "score": 0.9564012096774194,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.8256048387096775
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9521978021978021,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.8571428571428571,
+          "duration": 0.9166666666666666,
+          "description": 0.9871794871794872
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "qwen_7b": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "CHRISTIAN TORRES",
+        "pred_value": "Christian Torres",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "christiantorres@gmailcom",
+        "pred_value": "christiantorres@gmail.com",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "+1-(234)-555-1234",
+        "pred_value": "None",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "Columbus, Ohio",
+        "pred_value": "Columbus, Ohio",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 1.0,
+        "type": "list",
+        "matches": 12,
+        "mismatches": 0,
+        "gt_count": 12,
+        "pred_count": 12,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "education": {
+        "score": 0.0,
+        "type": "nested",
+        "subfields": {
+          "degree": 0.0,
+          "university": 0.0,
+          "city": 0.0,
+          "duration": 0.0
+        },
+        "count_accuracy": 0.0,
+        "gt_count": 2,
+        "pred_count": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "experience": {
+        "score": 0.468840103824624,
+        "type": "nested",
+        "subfields": {
+          "title": 0.8181818181818182,
+          "company": 0.5361197110423116,
+          "location": 0.0,
+          "duration": 0.98989898989899,
+          "description": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    }
+  },
+  "Mason Thomas Resume.png_scanned_clean_ocr_text": {
+    "llama3_instruct": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "MASON THOMAS",
+        "pred_value": "MASON THOMAS",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 0.6666666666666666,
+        "type": "simple",
+        "gt_value": "San Francisco, CA",
+        "pred_value": "San Fran",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "skills": {
+        "score": 1.0,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 0,
+        "gt_count": 6,
+        "pred_count": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "education": {
+        "score": 0.9821428571428572,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.9285714285714286
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 1,
+        "pred_count": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9743298768140495,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.9803921568627452,
+          "duration": 0.9713831478537361,
+          "description": 0.9198740793537658
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "mistral": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "MASON THOMAS",
+        "pred_value": "MASON THOMAS",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 0.6666666666666666,
+        "type": "simple",
+        "gt_value": "San Francisco, CA",
+        "pred_value": "San Fran",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "skills": {
+        "score": 1.0,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 0,
+        "gt_count": 6,
+        "pred_count": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "education": {
+        "score": 0.9741379310344828,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.896551724137931
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 1,
+        "pred_count": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9501664769670709,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 0.9411764705882352,
+          "duration": 0.92662871600253,
+          "description": 0.8830271982445895
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "qwen_7b": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "MASON THOMAS",
+        "pred_value": "Mason Thomas",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "San Francisco, CA",
+        "pred_value": "San Francisco, CA",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.8333333333333334,
+        "type": "list",
+        "matches": 5,
+        "mismatches": 1,
+        "gt_count": 6,
+        "pred_count": 6,
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334
+      },
+      "education": {
+        "score": 0.75,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 1,
+        "pred_count": 1,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9379984118076496,
+        "type": "nested",
+        "subfields": {
+          "title": 0.8636363636363636,
+          "company": 1.0,
+          "location": 0.9117647058823529,
+          "duration": 1.0,
+          "description": 0.9145909895195318
+        },
+        "count_accuracy": 0.6666666666666666,
+        "gt_count": 3,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666
+      }
+    }
+  },
+  "SebastianMartinResume_clean_text": {
+    "llama3_instruct": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "SEBASTIAN MARTIN",
+        "pred_value": "SEBASTIAN MARTIN",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "linkedin.com",
+        "pred_value": "linkedin.com",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.2857142857142857,
+        "type": "simple",
+        "gt_value": "�1��234��555�1234",
+        "pred_value": "12345551234",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "New York City, New York",
+        "pred_value": "New York City, New York",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 1.0,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 0,
+        "gt_count": 6,
+        "pred_count": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "education": {
+        "score": 1.0,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 1.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.9939393939393939,
+        "type": "nested",
+        "subfields": {
+          "title": 1.0,
+          "company": 1.0,
+          "location": 1.0,
+          "duration": 0.9696969696969697,
+          "description": 1.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 3,
+        "pred_count": 3,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "mistral": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "SEBASTIAN MARTIN",
+        "pred_value": "SEBASTIAN MARTIN",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "linkedin": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "linkedin.com",
+        "pred_value": "linkedin.com",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "phone": {
+        "score": 0.2857142857142857,
+        "type": "simple",
+        "gt_value": "�1��234��555�1234",
+        "pred_value": "12345551234",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "New York City, New York",
+        "pred_value": "New York City, New York",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 0.0,
+        "type": "list",
+        "matches": 0,
+        "mismatches": 6,
+        "gt_count": 6,
+        "pred_count": 0,
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "education": {
+        "score": 0.9919354838709677,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.967741935483871
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.7849683544303797,
+        "type": "nested",
+        "subfields": {
+          "title": 0.5,
+          "company": 0.5,
+          "location": 1.0,
+          "duration": 0.9375,
+          "description": 0.9873417721518987
+        },
+        "count_accuracy": 0.6666666666666666,
+        "gt_count": 3,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666
+      }
+    },
+    "qwen_7b": {
+      "name": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "SEBASTIAN MARTIN",
+        "pred_value": "Sebastian Martin",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "email": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "",
+        "pred_value": "seb@martin.email",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "linkedin": {
+        "score": 0.0,
+        "type": "simple",
+        "gt_value": "linkedin.com",
+        "pred_value": "",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "phone": {
+        "score": 0.2857142857142857,
+        "type": "simple",
+        "gt_value": "�1��234��555�1234",
+        "pred_value": "12345551234",
+        "precision": 0.0,
+        "recall": 0.0
+      },
+      "location": {
+        "score": 1.0,
+        "type": "simple",
+        "gt_value": "New York City, New York",
+        "pred_value": "New York City, New York",
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "skills": {
+        "score": 1.0,
+        "type": "list",
+        "matches": 6,
+        "mismatches": 0,
+        "gt_count": 6,
+        "pred_count": 6,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "education": {
+        "score": 0.75,
+        "type": "nested",
+        "subfields": {
+          "degree": 1.0,
+          "university": 1.0,
+          "city": 1.0,
+          "duration": 0.0
+        },
+        "count_accuracy": 1.0,
+        "gt_count": 2,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "experience": {
+        "score": 0.3655737704918033,
+        "type": "nested",
+        "subfields": {
+          "title": 0.8278688524590163,
+          "company": 1.0,
+          "location": 0.0,
+          "duration": 0.0,
+          "description": 0.0
+        },
+        "count_accuracy": 0.6666666666666666,
+        "gt_count": 3,
+        "pred_count": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "John Doe",
+  "phone": null,
+  "mail": "jhondoe@yourdomain.com",
+  "location": "uk bermingham",
+  "linkedin": null,
+  "education": [
+    {
+      "degree": "BS in Computer Science",
+      "university": "University of Pennsylvania",
+      "duration": "09/2000 - 05/2005",
+      "location": null,
+      "gpa": "3.9/4.0 (link to somewhere)",
+      "coursework": [
+        "Computer Architecture",
+        "Comparison of Learning Algorithms",
+        "Computational Theory"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Apple",
+      "duration": "06/2005 - 08/2007",
+      "location": "Cupertino, CA",
+      "description": [
+        "Reduced time to render user buddy lists by 75% by implementing a prediction algorithm.",
+        "Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database.",
+        "Re.designed chat file format and implemented backward compatibility for search."
+      ],
+      "skills": [
+        "Software Engineering",
+        "Algorithm Development",
+        "Database Integration",
+        "API Design"
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Microsoft",
+      "duration": "06/2003 - 08/2003",
+      "location": "Redmond, WA",
+      "description": [
+        "Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows.",
+        "Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching.",
+        "Built an app to compute the similarity of all methods in a codebase, reducing the time from O( n2 ) to O( n log n ).",
+        "Created a test case generation tool that creates random XML docs from XML Schema.",
+        "Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts."
+      ],
+      "skills": [
+        "Internship Experience",
+        "UI Design",
+        "Service Creation",
+        "Data Analysis"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Multi-User Drawing Tool",
+      "description": "Developed an electronic classroom where multiple users can simultaneously view and draw on a chalkboard with each person's edits synchronized.",
+      "skills": [
+        "User Interface Design",
+        "Real-time Collaboration",
+        "Database Management",
+        "Front-end Development (HTML, CSS)"
+      ]
+    },
+    {
+      "title": "Synchronized Desktop Calendar",
+      "description": "Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.",
+      "skills": [
+        "Calendar Application Development",
+        "User Interface Design for Synchronization",
+        "Database Management (Cloud or Local)"
+      ]
+    }
+  ]
+}

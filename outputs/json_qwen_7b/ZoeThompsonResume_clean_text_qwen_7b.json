@@ -1,0 +1,54 @@
+{
+  "name": "Zoe Thompson",
+  "phone": "1234567890",
+  "mail": "zoe@email.com",
+  "location": "Los Angeles, California",
+  "skills": [
+    "Data Warehousing",
+    "Data Modeling",
+    "ERWin",
+    "SQL",
+    "Snowflake",
+    "Redshift"
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Warehouse Architect",
+      "company": "TechSolutions Inc",
+      "duration": "06/2019 - Present",
+      "location": "Los Angeles, CA",
+      "tasks": [
+        "Migrated on-premises legacy data systems to cloud-based warehouses",
+        "Reduced operational costs by 40% while improving data retrieval times by 70%",
+        "Integrated Snowflake cloud data warehouse for enhanced analytics and reporting capabilities",
+        "Managed the project lifecycle, ensuring timely delivery of high-quality data solutions"
+      ]
+    },
+    {
+      "title": "Senior Data Engineer",
+      "company": "Innovatech Data Solutions",
+      "duration": "03/2016 - 05/2019",
+      "location": "Los Angeles, CA",
+      "tasks": [
+        "Optimized data warehouse performance by implementing indexing strategies and query optimizations",
+        "Collaborated with cross-functional teams to translate business requirements into technical data solutions",
+        "Managed the NoSQL databases lifecycle, ensuring efficient handling of 40 TB of data",
+        "Developed and implemented validation protocols and error identification mechanisms for improved data accuracy"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Master of Science in Data Science",
+      "institution": "University of Southern California",
+      "duration": "01/2010 - 01/2012",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "title": "Bachelor of Science in Computer Science",
+      "institution": "University of California, Los Angeles",
+      "duration": "01/2006 - 01/2010",
+      "location": "Los Angeles, CA"
+    }
+  ]
+}

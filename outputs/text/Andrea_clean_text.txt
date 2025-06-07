@@ -1,0 +1,49 @@
+==== Page 1 ====
+Andrea Ray
+1234567890|
+andrea@gmail.com | linkedin.com/in/andrea
+Education
+Msc of physics
+
+Brooklyn, NY
+GPA 3.76
+Sept.
+2021 - 06/2025
+Experience
+Senior Data Scientist - Marketing Team
+06/2024 - Present
+Dell
+
+Ann Arbor, MI
+- data into actionable insights, providing C-suite stakeholders with insightful recommendations to streamline business
+operations and improve customer experience.
+- Generated statistical reports and visualizations, providing key insights for more than 20 marketing campaigns and
+initiatives, including A/B testing, customer retention, brand awareness, and global expansion.
+- Worked with senior leadership to develop and implement digital marketing strategy, identifying and implementing
+new tactics to improve campaign performance by 50.%, resulting in 250% increase in revenue from search marketing
+campaigns.
+Senior Data Scientist
+Sept. 2021 - Present
+Metro
+
+Brooklyn, NY
+- Designed and implemented a machine learning system that predicts hardware malfunction with more than 80%
+accuracy.
+- Created global and personalized real time reports system for executives stakeholders and processes in SAS, Tableau,
+and proprietary systems.
+- Worked closely with a team of data engineers and BI analysts to improve the efficiency customer recommendation
+analytics engine by 33%.
+Awards
+Speedo Scholastic All-American
+Aug. 2023 - Present
+- National award given to student-athletes who achieve a national time standard while maintaining a 3.5- GPA.
+National Junior Honor Society
+06/2023 - Present
+- Award presented to students with outstanding achievements in academics, leadership, and community service.
+Classes
+Courses: AP Calulus BC, AP Chemistry, AP Physics, AP World History, AP U.
+S.
+History, AP Statistics, AP Literature
+Skills & Interests
+Skills: Probability Theory, Web Design, Microsoft Excel, Microsoft Office,Python,SQL,HDFS,Machine learning
+Interests: Photography, Creative Writing, Archery, New York Knicks

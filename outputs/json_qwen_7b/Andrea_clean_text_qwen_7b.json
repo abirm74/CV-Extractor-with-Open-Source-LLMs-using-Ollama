@@ -1,0 +1,79 @@
+{
+  "name": "Andrea Ray",
+  "phone": "1234567890",
+  "mail": "andrea@gmail.com",
+  "linkedin": "linkedin.-com/in/andrea",
+  "education": [
+    {
+      "degree": "Msc of physics",
+      "university": null,
+      "location": "Brooklyn, NY",
+      "duration": "Sept. 2021 - Present"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Data Scientist - Marketing Team",
+      "company": "Dell",
+      "duration": "06/2024 - Present",
+      "location": "Ann Arbor, MI",
+      "full_description": [
+        "<bullet 1> data into actionable insights, providing C-suite stakeholders with insightful recommendations to streamline business operations and improve customer experience.",
+        "<bullet 2> Generated statistical reports and visualizations, providing key insights for more than 20 marketing campaigns and initiatives, including A/ B testing, customer retention, brand awareness, and global expansion.",
+        "<bullet 3> Worked closely with senior leadership to develop and implement digital marketing strategy, identifying and implementing new tactics to improve campaign performance by 50%, resulting in 250% increase in revenue from search marketing campaigns."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Probability Theory",
+      "description": null
+    },
+    {
+      "skill": "Web Design",
+      "description": null
+    },
+    {
+      "skill": "Microsoft Excel",
+      "description": null
+    },
+    {
+      "skill": "Microsoft Office",
+      "description": null
+    },
+    {
+      "skill": "Python",
+      "description": null
+    },
+    {
+      "skill": "SQL",
+      "description": null
+    },
+    {
+      "skill": "HDFS",
+      "description": null
+    },
+    {
+      "skill": "Machine learning",
+      "description": null
+    }
+  ],
+  "interests": [
+    {
+      "interest": "Photography",
+      "description": null
+    },
+    {
+      "interest": "Creative Writing",
+      "description": null
+    },
+    {
+      "interest": "Archery",
+      "description": null
+    },
+    {
+      "interest": "New York Knicks",
+      "description": null
+    }
+  ]
+}

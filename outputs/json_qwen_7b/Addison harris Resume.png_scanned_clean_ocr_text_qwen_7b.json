@@ -1,0 +1,66 @@
+{
+  "name": "Addison Harris",
+  "phone": "",
+  "mail": "addison@gmail.com",
+  "location": {
+    "address": "1234 Main St, Houston, TX 77000",
+    "city": "Houston",
+    "state": "Texas"
+  },
+  "linkedin": "linkedin.com/linkededinusername",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, California",
+      "duration": ""
+    }
+  ],
+  "skills": [
+    "Generative Al",
+    "Statistical Modeling",
+    "Machine Learning",
+    "Data Visualization",
+    "Distributed Computing"
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Scientist",
+      "company": "Optum Dallas, Texas",
+      "duration": "01/2021 - Present",
+      "responsibilities": [
+        "Developed innovative generative Al models improving healthcare analytics by 35%",
+        "Led a team of 5 data scientists, providing mentorship and fostering a continuous learning culture",
+        "Collaborated cross-functionally to identify Al application opportunities, leading to 428% increase in project efficiency",
+        "Conducted experiments validating Al models, achieving an 85% accuracy rate on predictive assessments",
+        "Extracted actionable insights from complex data, identifying trends and improving strategic decisions by 40%",
+        "Initiated Al-based projects, driving a 20% reduction in healthcare cost prediction errors"
+      ]
+    },
+    {
+      "title": "Senior Data Scientist",
+      "company": "Cigna Austin, Texas",
+      "duration": "06/2016 - 12/2020",
+      "responsibilities": [
+        "Spearheaded the development of predictive models, achieving a 25% Increase in model accuracy for diabetes risk predictions",
+        "Implemented distributed computing solutions, enhancing computational efficiency by 30% for large datasets",
+        "Conducted complex statistical analyses, leading toa 15% reduction in claims processing times",
+        "Mentored junior staff in machine learning techniques, boasting team quality and innovation by 20%",
+        "Designed data visualization tools, simplifying complex datasets and improving user interpretation by 40%",
+        "Contributed to cross-functional initiatives, enhancing data-driven healthcare processes. and reducing errors by 10%"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "native": true,
+      "advanced": false
+    },
+    {
+      "language": "Spanish",
+      "native": false,
+      "advanced": true
+    }
+  ]
+}

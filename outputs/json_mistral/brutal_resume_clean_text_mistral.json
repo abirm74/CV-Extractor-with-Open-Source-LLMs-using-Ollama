@@ -1,0 +1,49 @@
+{
+  "name": "",
+  "phone": "82/2010-1XXX-1000",
+  "mail": "anon@example.com",
+  "location": "Seoul, Korea",
+  "linkedin": "linkedin.com/In/YourLinkedinId",
+  "education": [
+    {
+      "degree": "Bachelor of Electric and Computer Engineering",
+      "university": "Seoul National University",
+      "location": "",
+      "duration": "201403202102"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Product Lead",
+      "company": "Brandazine",
+      "duration": "202007202109",
+      "location": "Seoul, Korea",
+      "full_description": [
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.\nUt purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.\nCurabitur dictum gravida mauris.\n- Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo.\n- Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique, libero. Vivamus viverra fermentum felis.\n- Quisque ullamcorper placerat ipsum.",
+        "Samsung Electronics C-LAB\nSeoul, Korea\nWinter Internship\n201912202002",
+        "Fusce mauris.\nVestibulum luctus nibh at lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel nisl.",
+        "kakaopay\nSung-nam, Korea\nInternship\n201903201908",
+        "Suspendisse vel felis.\nUt lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu. Aenean faucibus pede eu ante.",
+        "Sed commodo posuere pede.\nMauris ut est. Ut quis purus."
+      ]
+    },
+    {
+      "title": "Military Service as SW engineer",
+      "company": "ROK Cyber Command",
+      "duration": "201705201902"
+    }
+  ],
+  "skills": [
+    "Enterprise Web Application Development - python, nodejs, java spring",
+    "Data Engineering - SQL, BI, Data ETL",
+    "Web Client Development - javascript, react.js, HTML, CSS",
+    "Infrasructure - Container based environments, Cloud service providers including AWS, GCP",
+    "Industrial Design"
+  ],
+  "projects": [
+    {
+      "name": "Developed Face recognition model on 'Introduction to Deep learning' lecture",
+      "date": "Autumn, 2019"
+    }
+  ]
+}

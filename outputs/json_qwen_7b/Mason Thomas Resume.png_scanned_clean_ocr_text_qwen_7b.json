@@ -1,0 +1,52 @@
+{
+  "name": "Mason Thomas",
+  "phone": "",
+  "mail": "",
+  "location": "San Francisco, CA",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, CA",
+      "start_date": "2017-01/2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Anheuser-Busch",
+      "duration": "03/2022 - 10/2023",
+      "location": "San Francisco, CA",
+      "responsibilities": [
+        "Developed and maintained highly interactive Tableau dashboards for data visualization.",
+        " Led a cross-functional team to design a custom predictive model, resulting in a 12% revenue growth through targeted marketing strategies.",
+        " Optimized SQL data extraction processes, reducing operational costs by 15% and enhancing data retrieval speed by 30% for quicker insights.",
+        " Innovated new methods of integrating structured and unstructured data, improving data accessibility across departments and resulting in more informed business strategies.",
+        " Collaborated with marketing teams to provide analytical support that increased campaign effectiveness, impacting over 100 campaigns company-wide.",
+        " Developed technical documentation and led training sessions to enhance team proficiency with industry tools and analytics, boosting team efficiency by 25%."
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Diageo",
+      "duration": "09/2020 - 02/2022",
+      "location": "San Francisco, CA",
+      "responsibilities": [
+        " Analyzed a dataset of over 1 million entries, identifying trends that improved gales forecasts accuracy by 8% through advanced modeling techniques.",
+        " Implemented data visualization practices with Tableau, elevating stakeholder presentations and increasing engagement by 35% during meetings.",
+        " Streamlined data cleaning processes using R, significantly reducing the workflow by 40% and increasing the accuracy of analysis.",
+        " Collaborated closely with IT to troubleshoot database issues, ensuring data integrity and seamless updates that enhanced business operations.",
+        " Facilitated workshops to enhance analytics proficiency, which resulted in Oxford team cohesion and adoption of data-Driven decision frameworks."
+      ]
+    }
+  ],
+  "skills": [
+    "Tableau",
+    "SOL",
+    "R Programming",
+    "Data Modeling",
+    "Data Management",
+    "Predictive Analytics"
+  ]
+}

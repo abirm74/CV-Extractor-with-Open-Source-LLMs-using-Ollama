@@ -1,0 +1,73 @@
+{
+  "name": "GABRIEL BAKER",
+  "phone": "12345551234",
+  "mail": "gabriel@gmail.com",
+  "location": "Jacksonville, Florida",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "University of Florida",
+      "location": "Gainesville, FL",
+      "duration": "01/2010  01/2012"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Central Florida",
+      "location": "Orlando, FL",
+      "duration": "01/2006  01/2010"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Architect",
+      "company": "Oracle Corporation",
+      "duration": "06/2019  08/2023",
+      "location": "Orlando, FL",
+      "full_description": [
+        "Led a team of 6 to design and implement a scalable data architecture, improving processing speed by 40% and reducing delay in reporting.",
+        "Collaborated with cross-departmental teams to integrate new data sources, resulting in a 30% data comprehensiveness improvement.",
+        "Developed new data modeling techniques that decreased data retrieval time by 15%, enhancing overall team efficiency.",
+        "Effectively managed Azure Databricks-based data environments, ensuring optimal performance and a 99.9% uptime over 18 months.",
+        "Played a pivotal role in strategic data projects that resulted in a 25% boost in user satisfaction scores due to improved data handling.",
+        "Designed a compliance tracking system using Python and SQL, ensuring all data processes adhered to regulatory standards."
+      ]
+    },
+    {
+      "title": "Data Solutions Architect",
+      "company": "IBM",
+      "duration": "03/2015  05/2019",
+      "location": "Raleigh, NC",
+      "full_description": [
+        "Design and executed a data migration strategy, saving in storage costs and reducing operational time by 20%.",
+        "Partnered with data analysts to automate 50% of reports, improving accuracy and saving 10 hours of labor weekly.",
+        "Enhanced data security measures across cloud platforms, minimizing breach risks and ensuring data integrity.",
+        "Implemented machine learning algorithms for predictive analytics, increasing forecasting accuracy by 18%.",
+        "Consulted with senior management to draft and implement data strategies for business growth, resulting in a 15% revenue increase in key areas."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Accenture",
+      "duration": "01/2012  02/2015",
+      "location": "Tampa, FL",
+      "full_description": [
+        "Engineered ETL pipelines, enhancing data flow efficiency and reducing processing delays by 25%.",
+        "Optimized SQL databases, contributing to a 30% improvement in query performance and resource utilization.",
+        "Contributed to a cross-functional team to develop a new data analytics platform with a 98% uptime.",
+        "Identified and resolved data discrepancies, maintaining data accuracy and earning a 95% quality assurance rating."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Data Connector",
+      "url": "github.com/gabrielbakerdata/dataconnector"
+    },
+    {
+      "name": "Real-time Analytics Dashboard",
+      "url": "github.com/gabrielbakerdata/analyticsdashboard",
+      "external_url": "www.enhancv.com"
+    }
+  ]
+}

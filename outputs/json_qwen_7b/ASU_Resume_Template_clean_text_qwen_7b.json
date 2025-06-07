@@ -1,0 +1,117 @@
+{
+  "name": "Sparky Sundevil",
+  "phone": "81234567890sdevil123@asu.edu",
+  "linkedin": "linkedin.com/in/sparkysundevil",
+  "github": "sparkysundevil",
+  "education": [
+    {
+      "degree": "Bachelor of Science, Mechanical Engineering",
+      "university": "Arizona State University",
+      "location": "Tempe, AZ",
+      "duration": "Graduating 05/2020",
+      "GPA": "3.82"
+    },
+    {
+      "position": "Research & Development Development Intern",
+      "company": "Stryker Solutions",
+      "location": "Phoenix, AZ",
+      "duration": "05/2019 - 08/2019",
+      "responsibilities": [
+        {
+          "task": "Applied measurement system analysis (MSA) to qualify relocated test equipment"
+        },
+        {
+          "task": "Authored three technical reports for relocated packaging equipment, following IQOQPQ guides"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Data Analysis and Statistics: JMP, Minitab"
+    },
+    {
+      "skill": "Hardware Design Languages and Programmable Logic"
+    },
+    {
+      "skill": "Programming: Python, C, C-  -"
+    },
+    {
+      "skill": "Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Hand Cycle for Polio Victims",
+      "year": "Fall 2019 - Spring 2020",
+      "role": "Team Leader, Collaborator",
+      "responsibilities": [
+        {
+          "task": "Designed and developed a custom hand cycle for polio victims"
+        },
+        {
+          "task": "Assessed range-of-motion data to determine feasible solutions"
+        },
+        {
+          "task": "Developed team schedule, including quality measurement for each major milestone"
+        }
+      ]
+    },
+    {
+      "name": "Sensor for Quadriplegic Patients",
+      "year": "Spring 2019",
+      "role": "Project Leader, Designer",
+      "responsibilities": [
+        {
+          "task": "LED team to design and develop a mouse-like device to allow quadriplegic patients to use websites"
+        },
+        {
+          "task": "Assessed range-of-motion data and feasibility solutions for the device"
+        },
+        {
+          "task": "Managed project timeline and milestones, ensuring quality control at each step"
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "name": "ASU Society of Women Engineers (SWE)",
+      "role": "Member, Leadership Roles",
+      "years": "08/2017 - Present",
+      "responsibilities": [
+        {
+          "task": "Assumed multiple leadership roles within the society, including vice-president and industry relations chair"
+        },
+        {
+          "task": "Organized 2018 annual conference participation, including 8 student poster submissions"
+        },
+        {
+          "task": "Provided mentorship and support to fellow SWE members"
+        }
+      ]
+    },
+    {
+      "name": "Kohl's, Gilbert, AZ",
+      "role": "Sales Associate, Jewelry Department",
+      "years": "08/2017 - 12/2017",
+      "responsibilities": [
+        {
+          "task": "Achieved #2 highest selling associate within one month of hire date"
+        }
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ASU Society of Women Engineers (SWE)",
+      "role": "Member, Leadership Roles",
+      "years": "08/2017 - Present"
+    },
+    {
+      "name": "Kohl's, Gilbert, AZ",
+      "role": "Sales Associate, Jewelry Department",
+      "years": "08/2017 - 12/2017"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Avery Rodriguez",
+  "phone": null,
+  "mail": "<e  @>",
+  "location": "Jacksonville, Florida",
+  "skills": [
+    "Big Data Engineering",
+    "Data Analysis",
+    "Cloud Computing Solutions",
+    "Large-scale Data Processing"
+  ],
+  "experience": [
+    {
+      "title": "Big Data Engineer",
+      "company": "Google",
+      "startDate": "01/2022",
+      "endDate": null,
+      "location": "Mountain View, CA",
+      "descriptionFull": [
+        "Led the development of a scalable big data processing platform handling over 100TB of data daily enhancing data analysis capabilities.",
+        "Implemented a cloud-based analytics solution that reduced data processing costs by 20% by optimizing resource allocation and usage.",
+        "Developed and maintained ETL pipelines for data ingestion, processing, and distribution improving data quality and accessibility.",
+        "Collaborated with cross-functional teams to integrate machine learning models into the data pipeline increasing predictive analytics accuracy by 25%."
+      ],
+      "fullDescription": [
+        "<First bullet or sentence>, where you described leading the development of a big data platform handling large volumes of data daily, enhancing data analysis capabilities."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Amazon",
+      "startDate": "09/2021",
+      "endDate": null,
+      "location": "Seattle, WA",
+      "descriptionFull": [
+        "Designed and implemented a real-time data processing system increasing data availability supporting timely decision-making.",
+        "Optimized data storage solutions resulting in a 25% reduction in storage costs without compromising data integrity or accessibility.",
+        "Collaborated with the analytics team to develop custom data models enhancing data visualization and reporting capabilities.",
+        "Managed the migration of legacy data systems to cloud platforms ensuring seamless data integration and minimal downtime.",
+        "Enabled automated data cleansing and enrichment processes improving data accuracy and usability for analytics purposes."
+      ],
+      "fullDescription": [
+        "<Second bullet or sentence>, where you described designing and implementing a real-time data processing system, increasing data availability, and supporting timely decision-making."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Master of Science in Data Science",
+      "school": "Columbia University",
+      "startDate": "01/2015",
+      "endDate": "04/2017",
+      "location": "New York, NY"
+    },
+    {
+      "title": "Bachelor of Science in Computer Science",
+      "school": "University of Florida",
+      "startDate": "01/2011",
+      "endDate": "04/2015",
+      "location": "Gainesville, FL"
+    }
+  ]
+}

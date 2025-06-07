@@ -1,0 +1,41 @@
+{
+  "name": "SPARKY",
+  "phone": "81234567890sdevil123@asu.edu",
+  "linkedin": "linkedin.com/in/sparkysundevil",
+  "education": [
+    {
+      "degree": "B.S.",
+      "university": "Arizona State University",
+      "location": "Tempe, AZ",
+      "duration": "Graduating 05/2020"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Research & Dev Development Intern",
+      "company": "Stryker Solutions",
+      "location": "Phoenix, AZ",
+      "duration": "05/2019 - 08/2019",
+      "full_description": [
+        "- Applied measurement system analysis (MSA) to qualify relocated test equipment (JMP, Python)",
+        "- Authored three technical reports for relocated packaging equipment, following IQOQPQ guides (JMP, Excel)"
+      ]
+    },
+    {
+      "title": "Quality Engineering Intern",
+      "company": "Med Apps",
+      "location": "Scottsdale, AZ",
+      "duration": "05/2018 - 08/2018",
+      "full_description": [
+        "- Assessed equivalency of proposed alternate plastic packaging material (Minitab, Excel)",
+        "- Created and delivered presentations to train field sales representatives on new product features (PowerPoint)"
+      ]
+    }
+  ],
+  "skills": [
+    "Data Analysis and Statistics: JMP, Minitab",
+    "Design and Modeling Tools: SOLIDWORKS, LabVIEW, MATLAB, Microsoft Office",
+    "Programming: Python, C, C++",
+    "Certifications: National Instruments Certified LabVIEW Associate Developer (CLAD) - 08/2019"
+  ]
+}

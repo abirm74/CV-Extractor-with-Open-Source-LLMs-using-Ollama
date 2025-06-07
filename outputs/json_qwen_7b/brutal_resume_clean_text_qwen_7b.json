@@ -1,0 +1,59 @@
+{
+  "name": "John Doe",
+  "phone": "+1-123-456-7890",
+  "mail": "john.doe@example.com",
+  "skills": [
+    "Web Development",
+    "Data Analysis",
+    "Project Management"
+  ],
+  "location": "Seoul, South Korea",
+  "education": [
+    {
+      "degree": "Bachelor of Electric and Computer Engineering",
+      "university": "Seoul National University",
+      "start_date": "20140320",
+      "end_date": "202102"
+    },
+    {
+      "degree": "Minored in Industrial Design",
+      "university": "Seoul National University",
+      "start_date": "20140320",
+      "end_date": null
+    }
+  ],
+  "experience": [
+    {
+      "title": "Product Lead at Brandazine",
+      "company": "Brandazine",
+      "location": "Seoul, South Korea",
+      "duration": "2020-07 to 2021-09",
+      "description": [
+        {
+          "sentence": "Developed face recognition model on 'Introduction to Deep Learning' lecture."
+        }
+      ]
+    },
+    {
+      "title": "Winter Internship at Samsung Electronics C-LAB",
+      "company": "Samsung Electronics C-LAB",
+      "location": "Seoul, South Korea",
+      "duration": "2019-12 to 2020-08",
+      "description": []
+    },
+    {
+      "title": "SW Engineer Internship at kakaopay",
+      "company": "kakaopay",
+      "location": "Sung-Nam, South Korea",
+      "duration": "2019-03 to 2019-08",
+      "description": []
+    },
+    {
+      "title": "Military Service at ROK Cyber Command",
+      "company": "ROK Cyber Command (Military service)",
+      "location": "Seoul, South Korea",
+      "duration": "2017-05 to 2019-08",
+      "description": []
+    }
+  ]
+}

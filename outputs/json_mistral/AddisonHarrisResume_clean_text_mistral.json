@@ -1,0 +1,75 @@
+{
+  "name": "ADDISON HARRIS",
+  "phone": "12345551234",
+  "mail": "",
+  "location": "Houston, Texas",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "Stanford University",
+      "location": "Stanford, California",
+      "duration": "01/2009  01/2011"
+    },
+    {
+      "degree": "Bachelor of Science in Economics",
+      "university": "University of Texas at Austin",
+      "location": "Austin, Texas",
+      "duration": "01/2005  01/2009"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Lead Data Scientist",
+      "company": "Optum",
+      "duration": "01/2021  Present",
+      "location": "Dallas, Texas",
+      "full_description": [
+        "Developed innovative generative AI models improving healthcare analytics by 35%.",
+        "Led a team of 5 data scientists, providing mentorship and fostering a continuous learning culture.",
+        "Collaborated cross-functionally to identify AI application opportunities, leading to a 28% increase in project efficiency.",
+        "Conducted experiments validating AI models, achieving an 85% accuracy rate on predictive assessments.",
+        "Extracted actionable insights from complex data, identifying trends, and improving strategic decisions by 40%.",
+        "Initiated AI-based projects, driving a 20% reduction in healthcare cost prediction errors."
+      ]
+    },
+    {
+      "title": "Senior Data Scientist",
+      "company": "Cigna",
+      "duration": "06/2016  12/2020",
+      "location": "Austin, Texas",
+      "full_description": [
+        "Spearheaded the development of predictive models, achieving a 25% increase in model accuracy for diabetes risk predictions.",
+        "Implemented distributed computing solutions, enhancing computational efficiency by 30% for large datasets.",
+        "Conducted complex statistical analyses, leading to a 15% reduction in claims processing times.",
+        "Mentored junior staff in machine learning techniques, boosting team quality and innovation by 20%.",
+        "Designed data visualization tools, simplifying complex datasets and improving user interpretation by 40%."
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Kaiser Permanente",
+      "duration": "03/2012  05/2016",
+      "location": "Los Angeles, California",
+      "full_description": [
+        "Developed algorithms leading to a 15% improvement in patient outcome predictions in clinical trials.",
+        "Collaborated with engineering teams to enhance AI model scalability, reducing deployment times by 30%."
+      ]
+    }
+  ],
+  "key_achievements": [
+    "AI Model Excellence Award",
+    "Top Mentor Award",
+    "Innovation in Healthcare AI"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native"
+    },
+    {
+      "language": "Spanish",
+      "level": "Advanced"
+    }
+  ]
+}

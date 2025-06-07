@@ -1,0 +1,60 @@
+{
+  "name": "Christian Torres",
+  "phone": null,
+  "mail": "christiantorres@gmail.com",
+  "location": "Columbus, Ohio",
+  "skills": [
+    "SQL",
+    "Python",
+    "Data Visualization",
+    "Statistical Analysis",
+    "Data Mining",
+    "Database Architecture",
+    "Bl Toals",
+    "Data Wrangling",
+    "Agile Methodologies",
+    "SQL Server",
+    "Java",
+    "Reporting Tools"
+  ],
+  "experience": [
+    {
+      "title": "Sr. Data Analyst",
+      "company": "Bentonuille, AR - Walmart Inc.",
+      "duration": "06/2020 - Present",
+      "fields": {
+        "data_models": "Improved forecast accuracy by 25% through streamlined data processes.",
+        "data_analysis_protocols": "Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation.",
+        "technical_support": "Provided troubleshooting expertise and technical support for ad-hoc analytical needs.",
+        "weekly_data_review_meetings": "Led weekly data review meetings to discuss ongoing projects and optimize data resources.",
+        "training_sessions": "Conducted training sessions on new business intelligence software, resulting in a 40% increase in user adoption.",
+        "technical_skills": "Skills include SQL, Python, Data Visualization, Statistical Analysis, Data Mining, Database Architecture, Bl Toals, Data Wrangling, Agile Methodologies, SQL Server, Java, Reporting Tools."
+      }
+    },
+    {
+      "title": "Business Data Analyst",
+      "company": "Kroger Co. - Gineainnati, OH",
+      "duration": "OB/2047 - 05/2020",
+      "fields": {
+        "data_systems_maintenance": "Sorted through large sets of data to enhance efficiency in maintaining data systems and databases.",
+        "statistical_analysis_for_sales_strategies": "Conducted in-depth statistical analysis leading to actionable insights that improved sales strategies by 18%.",
+        "collaboration_on_team_data_collection_processes": "Led a team that automated data collection processes, reducing manual input error rates by 25%.",
+        "quality_and_reliability_assessment": "Validated data accuracy and methodology during peer review sessions, enhancing quality and reliability by 10%.",
+        "report creation_for_stakeholders": "Created tailored reports for stakeholders, enabling informed decisions that drove an increase in quarterly sales by 12%.",
+        "technical_skills": "Skills include SQL, Python, Data Visualization, Statistical Analysis, Data Mining, Database Architecture, Bl Toals, Data Wrangling, Agile Methodologies, SQL Server, Java, Reporting Tools."
+      }
+    },
+    {
+      "title": "Data Analyst",
+      "company": "L Brands - Gineainnati, OH",
+      "duration": "05/2015 - a07/2017",
+      "fields": {
+        "data_analysis_protocol_improvement": "Developed and implemented new protocols for data analysis, improving time efficiency by 15% in report generation.",
+        "real-time_data_review_for_project_optimization": "Led weekly data review meetings to discuss ongoing projects and optimize data resources in real-time.",
+        "training_and_education_sessions_on_new_database\u7ba1\u7406\u7cfb\u7edf": "Conducted training sessions on new business intelligence software, resulting in a 40% increase in user adoption. Also educated teams on the latest database management systems to streamline data handling processes.",
+        "statistical_analysis_for_analytics_report": "Conducted in-depth statistical analysis leading to actionable insights that improved the accuracy and presentation of analytics reports for stakeholders.",
+        "technical_skills": "Skills include SQL, Python, Data Visualization, Statistical Analysis, Data Mining, Database Architecture, Bl Toals, Data Wrangling, Agile Methodologies, SQL Server, Java, Reporting Tools."
+      }
+    }
+  ]
+}

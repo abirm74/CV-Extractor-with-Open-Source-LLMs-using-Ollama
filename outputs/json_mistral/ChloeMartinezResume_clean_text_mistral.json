@@ -1,0 +1,79 @@
+{
+  "name": "CHLOE MARTINEZ",
+  "phone": "12345551234",
+  "mail": "chloe@gmail.com",
+  "location": "Houston, Texas",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Data Analytics",
+      "university": "Rice University",
+      "location": "Houston, Texas",
+      "duration": "01/2017  01/2019"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Houston",
+      "location": "Houston, Texas",
+      "duration": "01/2013  01/2017"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Engineer | Big Data | Healthcare Analytics",
+      "company": "",
+      "duration": "",
+      "location": "Houston, Texas",
+      "full_description": [
+        "With 5 years of dedicated experience in data engineering and mastery over Cloudera Bigdata Technologies, my contributions have significantly boosted data analysis and warehouse operations, particularly in the healthcare sector, leading to substantial improvements in data quality and processing efficiency.",
+        "Developed an open-source tool to standardize varying healthcare data formats, significantly improving data analysis efficiency. See the code at github.com/ChloeMartinez/HealthDataTool"
+      ]
+    },
+    {
+      "title": "Data Warehouse Specialist",
+      "company": "Cigna",
+      "duration": "02/2022  Present",
+      "location": "Houston, Texas",
+      "full_description": [
+        "Led a team in the migration of 10 terabytes of PHI and PII data from Oracle databases to Hadoop clusters using Sqoop and Flume, enhancing data security and compliance.",
+        "Developed and optimized over 500 hive/impala queries, which improved reporting performance by 30%.",
+        "Automated data workflows with Unix scripting, which increased department efficiency by 25%.",
+        "Initiated a Waterfall to Agile transition for the data warehouse team, which cut down project delivery times by 20%."
+      ]
+    },
+    {
+      "title": "Big Data Engineer",
+      "company": "UnitedHealth Group",
+      "duration": "",
+      "location": "",
+      "full_description": [
+        "Orchestrated the migration of complex healthcare data sets, revealing insights that led to a 10% improvement in patient care services.",
+        "Designed and executed data validation procedures, improving data accuracy by 95%.",
+        "Collaborated on 3 major release cycles, utilizing Agile methodology to ensure timely and efficient data delivery.",
+        "Contributed to a project that reduced data redundancies by 20%, increasing overall system performance."
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "Memorial Hermann Health System",
+      "duration": "01/2020  12/2020",
+      "location": "Houston, Texas",
+      "full_description": [
+        "Analyzed and interpreted complex healthcare data sets, revealing insights that led to a 10% improvement in patient care services.",
+        "Designed and executed data validation procedures, improving data accuracy by 95%.",
+        "Collaborated on 3 major release cycles, utilizing Agile methodology to ensure timely and efficient data delivery.",
+        "Contributed to a project that reduced data redundancies by 20%, increasing overall system performance."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Cloudera Data Analyst",
+      "issuer": "Cloudera"
+    },
+    {
+      "name": "Professional Oracle SQL Optimization",
+      "issuer": "Oracle University"
+    }
+  ]
+}

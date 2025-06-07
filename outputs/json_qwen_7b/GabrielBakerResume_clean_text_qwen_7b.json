@@ -1,0 +1,23 @@
+{
+  "name": "Gabriel Baker",
+  "phone": "12345551234",
+  "mail": "gabriel@gmail.com",
+  "location": "Jacksonville, Florida",
+  "linkedin": "linkedin.com",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "University of Florida",
+      "location": "Gainesville, FL",
+      "duration": "01/2010 - 01/2012"
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Azure Databricks",
+    "Python",
+    "Data Modeling",
+    "Azure Data Platform",
+    "ETL Pipelines"
+  ]
+}

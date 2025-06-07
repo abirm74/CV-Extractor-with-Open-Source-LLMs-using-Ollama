@@ -1,0 +1,50 @@
+{
+  "name": "Sebastian Martin",
+  "phone": "12345551234",
+  "email": "seb@martin.email",
+  "location": "New York City, New York",
+  "skills": [
+    "Java",
+    "Python",
+    "Cloud Computing",
+    "AWS",
+    "Microservices",
+    "Docker"
+  ],
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Google",
+      "start_date": "2019-04",
+      "end_date": "Present",
+      "locations": [
+        "New York, NY"
+      ]
+    },
+    {
+      "title": "Team Lead - Software Development",
+      "company": "Microsoft",
+      "start_date": "2014-08",
+      "end_date": "2019-03",
+      "locations": [
+        "Redmond, WA"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "school": "Columbia University",
+      "start_date": "2008-01",
+      "end_date": "2010-12",
+      "location": "New York, NY"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "New York University",
+      "start_date": "2004-01",
+      "end_date": "2008-01",
+      "location": "New York, NY"
+    }
+  ]
+}

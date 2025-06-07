@@ -1,0 +1,57 @@
+{
+  "name": "Violet Rodriguez",
+  "phone": null,
+  "mail": "violet@gmail.com",
+  "location": "Washington, D.C.",
+  "linkedin": null,
+  "education": [
+    {
+      "degree": "Master's Degree in Data Science",
+      "university": "George Washington University",
+      "location": "Washington, D.C.",
+      "start_date": "01/2018 - O01/2019"
+    },
+    {
+      "degree": "Bachelor's Degree in Mathematics",
+      "university": "University of Virginia",
+      "location": "Charlottesville, VA",
+      "start_date": "O01/2014 - 01/2018"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Predictive Analytics",
+    "Machine Learning",
+    "Exploratory Data Analysis",
+    "Statistical Analysis"
+  ],
+  "experience": [
+    {
+      "title": "Associate Data Scientist at AT&T Washington, D.C.",
+      "company": "AT&T",
+      "location": "Washington, D.C.",
+      "duration": "01/2022 - Present",
+      "responsibilities": [
+        "Developed predictive analytics models to improve project efficiency by 15%",
+        "Collaborated with cross-functional teams to enhance data quality for analysis and reporting",
+        "Automated routine data extraction and processing tasks, reducing time spent on data preparation by 30%",
+        "Contribute to revenue increase by implementing predictive models that led to a 8% boost in target markets within six months"
+      ]
+    },
+    {
+      "title": "Junior Data Scientist at Verizon Reston, VA",
+      "company": "Verizon",
+      "location": "Reston, VA",
+      "duration": "06/2020 - 12/2021",
+      "responsibilities": [
+        "Developed data visualization dashboards using Python to improve the dissemination of data across departments by 20%",
+        "Collaborated with engineering teams to ensure clean and robust data pipelines, enhancing data quality for analysis and reporting",
+        "Automated routine data extraction and processing tasks using SOL, reducing time spent on data preparation by 30%",
+        "Conducted predictive modeling analyses that contributed to a revenue increase of 8% in target markets within six months",
+        "Participated in stakeholder meetings to gather business requirements, ensuring model deployment aligned with organizational objectives"
+      ]
+    }
+  ],
+  "templates": []
+}

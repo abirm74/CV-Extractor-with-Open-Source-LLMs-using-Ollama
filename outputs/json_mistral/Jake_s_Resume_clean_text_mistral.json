@@ -1,0 +1,87 @@
+{
+  "name": "Jake Ryan",
+  "phone": "1234567890",
+  "mail": "jake@su.edu",
+  "linkedin": "linkedin.com/in/jake",
+  "location": "",
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Computer Science, Minor in Business",
+      "university": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "Aug. 2018 - 05/2021"
+    },
+    {
+      "degree": "Associate's in Liberal Arts",
+      "university": "Blinn College",
+      "location": "Bryan, TX",
+      "duration": "Aug. 2014 - 05/2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "Texas A&M University",
+      "duration": "06/2020 - Present",
+      "location": "College Station, TX",
+      "full_description": [
+        "- Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems",
+        "- Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data",
+        "- Explored ways to visualize GitHub collaboration in a classroom setting"
+      ]
+    },
+    {
+      "title": "Information Technology Support Specialist",
+      "company": "Southwestern University",
+      "duration": "Sep. 2018 - Present",
+      "location": "Georgetown, TX",
+      "full_description": [
+        "- Communicate with managers to set up campus computers used on campus",
+        "- Assess and troubleshoot computer problems brought by students, faculty and staff",
+        "- Maintain upkeep of computers, classroom equipment, and 200 printers across campus"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Research Assistant",
+      "company": "Southwestern University",
+      "duration": "05/ 2019 - 07/2019",
+      "location": "Georgetown, TX",
+      "full_description": [
+        "- Explored methods to generate video game dungeons based off of The Legend of Zelda",
+        "- Developed a game in Java to test the generated dungeons",
+        "- Contributed 50K- lines of code to an established codebase via Git",
+        "- Conducted a human subject study to determine which video game dungeon generation technique is enjoyable",
+        "- Wrote an 8-page paper and gave multiple presentations on-campus",
+        "- Presented virtually to the World Conference on Computational Intelligence"
+      ]
+    }
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "C/C- - ",
+    "SQL (Postgres)",
+    "JavaScript",
+    "HTML/CSS",
+    "R",
+    "React",
+    "Node.js",
+    "Flask",
+    "JUnit",
+    "WordPress",
+    "Material-UI",
+    "FastAPI",
+    "Git",
+    "Docker",
+    "TravisCI",
+    "Google Cloud Platform",
+    "VS Code",
+    "Visual Studio",
+    "PyCharm",
+    "IntelliJ",
+    "Eclipse",
+    "pandas",
+    "NumPy",
+    "Matplotlib"
+  ]
+}

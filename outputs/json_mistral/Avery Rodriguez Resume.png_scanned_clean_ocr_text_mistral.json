@@ -1,0 +1,64 @@
+{
+  "name": "Avery Rodriguez",
+  "phone": "",
+  "mail": "",
+  "location": "Jacksonville, Florida",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Master of Science in Data Science",
+      "university": "Columbia University",
+      "location": "NewYork, NY",
+      "duration": "01/2015 01/2017"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Florida",
+      "location": "Gainesville, FL",
+      "duration": "01/2011 04/2015"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Big Data Engineer",
+      "company": "Google",
+      "duration": "01/2022 - Present = 9 (Mountain View, CA)",
+      "location": "Mountain View, CA",
+      "full_description": [
+        "Led the development of a scalable big data processing platform, handling over 100TB of data daily, enhancing data analysis capabilities.",
+        "Implemented a cloud-based analytics solution that reduced data processing costs by 20%, by optimizing resource allocation and usage.",
+        "Developed and maintained ETL pipelines for data ingestion, processing, and distribution, improving data quality and accessibility.",
+        "Collaborated with cross-functional teams to integrate machine learning models into the data pipeline, increasing predictive analytics accuracy by 25%.",
+        "Automated data quality checks, reducing data processing errors by 20% and ensuring high-quality data for analysis.",
+        "Conducted comprehensive data analysis, uncovering key insights that led to a 15% increase in marketing campaign effectiveness."
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "company": "Amazon",
+      "duration": "Bi OGD0i 9122021O Seattle. WA",
+      "location": "Seattle, WA",
+      "full_description": [
+        "Designed and implemented a real-time data processing system, increasing data availability and supporting timely decision-making.",
+        "Optimized data storage solutions, resulting in a 25% reduction in storage costs without compromising data integrity or accessibility.",
+        "Collaborated with the analytics team to develop custom data models, enhancing data visualization and reporting capabilities.",
+        "Managed the migration of legacy data systems to cloud platforms, ensuring seamless data integration and minimal downtime.",
+        "Enabled automated data cleansing and enrichment processes, improving data accuracy and usability for analytics purposes."
+      ]
+    }
+  ],
+  "skills": [
+    "Azure",
+    "GCP",
+    "Python",
+    "SQL",
+    "NoSQL",
+    "ETL",
+    "Data Modeling",
+    "Machine Learning"
+  ],
+  "certification": [
+    "Certified Big Data Professional",
+    "Apache Spark for Big Data Processing"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Chloe Martinez",
+  "phone": "",
+  "mail": "chloe@gmail.com",
+  "location": "Houston, Texas",
+  "education": [
+    {
+      "degree": "Master of Science in Data Analytics",
+      "university": "Rice University",
+      "duration": "01/2017 01/2019"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Clinical Data Reporting Framework Creator",
+      "framework": "Flexible reporting framework for healthcare institutions",
+      "duration": "See more at github.com/ChloeMartinez/ClinicalDataFramework",
+      "skills": []
+    },
+    {
+      "title": "Healthcare Data Normalization Tool Developer",
+      "description": "Created open-source tool to standardize varying healthcare data formats",
+      "duration": "02/2022 Present",
+      "skills": [
+        "Erwin Data Modeler",
+        "Hadoop",
+        "Cloudera",
+        "Hive",
+        "Impala",
+        "Unix Commands",
+        "Big Data Engineering"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Erwin Data Modeler"
+    },
+    {
+      "skill": "Hadoop"
+    },
+    {
+      "skill": "Cloudera"
+    },
+    {
+      "skill": "Hive"
+    },
+    {
+      "skill": "Impala"
+    },
+    {
+      "skill": "Unix Commands"
+    },
+    {
+      "skill": "Big Data Engineering"
+    }
+  ]
+}

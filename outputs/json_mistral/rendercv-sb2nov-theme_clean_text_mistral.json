@@ -1,0 +1,50 @@
+{
+  "name": "John Doe",
+  "phone": "05419999999",
+  "mail": "jhondoe@yourdomain.com",
+  "location": "uk bermingham",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "BS in Computer Science",
+      "university": "University of Pennsylvania",
+      "location": "",
+      "duration": "09/2000 - 05/2005"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "Apple",
+      "duration": "06/2005 - 08/2007",
+      "location": "Cupertino, CA",
+      "full_description": [
+        "- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm",
+        "- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database",
+        "- Redesigned chat file format and implemented backward compatibility for search"
+      ]
+    },
+    {
+      "title": "Software Engineer Intern",
+      "company": "Microsoft",
+      "duration": "06/2003 - 08/2003",
+      "location": "Redmond, WA",
+      "full_description": [
+        "- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows",
+        "- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching",
+        "- Built an app to compute the similarity of all methods in a codebase, reducing the time from O(n2) to O(n log n)",
+        "- Created a test case generation tool that creates random XML docs from XML Schema",
+        "- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts"
+      ]
+    }
+  ],
+  "skills": [
+    "C- -",
+    "C",
+    "Java",
+    "Objective-C",
+    "C#",
+    "SQL",
+    "JavaScript"
+  ]
+}

@@ -1,0 +1,83 @@
+==== Page 1 ====
+ADDISON HARRIS
+Lead Data Scientist | Generative AI & Healthcare
+12345551234
+Email
+linkedin.com
+
+Houston, Texas
+Summary
+Experienced Data Scientist with over 9 years in AI, specialized in generative models.
+Proven success in advancing AI initiatives and
+mentoring teams.
+Mastered AI applications in healthcare, resulting in a 30% improvement in predictive analytics.
+Eager to drive
+impactful data-driven decisions.
+Skills
+Generative AI Statistical Modeling Machine Learning Data Visualization Distributed Computing Healthcare Knowledge
+Predictive Analytics Python R SQL
+Experience
+Optum
+
+Dallas, Texas
+Lead Data Scientist
+01/2021  Present
+Developed innovative generative AI models improving healthcare analytics by 35%, resulting in enhanced decision-making.
+Led a team of 5 data scientists, providing mentorship and fostering a continuous learning culture.
+Collaborated cross-functionally to identify AI application opportunities, leading to a 28% increase in project efficiency.
+Conducted experiments validating AI models, achieving an 85% accuracy rate on predictive assessments.
+Extracted actionable insights from complex data, identifying trends, and improving strategic decisions by 40%.
+Initiated AI-based projects, driving a 20% reduction in healthcare cost prediction errors.
+Cigna
+
+Austin, Texas
+Senior Data Scientist
+06/2016  12/2020
+Spearheaded the development of predictive models, achieving a 25% increase in model accuracy for diabetes risk predictions.
+Implemented distributed computing solutions, enhancing computational efficiency by 30% for large datasets.
+Conducted complex statistical analyses, leading to a 15% reduction in claims processing times.
+Mentored junior staff in machine learning techniques, boosting team quality and innovation by 20%.
+Designed data visualization tools, simplifying complex datasets and improving user interpretation by 40%.
+Kaiser Permanente
+
+Los Angeles, California
+Data Scientist
+03/2012  05/2016
+Developed algorithms leading to a 15% improvement in patient outcome predictions in clinical trials.
+Collaborated with engineering teams to enhance AI model scalability, reducing deployment times by 30%.
+Implemented machine learning models, detecting anomalies in healthcare data, increasing detection rate by 25%.
+Contributed to cross-functional initiatives, enhancing data-driven healthcare processes and reducing errors by 10%.
+Education
+Stanford University
+
+Stanford, California
+Master of Science in Computer Science
+01/2009  01/2011
+University of Texas at Austin
+
+Austin, Texas
+Bachelor of Science in Economics
+01/2005  01/2009
+Key Achievements
+AI Model Excellence Award
+Top Mentor Award
+Innovation in Healthcare AI
+&
+G
+0
+Led development of an AI model
+that improved patient data analytics
+by 40%, recognized with industry
+award.
+Received award for mentoring junior
+data scientists, contributing to team
+skill enhancement by 30%.
+Acknowledged for driving AI
+initiatives that reduced analysis time
+by 20% in healthcare projects.
+Languages
+English Native
+Spanish Advanced
+www.enhancv.com
+
+Powered by

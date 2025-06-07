@@ -1,0 +1,74 @@
+{
+  "name": "Carla Sanchez",
+  "phone": "82/2010-1XXX-1000",
+  "linkedin": "linkedin.com/in/YourLinkedinId",
+  "location": "Seoul, Korea",
+  "education": [
+    {
+      "degree": "Bachelor of Electric and Computer Engineering",
+      "university": "Seoul National University",
+      "location": "Seoul, Korea",
+      "duration": "201403202102"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Product Lead",
+      "company": "Brandazine",
+      "duration": "",
+      "location": "Seoul, Korea",
+      "full_description": [
+        "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis.",
+        "Curabitur dictum gravida mauris.",
+        "Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi.",
+        "Morbi auctor lorem non justo.",
+        "Nulla malesuada porttitor diam.",
+        "Donec felis erat, congue non, volutpat at, tincidunt tristique, libero.",
+        "Vivamus viverra fermentum felis.",
+        "Quisque ullamcorper placerat ipsum."
+      ]
+    },
+    {
+      "title": "Winter Internship",
+      "company": "Samsung Electronics C-LAB",
+      "duration": "",
+      "location": "Seoul, Korea",
+      "full_description": [
+        "Fusce mauris.",
+        "Vestibulum luctus nibh at lectus.",
+        "Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel nisl."
+      ]
+    },
+    {
+      "title": "Internship",
+      "company": "kakaopay",
+      "duration": "",
+      "location": "Sung-nam, Korea",
+      "full_description": [
+        "Suspendisse vel felis.",
+        "Ut lorem lorem, interdum eu, tincidunt sit amet, laoreet vitae, arcu.",
+        "Aenean faucibus pede eu ante."
+      ]
+    },
+    {
+      "title": "Military Service as SW engineer",
+      "company": "ROK Cyber Command",
+      "duration": "",
+      "location": "",
+      "full_description": [
+        "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+        "Donec odio elit, dictum in, hendrerit sit amet, egestas sed, leo.",
+        "Praesent feugiat sapien aliquet odio.",
+        "Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim eget quam."
+      ]
+    }
+  ],
+  "skills": [
+    "Enterprise Web Application Development - python, nodejs, java spring",
+    "Data Engineering - SQL, BI, Data ETL",
+    "Web Client Development - javascript, react.js, HTML, CSS",
+    "Infrasructure - Container based environments, Cloud service providers including AWS and GCP",
+    "Language Skills - Korean as mother tongue, fluent English and Japanese, entry-level Chinese"
+  ]
+}

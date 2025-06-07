@@ -1,0 +1,48 @@
+{
+  "name": "Andrea Ray",
+  "phone": "1234567890",
+  "linkedin": "linkedin.com/in/andrea",
+  "location": "",
+  "education": [
+    {
+      "degree": "Msc of physics",
+      "university": "Brooklyn, NY",
+      "location": "Brooklyn, NY",
+      "duration": "Sept. 2021 - 06/2025"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Data Scientist - Marketing Team",
+      "company": "Dell",
+      "duration": "06/2024 - Present",
+      "location": "Ann Arbor, MI",
+      "full_description": [
+        "- data into actionable insights, providing C-suite stakeholders with insightful recommendations to streamline business operations and improve customer experience.",
+        "- Generated statistical reports and visualizations, providing key insights for more than 20 marketing campaigns and initiatives, including A/B testing, customer retention, brand awareness, and global expansion.",
+        "- Worked with senior leadership to develop and implement digital marketing strategy, identifying and implementing new tactics to improve campaign performance by 50.%, resulting in 250% increase in revenue from search marketing campaigns."
+      ]
+    },
+    {
+      "title": "Senior Data Scientist",
+      "company": "Metro",
+      "duration": "Sept. 2021 - Present",
+      "location": "Brooklyn, NY",
+      "full_description": [
+        "- Designed and implemented a machine learning system that predicts hardware malfunction with more than 80% accuracy.",
+        "- Created global and personalized real time reports system for executives stakeholders and processes in SAS, Tableau, and proprietary systems.",
+        "- Worked closely with a team of data engineers and BI analysts to improve the efficiency customer recommendation analytics engine by 33%"
+      ]
+    }
+  ],
+  "skills": [
+    "Probability Theory",
+    "Web Design",
+    "Microsoft Excel",
+    "Microsoft Office",
+    "Python",
+    "SQL",
+    "HDFS",
+    "Machine learning"
+  ]
+}

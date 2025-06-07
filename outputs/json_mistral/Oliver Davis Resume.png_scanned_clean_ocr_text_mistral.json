@@ -1,0 +1,52 @@
+{
+  "name": "OLIVER DAVIS",
+  "phone": "12348551234olivierdavis@gmailcom",
+  "mail": "",
+  "location": "Phoenix, Arizona",
+  "linkedin": "",
+  "education": [
+    {
+      "degree": "Bachelor of Science in Data Analytics",
+      "university": "Arizona State University",
+      "location": "Tempe, Arizona",
+      "duration": "01/2015 - 01/2019"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Analyst Phoenix, Arnona",
+      "company": "Maricopa Integrated Health System",
+      "duration": "09/2021 - Present",
+      "location": "",
+      "full_description": [
+        "- Led cross-functional teams to implement analytical tools that increased data processing efficiency by 25%, enhancing program outcomes representation.",
+        "- Developed and maintained comprehensive performance dashboards used by internal stakeholders to facilitate quality improvement projects.",
+        "- Streamlined data collection processes by integrating diverse data sources, resulting in more accurate reporting and strategic decisions.",
+        "- Authored ad-hoc reports highlighting key trends in service utilization and helped guide impactful process changes by showcasing program value.",
+        "- Collaborsted with teams to effectively measure program KPIs, leading to a demonstrable achievement of strategic objectives.",
+        "- Facilitated workshops providing training on database management, improving accuracy in data tracking and stakeholder engagement."
+      ]
+    },
+    {
+      "title": "Benefits Analyst Intern Phoent, Artzona",
+      "company": "Catholic Charities Community Services",
+      "duration": "06/2018 = 12/2020",
+      "location": "",
+      "full_description": [
+        "- Assisted in the analysis of client data to identify trends and support policy formation, resulting in improved client service outcomes.",
+        "- Helped construct Microsoft Access databases to streamline data workflows and ensure consistency in benefit entitlement services.",
+        "- Engaged with stakeholders to support the development of new reporting procedures, enhancing the clarity of program achievements.",
+        "- Contributed to team discussions to develop creative solutions for addressing homelessness, supporting strategic objectives and client advocacy.",
+        "- Coordinated with various teams to validate data accuracy, leading to a 15- % reduction in errors within reports."
+      ]
+    }
+  ],
+  "skills": [
+    "Data Collection",
+    "Microsoft Access",
+    "Statistical Analysis",
+    "Strategic Reporting",
+    "Database Management",
+    "Tool Development"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Addison Harris",
+  "phone": null,
+  "mail": "email@example.com",
+  "location": "Houston, Texas",
+  "summary": "Experienced Data Scientist with 9 years in AI, specialized in generative models.",
+  "skills": [
+    "Generative AI",
+    "Statistical Modeling",
+    "Machine Learning",
+    "Data Visualization",
+    "Distributed Computing",
+    "Healthcare Knowledge",
+    "Predictive Analytics",
+    "Python",
+    "R",
+    "SQL"
+  ]
+}

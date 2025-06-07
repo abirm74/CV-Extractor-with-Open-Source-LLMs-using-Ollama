@@ -1,0 +1,87 @@
+==== Page 1 ====
+AMELIA MILLER
+Senior Big Data Operations Engineer | Data Strategy | Tech Leadership
+% #
+42945551234SUMMARY
+Experienced Big Data Operations
+Engineer with over 9 years in tech.
+Skilled in GCP, Hadoop, and Spark.
+Led
+PROJECTS
+Open Source Data Pipeline
+Contributed to an open source data
+pipeline project for efficient data
+processing.
+GitHub:
+https://github.com/AmeliaMiller/data-
+Pipeline
+Automated Monitoring
+Framework
+Developed a framework to automate
+performance monitoring for cloud
+applications.
+GitHub:
+https://github.com/AmeliaMiller/monitor
+ing-framework
+
+amefia@outiook.com 9 Los Angeles, CA.
+EXPERIENCE
+Senior Big Data Engineer
+DataTech Inc. 09/2019 -Present §
+ Los Angeles, CA
+- Led a team of 8 engineers to successfully migrate 70% of data workloads to:
+'Google Cloud Platform, resulting in a 20% reduction in operational costs.
+- Implemented Ci/CD pipelines using GitHub and Jenkins, achieving a 40%
+reduction in deployment times and ensuring seamless integration of code
+changes.
+- Developed a real-time data processing application using Kafka and Spark,
+improving data throughput by 25% and minimizing processing delays.
+- Established monitoring solutions with Grafana, decreasing response times to
+incidents by 20% through proactive alerting and dashboard insights.
+- Collaborated with cross-functional teams to integrate Hadoop-based solutions
+in the data architecture, enhancing data accessibility and compliance.
+- - Managed and scaled Kubermetes clusters, providing a resilient infrastructure
+that improved service uptime by 99.9% for client-facing applications.
+Big Data Developer
+TechSolutions Carp. % 06/
+2016 - 08/2019
+ Santa Monica, CA
+- Designed and implemented scalable Hadoop workflows for data analytics,
+reducing data processing time by 50% across multiple departments.
+- Optimized MongoDB queries, improving data retrieval speeds by 40% and
+enhancing overall user experience with database-driven applications.
+- Conducted training sessions on Unix/Shell scripting for junior engineers,
+facilitating knowledge transfer and improving team competencies.
+- Spearheaded a project to automate routine data cleansing tasks using Python
+'scripts, saving an estimated 200 hours of manual work monthily.
+- - Mapped data migration plans from legacy systems to Cloudera, ensuring data
+integrity and compliance during transition phases.
+Data Engineer
+Innovate Analytics ig 01/
+2014 - 05/2016 9
+ San Francisco, CA
+- Developed data pipelines using Apache Airflow, facilitating seamless data flow
+and effective reporting for business intelligence operations
+-
+ Implemented Ansible scripts for environment configuration, enhancing
+deployment processes and aligning team efforts toward agile methodologies.
+- Advised stakeholders on data strategy, resulting in improved decision-making
+processes and the implementation of innovative analytics solutions.
+- Reduced data processing costs by 15% through the optimization of existing
+systems and the implementation of scalable solutions.
+SKILLS
+UNIX, Spark, Shell Scripting, Python,
+ Hadoop, GitHub
+EDUCATION
+Master of Science in Computer Science
+University of Southern California 01/
+2012 - 01/2014 9
+ Los Angeles, CA
+Bachelor of Science in Information Technology
+University of California, Berkeley i 01/
+2008 - 01/2012
+ Berkeley, CA
+LANGUAGES
+English
+Native #ece8 Proficient #- ooe8
+Spanish

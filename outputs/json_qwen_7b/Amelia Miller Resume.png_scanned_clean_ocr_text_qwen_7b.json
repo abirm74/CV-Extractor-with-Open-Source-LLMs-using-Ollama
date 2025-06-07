@@ -1,0 +1,53 @@
+{
+  "name": "Amelia Miller",
+  "phone": null,
+  "mail": "amelia@outiook.com",
+  "location": {
+    "city": "Los Angeles",
+    "state": "California",
+    "zip": "90001"
+  },
+  "linkedin": "https://www.linkedin.com/in/ameliamiller/",
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "university": "University of Southern California",
+      "start_date": "01/2012",
+      "end_date": "01/2014"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Big Data Engineer",
+      "company": "DataTech Inc.",
+      "start_date": "09/2019",
+      "end_date": null,
+      "tasks": [
+        "Led a team of 8 engineers to successfully migrate 70% of data workloads to: Google Cloud Platform, resulting in a 20% reduction in operational costs.",
+        "Implemented Ci/CD pipelines using GitHub and Jenkins, achieving a 40% reduction in deployment times and ensuring seamless integration of code changes.",
+        "Developed a real-time data processing application using Kafka and Spark, improving data throughput by 25% and minimizing processing delays."
+      ]
+    },
+    {
+      "title": "Big Data Developer",
+      "company": "TechSolutions Carp.",
+      "start_date": "06/2016",
+      "end_date": "08/2019",
+      "tasks": [
+        " Designed and implemented scalable Hadoop workflows for data analytics, reducing data processing time by 50% across multiple departments.",
+        " Optimized MongoDB queries, improving data retrieval speeds by 40% and enhancing overall user experience with database-driven applications.",
+        " Conducted training sessions on Unix/Shell scripting for junior engineers, facilitating knowledge transfer and improving team competencies.",
+        " Spearheaded a project to automate routine data cleansing tasks using Python scripts, saving an estimated 200 hours of manual work monthily.",
+        " Mapped data migration plans from legacy systems to Cloudera, ensuring data integrity and compliance during transition phases."
+      ]
+    }
+  ],
+  "skills": [
+    "UNIX",
+    "Spark",
+    "Shell Scripting",
+    "Python",
+    "Hadoop",
+    "GitHub"
+  ]
+}

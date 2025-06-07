@@ -1,0 +1,437 @@
+================================================================================
+RESUME EXTRACTION EVALUATION REPORT
+================================================================================
+
+=== OVERALL MODEL PERFORMANCE ===
+--------------------------------------------------
+Model                F1 Score   Precision  Recall    
+--------------------------------------------------
+LLAMA3_INSTRUCT      0.842      0.841      0.830     
+MISTRAL              0.789      0.794      0.764     
+QWEN_7B              0.614      0.667      0.637     
+
+=== FIELD-WISE PERFORMANCE ===
+--------------------------------------------------
+
+NAME:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 1.000    1.000      1.000   
+mistral         0.800    0.800      0.800   
+qwen_7b         0.838    0.800      0.800   
+  --> Best: llama3_instruct (F1: 1.000)
+
+EMAIL:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.800    0.800      0.800   
+mistral         0.800    0.800      0.800   
+qwen_7b         0.558    0.400      0.400   
+  --> Best: llama3_instruct (F1: 0.800)
+
+LINKEDIN:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.989    1.000      1.000   
+mistral         0.989    1.000      1.000   
+qwen_7b         0.600    0.600      0.600   
+  --> Best: llama3_instruct (F1: 0.989)
+
+PHONE:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.620    0.600      0.600   
+mistral         0.820    0.800      0.800   
+qwen_7b         0.305    0.200      0.200   
+  --> Best: mistral (F1: 0.820)
+
+LOCATION:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.733    0.600      0.600   
+mistral         0.733    0.600      0.600   
+qwen_7b         0.800    0.800      0.800   
+  --> Best: qwen_7b (F1: 0.800)
+
+SKILLS:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.674    0.732      0.642   
+mistral         0.300    0.350      0.275   
+qwen_7b         0.668    0.833      0.629   
+  --> Best: llama3_instruct (F1: 0.674)
+
+EDUCATION:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.992    1.000      1.000   
+mistral         0.984    1.000      1.000   
+qwen_7b         0.550    0.700      0.800   
+  --> Best: llama3_instruct (F1: 0.992)
+
+  DEGREE:
+    llama3_instruct : 1.000
+    mistral       : 1.000
+    qwen_7b       : 0.600
+
+  UNIVERSITY:
+    llama3_instruct : 1.000
+    mistral       : 1.000
+    qwen_7b       : 0.800
+
+  CITY:
+    llama3_instruct : 1.000
+    mistral       : 1.000
+    qwen_7b       : 0.800
+
+  DURATION:
+    llama3_instruct : 0.967
+    mistral       : 0.938
+    qwen_7b       : 0.000
+
+EXPERIENCE:
+Model           F1       Precision  Recall  
+---------------------------------------------
+llama3_instruct 0.928    1.000      1.000   
+mistral         0.886    1.000      0.833   
+qwen_7b         0.589    1.000      0.867   
+  --> Best: llama3_instruct (F1: 0.928)
+
+  TITLE:
+    llama3_instruct : 1.000
+    mistral       : 0.900
+    qwen_7b       : 0.816
+
+  COMPANY:
+    llama3_instruct : 1.000
+    mistral       : 0.900
+    qwen_7b       : 0.891
+
+  LOCATION:
+    llama3_instruct : 0.990
+    mistral       : 0.954
+    qwen_7b       : 0.496
+
+  DURATION:
+    llama3_instruct : 0.729
+    mistral       : 0.886
+    qwen_7b       : 0.562
+
+  DESCRIPTION:
+    llama3_instruct : 0.921
+    mistral       : 0.791
+    qwen_7b       : 0.183
+
+=== BEST MODEL SUMMARY ===
+--------------------------------------------------
+Overall Best F1 Score: LLAMA3_INSTRUCT (0.842)
+Best Precision: LLAMA3_INSTRUCT (0.841)
+Best Recall: LLAMA3_INSTRUCT (0.830)
+
+Model Strengths (F1 Score):
+  name         : llama3_instruct (1.000)
+  email        : llama3_instruct (0.800)
+  linkedin     : llama3_instruct (0.989)
+  phone        : mistral (0.820)
+  location     : qwen_7b (0.800)
+  skills       : llama3_instruct (0.674)
+  education    : llama3_instruct (0.992)
+  experience   : llama3_instruct (0.928)
+
+=== DETAILED RESULTS BY FILE ===
+--------------------------------------------------
+
+Avery Rodriguez Resume.png_scanned_clean_ocr_text
+  llama3_instruct:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.000, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.500, P=0.750, R=0.375 (6/16 matches)
+    education    : F1=0.992, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.968
+    experience   : F1=0.909, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.971
+      duration   : 0.714
+      description : 0.862
+    AVG          : 0.800
+  mistral:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=1.000, P=1.000, R=1.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.500, P=0.750, R=0.375 (6/16 matches)
+    education    : F1=1.000, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 1.000
+    experience   : F1=0.894, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.971
+      duration   : 0.650
+      description : 0.849
+    AVG          : 0.924
+  qwen_7b:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=0.000, P=0.000, R=0.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.000, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.400, P=1.000, R=0.250 (4/16 matches)
+    education    : F1=0.500, P=1.000, R=1.000 (count: 1.000)
+      degree     : 0.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.000
+    experience   : F1=0.594, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.971
+      duration   : 0.000
+      description : 0.000
+    AVG          : 0.562
+
+brutal_resume_clean_text
+  llama3_instruct:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=0.000, P=0.000, R=0.000
+    linkedin     : F1=0.945, P=1.000, R=1.000
+    phone        : F1=0.857, P=1.000, R=1.000
+    location     : F1=0.000, P=0.000, R=0.000
+    skills       : F1=0.000, P=0.000, R=0.000 (0/16 matches)
+    education    : F1=1.000, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 1.000
+    experience   : F1=0.767, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 1.000
+      duration   : 0.000
+      description : 0.833
+    AVG          : 0.571
+  mistral:
+    name         : F1=0.000, P=0.000, R=0.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=0.945, P=1.000, R=1.000
+    phone        : F1=0.857, P=1.000, R=1.000
+    location     : F1=0.000, P=0.000, R=0.000
+    skills       : F1=0.000, P=0.000, R=0.000 (0/16 matches)
+    education    : F1=1.000, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 1.000
+    experience   : F1=0.850, P=1.000, R=0.500 (count: 0.500)
+      title      : 1.000
+      company    : 1.000
+      location   : 1.000
+      duration   : 1.000
+      description : 0.250
+    AVG          : 0.582
+  qwen_7b:
+    name         : F1=0.190, P=0.000, R=0.000
+    email        : F1=0.788, P=0.000, R=0.000
+    linkedin     : F1=0.000, P=0.000, R=0.000
+    phone        : F1=0.240, P=0.000, R=0.000
+    location     : F1=0.000, P=0.000, R=0.000
+    skills       : F1=0.105, P=0.333, R=0.062 (1/16 matches)
+    education    : F1=0.750, P=0.500, R=1.000 (count: 0.500)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.000
+    experience   : F1=0.581, P=1.000, R=1.000 (count: 1.000)
+      title      : 0.570
+      company    : 0.917
+      location   : 0.596
+      duration   : 0.821
+      description : 0.000
+    AVG          : 0.332
+
+Christian Torres Resume.png_scanned_clean_ocr_text
+  llama3_instruct:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.957, P=1.000, R=1.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.870, P=0.909, R=0.833 (10/12 matches)
+    education    : F1=0.985, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.938
+    experience   : F1=0.996, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 1.000
+      duration   : 0.990
+      description : 0.991
+    AVG          : 0.976
+  mistral:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=0.000, P=0.000, R=0.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.957, P=1.000, R=1.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.000, P=0.000, R=0.000 (0/12 matches)
+    education    : F1=0.956, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.826
+    experience   : F1=0.952, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.857
+      duration   : 0.917
+      description : 0.987
+    AVG          : 0.733
+  qwen_7b:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.000, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=1.000, P=1.000, R=1.000 (12/12 matches)
+    education    : F1=0.000, P=0.000, R=0.000 (count: 0.000)
+      degree     : 0.000
+      university : 0.000
+      city       : 0.000
+      duration   : 0.000
+    experience   : F1=0.469, P=1.000, R=1.000 (count: 1.000)
+      title      : 0.818
+      company    : 0.536
+      location   : 0.000
+      duration   : 0.990
+      description : 0.000
+    AVG          : 0.684
+
+Mason Thomas Resume.png_scanned_clean_ocr_text
+  llama3_instruct:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=1.000, P=1.000, R=1.000
+    location     : F1=0.667, P=0.000, R=0.000
+    skills       : F1=1.000, P=1.000, R=1.000 (6/6 matches)
+    education    : F1=0.982, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.929
+    experience   : F1=0.974, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.980
+      duration   : 0.971
+      description : 0.920
+    AVG          : 0.953
+  mistral:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=1.000, P=1.000, R=1.000
+    location     : F1=0.667, P=0.000, R=0.000
+    skills       : F1=1.000, P=1.000, R=1.000 (6/6 matches)
+    education    : F1=0.974, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.897
+    experience   : F1=0.950, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 0.941
+      duration   : 0.927
+      description : 0.883
+    AVG          : 0.949
+  qwen_7b:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=1.000, P=1.000, R=1.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.833, P=0.833, R=0.833 (5/6 matches)
+    education    : F1=0.750, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.000
+    experience   : F1=0.938, P=1.000, R=0.667 (count: 0.667)
+      title      : 0.864
+      company    : 1.000
+      location   : 0.912
+      duration   : 1.000
+      description : 0.915
+    AVG          : 0.940
+
+SebastianMartinResume_clean_text
+  llama3_instruct:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.286, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=1.000, P=1.000, R=1.000 (6/6 matches)
+    education    : F1=1.000, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 1.000
+    experience   : F1=0.994, P=1.000, R=1.000 (count: 1.000)
+      title      : 1.000
+      company    : 1.000
+      location   : 1.000
+      duration   : 0.970
+      description : 1.000
+    AVG          : 0.910
+  mistral:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=1.000, P=1.000, R=1.000
+    linkedin     : F1=1.000, P=1.000, R=1.000
+    phone        : F1=0.286, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=0.000, P=0.000, R=0.000 (0/6 matches)
+    education    : F1=0.992, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.968
+    experience   : F1=0.785, P=1.000, R=0.667 (count: 0.667)
+      title      : 0.500
+      company    : 0.500
+      location   : 1.000
+      duration   : 0.938
+      description : 0.987
+    AVG          : 0.758
+  qwen_7b:
+    name         : F1=1.000, P=1.000, R=1.000
+    email        : F1=0.000, P=0.000, R=0.000
+    linkedin     : F1=0.000, P=0.000, R=0.000
+    phone        : F1=0.286, P=0.000, R=0.000
+    location     : F1=1.000, P=1.000, R=1.000
+    skills       : F1=1.000, P=1.000, R=1.000 (6/6 matches)
+    education    : F1=0.750, P=1.000, R=1.000 (count: 1.000)
+      degree     : 1.000
+      university : 1.000
+      city       : 1.000
+      duration   : 0.000
+    experience   : F1=0.366, P=1.000, R=0.667 (count: 0.667)
+      title      : 0.828
+      company    : 1.000
+      location   : 0.000
+      duration   : 0.000
+      description : 0.000
+    AVG          : 0.550

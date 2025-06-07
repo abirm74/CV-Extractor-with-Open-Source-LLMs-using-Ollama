@@ -1,0 +1,57 @@
+{
+  "name": "Jake Ryan",
+  "phone": "1234567890",
+  "mail": "jake@su.edu",
+  "linkedin": "linkedin.com/in/jake",
+  "github": "github.com/jake",
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Computer Science",
+      "university": "Southwestern University",
+      "location": "Georgetown, TX",
+      "duration": "Aug. 2018 - 05/2021"
+    },
+    {
+      "title": "Associate's in Liberal Arts",
+      "university": "Blinn College",
+      "location": "Bryan, TX",
+      "duration": "Aug. 2014 - 05/2018"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Undergraduate Research Assistant",
+      "company": "Texas A&M University",
+      "location": "College Station, TX",
+      "duration": "Present",
+      "responsibilities": [
+        "Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems",
+        "Developed a full-stack web application using Flask, React, PostgreSQL, and Docker to analyze GitHub data",
+        "Explored ways to visualize GitHub collaboration in a classroom setting",
+        "Communicated with managers to set up campus computers used on campus"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skill": "Languages: Java, Python, C/C-++",
+      "framework": ""
+    },
+    {
+      "skill": "Frameworks: React, Node.js, Flask",
+      "framework": ""
+    },
+    {
+      "skill": "Developer Tools: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse",
+      "framework": ""
+    },
+    {
+      "skill": "Libraries: pandas, NumPy, Matplotlib",
+      "framework": ""
+    },
+    {
+      "skill": "Projects: Gitlytics, Simple Paintball",
+      "framework": ""
+    }
+  ]
+}
