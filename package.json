@@ -1,0 +1,18 @@
+{
+  "name": "resume-extractor",
+  "version": "1.0.0",
+  "description": "Resume extraction system with FastAPI backend and React frontend",
+  "scripts": {
+    "dev": "concurrently \"uvicorn backend.main:app --reload\" \"cd frontend && npm start\"",
+    "start-backend": "uvicorn backend.main:app --reload",
+    "start-frontend": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "cd frontend && npm install",
+    "install-backend": "pip install -r requirements.txt",
+    "setup": "npm run install-backend && npm run install-all"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "private": true
+}
